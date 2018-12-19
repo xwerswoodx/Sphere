@@ -1,0 +1,50 @@
+[PLEVEL 7]
+spawn
+
+[FUNCTION spawn]
+SDIALOG d_system_spawn,1
+
+[DIALOG d_system_spawn]
+0,0
+dResizepic 10 10 500 400 Spawn System
+oResizepic 30 50 150 340
+oResizepic 190 50 300 340
+
+IF !(<isEmpty <ARGS>>)
+  LOCAL.CAT <ARGV[0]>
+  LOCAL.PAGE <dARGV[1]>
+  LOCAL.ITEM <dARGV[2]>
+ENDIF
+
+LOCAL.CUR = 1
+LOCAL.BUTTON = 1
+dButton 40 60 100 20 1 ABC
+
+// dResizepic X Y Genişlik Yükseklik [Text]
+[FUNCTION dResizepic]
+ARGS=<explode ' ', <ARGS>>
+RESIZEPIC <dARGV[0]> <dARGV[1]> 9200 <dARGV[2]> <dARGV[3]>
+RESIZEPIC <eVal <dARGV[0]> + 10> <eVal <dARGV[1]> + 10> 3000 <eVal <dARGV[2]> - 20> <eVal <dARGV[3]> - 20>
+IF (!<isEmpty <ARGV[4]>>)
+  dHtmlgump <eVal <dARGV[0]> + 10> <eVal <dARGV[1]> + 15> <eVal <dARGV[2]> - 20> 20 0 0 <def.CENTER><def.BFONT_DBLUE><ARGV[4]>
+ENDIF
+
+// oResizepic X Y Genişlik Yükseklik
+[FUNCTION oResizepic]
+ARGS=<explode ' ', <ARGS>>
+RESIZEPIC <dARGV[0]> <dARGV[1]> 3000 <dARGV[2]> <dARGV[3]>
+IF (!<isEmpty <ARGV[4]>>)
+  dHtmlgump <eVal <dARGV[0]> + 10> <eVal <dARGV[1]> + 10> <eVal <dARGV[2]> - 20> 20 1 0 <ARGV[4]>
+ENDIF
+
+// dHtmlgump X Y Uzunluk Yükseklik Text
+[FUNCTION dHtmltext]
+ARGS=<explode ' ', <ARGS>>
+dHtmlgump <dARGV[0]> <dARGV[1]> <dARGV[2]> <dARGV[3]> 0 0 <dARGV[4]>
+
+// dButton X Y Uzunluk Yükseklik No Text
+[FUNCTION dButton]
+ARGS=<explode ' ', <ARGS>>
+button <dARGV[0]> <dARGV[1]> 2117 2118 1 0 <dARGV[4]>
+dHtmlgump <eVal <dARGV[0]> + 18> <eVal <dARGV[1]> - 2> <dARGV[2]> <dARGV[3]> 0 0 <ARGV[5]>
+

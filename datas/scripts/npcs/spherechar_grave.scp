@@ -1,0 +1,50 @@
+// Bu dosya UOMMO mezar npclerini içerir.
+// Buradaki npclerin hepsi veya çoğu var olan scripti kullanıyor olabilir.
+Version=0.56d
+
+[CHARDEF 032]
+DEFNAME=c_skeleton
+NAME=Skeleton
+ICON=i_pet_skeleton
+SOUND=snd_monster_skletn1
+CAN=MT_WALK|MT_USEHANDS|MT_EQUIP
+DAM=5,11
+ARMOR=15
+DESIRES=r_graveyards,t_coin,t_gold,t_gem,t_potion
+AVERSIONS=t_trap,r_civilization
+RESOURCES=2 i_reag_bone
+BLOODCOLOR=-1
+TAG.Barding.Diff=38.9
+TAG.SlayerGroup=UNDEAD
+TAG.Level=1
+TAG.Experience=5
+TEVENTS=e_undead
+
+CATEGORY=UOMMO
+SUBSECTION=Grave
+DESCRIPTION=Skeleton
+
+ON=@Create
+NPC=brain_monster
+FAME={500 999}
+KARMA={-1000 -1499}
+STR={56 80}
+MAXHITS={34 48}
+DEX={56 75}
+MAXSTAM={56 75}
+INT={16 40}
+MAXMANA={16 40}
+MAGICRESISTANCE={45.0 60.0}
+PARRYING={45.0 60.0}
+TACTICS={45.0 60.0}
+WRESTLING={45.0 55.0}
+RESPHYSICAL={0 5}
+RESCOLD={25 40}
+RESENERGY={5 15}
+RESFIRE={5 10}
+RESPOISON={25 35}
+
+ON=@NPCRestock
+ITEM=loot_skeleton
+
+[EOF]

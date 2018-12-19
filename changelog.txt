@@ -1,7 +1,0 @@
-[17/03/2018] - xwerswoodx
-1. Stones klasörü add-on içerisine taþýndý.
-  * SphereTables.scp içerisinden scripts/stones/, scripts/stones/town/ ve scripts/stones/guild/ verileri silindi.
-
-2. 03060 eþyasýna, DEFNAME=i_aquarium verisi eklendi.
-
-3. Save ve account dosyalarý oluþturuldu.

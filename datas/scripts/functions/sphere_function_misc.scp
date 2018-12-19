@@ -1,0 +1,34 @@
+// UoMMO genel functionlarını barındıran dosyadır.
+Version=0.56d
+
+// <f_array "girdi", sıra[, 'ayraç']>
+// Varsayılan ayraç: ","
+// Sıraya 0 yazılırsa ayraçın toplam değerini döndürür.
+[FUNCTION f_array]
+LOCAL.DEF=',' //Varsayılan ayraç virgül.
+
+IF (<dARGV> > 2) //Eğer kişi ayraç belirtmiş ise;
+  LOCAL.DEF=<ARGV[2]> //Ayraçı değiştirelim.
+ENDIF
+
+LOCAL.TEXT=<ARGV[0]> //Girilen text.
+LOCAL.TARG=<dARGV[1]> //Hedef. Yani çekilecek veri.
+ARGS=<explode <LOCAL.DEF>, <ARGV[0]>>
+IF (<dLOCAL.TARG> <= 0)
+  RETURN <dARGV>
+ENDIF
+
+IF (<dLOCAL.TARG> > <dARGV>)
+  LOCAL.TARG=<dARGV>
+ENDIF
+RETURN <ARGV[<eVal <dLOCAL.TARG> - 1>]>
+
+// <f_joinArgs <ARGS>,başlangıç,bitiş>
+[FUNCTION f_joinArgs]
+
+
+[FUNCTION test]
+ARGS=A,B,C,D,E,F
+RETURN <ARGV[1]> - <ARGV[1-3]>
+
+[EOF]

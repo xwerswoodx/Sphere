@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Options>
+  <!--Output Path-->
+  <OutputPath path="D:\UO\UoFiddler\UoFiddler\bin\Debug" />
+  <!--ItemSize controls the size of images in items tab-->
+  <ItemSize width="48" height="48" />
+  <!--ItemClip images in items tab shrinked or clipped-->
+  <ItemClip active="True" />
+  <!--CacheData should mul entries be cached for faster load-->
+  <CacheData active="True" />
+  <!--NewMapSize Felucca/Trammel width 7168?-->
+  <NewMapSize active="False" />
+  <!--UseMapDiff should mapdiff files be used-->
+  <UseMapDiff active="True" />
+  <!--Alternative layout in item/landtile/texture tab?-->
+  <AlternativeDesign active="False" />
+  <!--Use Hashfile to speed up load?-->
+  <UseHashFile active="True" />
+  <!--Should an Update Check be done on startup?-->
+  <UpdateCheck active="False" />
+  <!--Definies the cmd to send Client to loc-->
+  <!--{1} = x, {2} = y, {3} = z, {4} = mapid, {5} = mapname-->
+  <SendCharToLoc cmd=".go" args="{1} {2} {3} {4}" />
+  <!--Definies the map names-->
+  <MapNames map0="Felucca" map1="Trammel" map2="Ilshenar" map3="Malas" map4="Tokuno" map5="Ter Mur" />
+  <!--Extern Tools settings-->
+  <!--Loaded Plugins-->
+  <!--Pathsettings-->
+  <RootPath path="D:\UO\UO Game UOP\" />
+  <Paths key="anim.idx" value="anim.idx" />
+  <Paths key="anim.mul" value="anim.mul" />
+  <Paths key="anim2.idx" value="anim2.idx" />
+  <Paths key="anim2.mul" value="anim2.mul" />
+  <Paths key="anim3.idx" value="anim3.idx" />
+  <Paths key="anim3.mul" value="anim3.mul" />
+  <Paths key="anim4.idx" value="anim4.idx" />
+  <Paths key="anim4.mul" value="anim4.mul" />
+  <Paths key="anim5.idx" value="anim5.idx" />
+  <Paths key="anim5.mul" value="anim5.mul" />
+  <Paths key="animdata.mul" value="animdata.mul" />
+  <Paths key="art.mul" value="artLegacyMUL.uop" />
+  <Paths key="artidx.mul" value="" />
+  <Paths key="body.def" value="body.def" />
+  <Paths key="bodyconv.def" value="bodyconv.def" />
+  <Paths key="cliloc.custom1" value="" />
+  <Paths key="cliloc.custom2" value="" />
+  <Paths key="cliloc.deu" value="cliloc.deu" />
+  <Paths key="cliloc.enu" value="cliloc.enu" />
+  <Paths key="equipconv.def" value="equipconv.def" />
+  <Paths key="facet00.mul" value="facet00.mul" />
+  <Paths key="facet01.mul" value="facet01.mul" />
+  <Paths key="facet02.mul" value="facet02.mul" />
+  <Paths key="facet03.mul" value="facet03.mul" />
+  <Paths key="facet04.mul" value="facet04.mul" />
+  <Paths key="facet05.mul" value="facet05.mul" />
+  <Paths key="fonts.mul" value="fonts.mul" />
+  <Paths key="gump.def" value="gump.def" />
+  <Paths key="gumpart.mul" value="gumpartLegacyMUL.uop" />
+  <Paths key="gumpidx.mul" value="" />
+  <Paths key="hues.mul" value="hues.mul" />
+  <Paths key="light.mul" value="light.mul" />
+  <Paths key="lightidx.mul" value="lightidx.mul" />
+  <Paths key="map0.mul" value="map0LegacyMUL.uop" />
+  <Paths key="map1.mul" value="map1LegacyMUL.uop" />
+  <Paths key="map2.mul" value="map2LegacyMUL.uop" />
+  <Paths key="map3.mul" value="map3LegacyMUL.uop" />
+  <Paths key="map4.mul" value="map4LegacyMUL.uop" />
+  <Paths key="map5.mul" value="map5LegacyMUL.uop" />
+  <Paths key="mapdif0.mul" value="mapdif0.mul" />
+  <Paths key="mapdif1.mul" value="mapdif1.mul" />
+  <Paths key="mapdif2.mul" value="mapdif2.mul" />
+  <Paths key="mapdif3.mul" value="" />
+  <Paths key="mapdif4.mul" value="" />
+  <Paths key="mapdifl0.mul" value="mapdifl0.mul" />
+  <Paths key="mapdifl1.mul" value="mapdifl1.mul" />
+  <Paths key="mapdifl2.mul" value="mapdifl2.mul" />
+  <Paths key="mapdifl3.mul" value="" />
+  <Paths key="mapdifl4.mul" value="" />
+  <Paths key="mobtypes.txt" value="mobtypes.txt" />
+  <Paths key="multi.idx" value="multi.idx" />
+  <Paths key="multi.mul" value="multi.mul" />
+  <Paths key="multimap.rle" value="multimap.rle" />
+  <Paths key="radarcol.mul" value="radarcol.mul" />
+  <Paths key="skillgrp.mul" value="skillgrp.mul" />
+  <Paths key="skills.idx" value="skills.idx" />
+  <Paths key="skills.mul" value="skills.mul" />
+  <Paths key="sound.def" value="sound.def" />
+  <Paths key="sound.mul" value="soundLegacyMUL.uop" />
+  <Paths key="soundidx.mul" value="" />
+  <Paths key="speech.mul" value="speech.mul" />
+  <Paths key="stadif0.mul" value="stadif0.mul" />
+  <Paths key="stadif1.mul" value="stadif1.mul" />
+  <Paths key="stadif2.mul" value="stadif2.mul" />
+  <Paths key="stadif3.mul" value="" />
+  <Paths key="stadif4.mul" value="" />
+  <Paths key="stadifi0.mul" value="stadifi0.mul" />
+  <Paths key="stadifi1.mul" value="stadifi1.mul" />
+  <Paths key="stadifi2.mul" value="stadifi2.mul" />
+  <Paths key="stadifi3.mul" value="" />
+  <Paths key="stadifi4.mul" value="" />
+  <Paths key="stadifl0.mul" value="stadifl0.mul" />
+  <Paths key="stadifl1.mul" value="stadifl1.mul" />
+  <Paths key="stadifl2.mul" value="stadifl2.mul" />
+  <Paths key="stadifl3.mul" value="" />
+  <Paths key="stadifl4.mul" value="" />
+  <Paths key="staidx0.mul" value="staidx0.mul" />
+  <Paths key="staidx1.mul" value="staidx1.mul" />
+  <Paths key="staidx2.mul" value="staidx2.mul" />
+  <Paths key="staidx3.mul" value="staidx3.mul" />
+  <Paths key="staidx4.mul" value="staidx4.mul" />
+  <Paths key="staidx5.mul" value="staidx5.mul" />
+  <Paths key="statics0.mul" value="statics0.mul" />
+  <Paths key="statics1.mul" value="statics1.mul" />
+  <Paths key="statics2.mul" value="statics2.mul" />
+  <Paths key="statics3.mul" value="statics3.mul" />
+  <Paths key="statics4.mul" value="statics4.mul" />
+  <Paths key="statics5.mul" value="statics5.mul" />
+  <Paths key="texidx.mul" value="texidx.mul" />
+  <Paths key="texmaps.mul" value="texmaps.mul" />
+  <Paths key="tiledata.mul" value="tiledata.mul" />
+  <Paths key="unifont.mul" value="unifont.mul" />
+  <Paths key="unifont1.mul" value="unifont1.mul" />
+  <Paths key="unifont10.mul" value="unifont10.mul" />
+  <Paths key="unifont11.mul" value="unifont11.mul" />
+  <Paths key="unifont12.mul" value="unifont12.mul" />
+  <Paths key="unifont2.mul" value="unifont2.mul" />
+  <Paths key="unifont3.mul" value="unifont3.mul" />
+  <Paths key="unifont4.mul" value="unifont4.mul" />
+  <Paths key="unifont5.mul" value="unifont5.mul" />
+  <Paths key="unifont6.mul" value="unifont6.mul" />
+  <Paths key="unifont7.mul" value="unifont7.mul" />
+  <Paths key="unifont8.mul" value="unifont8.mul" />
+  <Paths key="unifont9.mul" value="unifont9.mul" />
+  <Paths key="verdata.mul" value="" />
+  <!--Disabled Tab Views-->
+  <!--ViewState of the MainForm-->
+  <ViewState Active="False" Maximised="False" PositionX="125" PositionY="125" Height="413" Width="643" />
+</Options>

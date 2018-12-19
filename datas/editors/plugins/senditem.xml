@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Options>
+  <!--Definies the cmd for Item create-->
+  <!--{1} = item objecttype-->
+  <SendItem cmd=".create" args="0x{1:X4}" overrideclick="False" />
+</Options>

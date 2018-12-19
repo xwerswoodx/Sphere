@@ -1,0 +1,588 @@
+16:22:SphereServer-eXperimental Version 0.56d-Nightly [WIN64] by www.spherecommunity.net.
+16:22:Compiled at Nov 28 2018 (15:22:15) [build 2969 / GIT hash c04c099a84e2465f54f24035129ba2b6d11262f7]
+
+16:22:WARNING:
+-----------------------------------------------------------------
+This is a nightly build of SphereServer. This build is to be used for testing and/or bug reporting ONLY.
+DO NOT run this build on a live shard unless you know what you are doing!
+Nightly builds are automatically made at every commit to the source code repository and might
+contain errors, might be unstable or even destroy your shard as they are mostly untested!
+-----------------------------------------------------------------
+
+16:22:
+Indexing the client files...
+16:22:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:22:Caching tiledata.mul...
+
+16:22:Initializing the world...
+16:22:Allocated map sectors: map0=7168 map1=7168 map2=900 map3=1280 map4=484 map5=1280
+
+16:22:Indexing 201 script files...
+16:22:Loading datas/scripts/sphere_admin.scp
+16:22:Loading datas/scripts/sphere_backward_compatibility.scp
+16:22:Loading datas/scripts/sphere_book.scp
+16:22:Loading datas/scripts/sphere_defs.scp
+16:22:Loading datas/scripts/sphere_dialog.scp
+16:22:Loading datas/scripts/sphere_events_human.scp
+16:22:Loading datas/scripts/sphere_events_npcs.scp
+16:22:Loading datas/scripts/sphere_menu.scp
+16:22:Loading datas/scripts/sphere_name.scp
+16:22:Loading datas/scripts/sphere_serv_triggers.scp
+16:22:Loading datas/scripts/sphere_skills.scp
+16:22:Loading datas/scripts/sphere_skillmenu.scp
+16:22:Loading datas/scripts/sphere_newb.scp
+16:22:Loading datas/scripts/sphere_speech.scp
+16:22:Loading datas/scripts/sphere_types.scp
+16:22:Loading datas/scripts/items/sphere_item_wedding.scp
+16:22:Loading datas/scripts/items/sphere_item_vice_virtue.scp
+16:22:Loading datas/scripts/items/sphere_item_veteran_rewards.scp
+16:22:Loading datas/scripts/items/sphere_item_vegetation.scp
+16:22:Loading datas/scripts/items/sphere_item_unsorted.scp
+16:22:Loading datas/scripts/items/sphere_item_typedef_equipitem.scp
+16:22:Loading datas/scripts/items/sphere_item_typedefs.scp
+16:22:Loading datas/scripts/items/sphere_item_theme_pack_shadow.scp
+16:22:Loading datas/scripts/items/sphere_item_theme_pack_rustic.scp
+16:22:Loading datas/scripts/items/sphere_item_theme_pack_kings_collection.scp
+16:22:Loading datas/scripts/items/sphere_item_theme_pack_gothic.scp
+16:22:Loading datas/scripts/items/sphere_item_theme_pack_crystal.scp
+16:22:Loading datas/scripts/items/sphere_item_siege.scp
+16:22:Loading datas/scripts/items/sphere_item_ship_parts_tokuno.scp
+16:22:Loading datas/scripts/items/sphere_item_ship_parts_orcish.scp
+16:22:Loading datas/scripts/items/sphere_item_ship_parts_gargish.scp
+16:22:Loading datas/scripts/items/sphere_item_ship_parts_britannian.scp
+16:22:Loading datas/scripts/items/sphere_item_ship_parts.scp
+16:22:Loading datas/scripts/items/sphere_item_resources.scp
+16:22:Loading datas/scripts/items/sphere_item_quests.scp
+16:22:Loading datas/scripts/items/sphere_item_provisions_weapons.scp
+16:22:Loading datas/scripts/items/sphere_item_provisions_shields.scp
+16:22:Loading datas/scripts/items/sphere_item_provisions_potions.scp
+16:22:Loading datas/scripts/items/sphere_item_provisions_ore.scp
+16:22:Loading datas/scripts/items/sphere_item_provisions_misc.scp
+16:22:Loading datas/scripts/items/sphere_item_provisions_logs.scp
+16:22:Loading datas/scripts/items/sphere_item_provisions_jewelry.scp
+16:22:Loading datas/scripts/items/sphere_item_provisions_deed.scp
+16:22:Loading datas/scripts/items/sphere_item_provisions_clothing.scp
+16:22:Loading datas/scripts/items/sphere_item_provisions_armor_color.scp
+16:22:Loading datas/scripts/items/sphere_item_provisions_armor.scp
+16:22:Loading datas/scripts/items/sphere_item_profession_tailor_tanner.scp
+16:22:Loading datas/scripts/items/sphere_item_profession_cook_barkeep_baker.scp
+16:22:Loading datas/scripts/items/sphere_item_profession_cartographer.scp
+16:22:Loading datas/scripts/items/sphere_item_profession_barber.scp
+16:22:Loading datas/scripts/items/sphere_item_profession_alchemist.scp
+16:22:Loading datas/scripts/items/sphere_item_profession.scp
+16:22:Loading datas/scripts/items/sphere_item_offset.scp
+16:22:Loading datas/scripts/items/sphere_item_misc.scp
+16:22:Loading datas/scripts/items/sphere_item_memories.scp
+16:22:Loading datas/scripts/items/sphere_item_magic_weapon.scp
+16:22:Loading datas/scripts/items/sphere_item_magic_wands.scp
+16:22:Loading datas/scripts/items/sphere_item_magic_spellweaving.scp
+16:22:Loading datas/scripts/items/sphere_item_magic_skillmasteries.scp
+16:22:Loading datas/scripts/items/sphere_item_magic_ninjitsu_bushido.scp
+16:22:Loading datas/scripts/items/sphere_item_magic_necromancer_aos.scp
+16:22:Loading datas/scripts/items/sphere_item_magic_mysticism.scp
+16:22:Loading datas/scripts/items/sphere_item_magic_magery.scp
+16:22:Loading datas/scripts/items/sphere_item_magic_leather.scp
+16:22:Loading datas/scripts/items/sphere_item_magic_chivalry.scp
+16:22:Loading datas/scripts/items/sphere_item_magic_armor.scp
+16:22:Loading datas/scripts/items/sphere_item_holiday_valentines.scp
+16:22:Loading datas/scripts/items/sphere_item_holiday_other.scp
+16:22:Loading datas/scripts/items/sphere_item_holiday_halloween.scp
+16:22:Loading datas/scripts/items/sphere_item_holiday_easter.scp
+16:22:Loading datas/scripts/items/sphere_item_holiday_christmas.scp
+16:22:Loading datas/scripts/items/sphere_item_holiday_anniversary.scp
+16:22:Loading datas/scripts/items/sphere_item_ground_tiles.scp
+16:22:Loading datas/scripts/items/sphere_item_deco_wall_hangings.scp
+16:22:Loading datas/scripts/items/sphere_item_deco_virtues.scp
+16:22:Loading datas/scripts/items/sphere_item_deco_themed_collections.scp
+16:22:Loading datas/scripts/items/sphere_item_deco_signs.scp
+16:22:Loading datas/scripts/items/sphere_item_deco_miniatures.scp
+16:22:Loading datas/scripts/items/sphere_item_deco_lightsources.scp
+16:22:Loading datas/scripts/items/sphere_item_deco_furniture.scp
+16:22:Loading datas/scripts/items/sphere_item_deco_fireplace_chimney_oven.scp
+16:22:Loading datas/scripts/items/sphere_item_deco_dungeons_traps_dead.scp
+16:22:Loading datas/scripts/items/sphere_item_deco_carvings_statues.scp
+16:22:Loading datas/scripts/items/sphere_item_deco_carpet_rugs.scp
+16:22:Loading datas/scripts/items/sphere_item_char_icons.scp
+16:22:Loading datas/scripts/items/sphere_item_building_walls.scp
+16:22:Loading datas/scripts/items/sphere_item_building_stairs.scp
+16:22:Loading datas/scripts/items/sphere_item_building_roofs.scp
+16:22:Loading datas/scripts/items/sphere_item_building_other.scp
+16:22:Loading datas/scripts/items/sphere_item_building_floors.scp
+16:22:Loading datas/scripts/items/sphere_item_building_doors.scp
+16:22:Loading datas/scripts/items/sphere_item_buildings.scp
+16:22:Loading datas/scripts/items/sphere_item_boulders_rocks.scp
+16:22:Loading datas/scripts/items/sphere_item_artifacts_tokuno.scp
+16:22:Loading datas/scripts/items/sphere_item_artifacts_minor.scp
+16:22:Loading datas/scripts/items/sphere_item_artifacts.scp
+16:22:Loading datas/scripts/items/sphere_item_animations.scp
+16:22:Loading datas/scripts/items/multis/multis_wandering_camps.scp
+16:22:Loading datas/scripts/items/multis/multis_stairs.scp
+16:22:Loading datas/scripts/items/multis/multis_ships.scp
+16:22:Loading datas/scripts/items/multis/multis_misc.scp
+16:22:Loading datas/scripts/items/multis/multis_magincia_bazaar.scp
+16:22:Loading datas/scripts/items/multis/multis_houses.scp
+16:22:Loading datas/scripts/items/multis/multis_foundations.scp
+16:22:Loading datas/scripts/templates/sphere_template.scp
+16:22:Loading datas/scripts/templates/sphere_template_armor.scp
+16:22:Loading datas/scripts/templates/sphere_template_loot.scp
+16:22:Loading datas/scripts/templates/sphere_template_magic.scp
+16:22:Loading datas/scripts/templates/sphere_template_misc.scp
+16:22:Loading datas/scripts/templates/sphere_template_vend.scp
+16:22:Loading datas/scripts/templates/sphere_template_weapons.scp
+16:22:Loading datas/scripts/stones/sphere_genericstone_types.scp
+16:22:Loading datas/scripts/stones/sphere_genericstone_items.scp
+16:22:Loading datas/scripts/stones/sphere_genericstone_functions.scp
+16:22:Loading datas/scripts/stones/sphere_genericstone_config.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_types.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_speech.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_promptconsole.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_items.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_functions_player.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_functions.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_events.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_dlg_warfarestatus.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_dlg_warfaredeclare.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_dlg_warfareadmin.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_dlg_master.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_dlg_main.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_dlg_guildlist.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_dlg_charter.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_dlg_charlist.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_dlg_align.scp
+16:22:Loading datas/scripts/stones/guilds/sphere_guild_config.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_types.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_speech.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_promptconsole.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_items.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_functions_player.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_functions.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_events.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_dlg_warfarestatus.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_dlg_warfaredeclare.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_dlg_warfareadmin.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_dlg_townlist.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_dlg_master.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_dlg_main.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_dlg_charter.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_dlg_charlist.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_dlg_align.scp
+16:22:Loading datas/scripts/stones/towns/sphere_town_config.scp
+16:22:Loading datas/scripts/npcs/spherechar_grave.scp
+16:22:Loading datas/scripts/npcs/sphere_vendors.scp
+16:22:Loading datas/scripts/npcs/sphere_monsters_custom.scp
+16:22:Loading datas/scripts/npcs/sphere_monsters.scp
+16:22:Loading datas/scripts/npcs/sphere_guildmasters.scp
+16:22:Loading datas/scripts/npcs/sphere_citizens.scp
+16:22:Loading datas/scripts/npcs/spherechar_human.scp
+16:22:Loading datas/scripts/npcs/spherechar_evil.scp
+16:22:Loading datas/scripts/speech/spk_ship_cmds.scp
+16:22:Loading datas/scripts/speech/spk_house_cmds.scp
+16:22:Loading datas/scripts/speech/speakshopkeep.scp
+16:22:Loading datas/scripts/speech/speakhuman.scp
+16:22:Loading datas/scripts/systems/sphere_system_treasure_maps.scp
+16:22:Loading datas/scripts/systems/sphere_system_spawn.scp
+16:22:Loading datas/scripts/systems/sphere_system_secret_chest.scp
+16:22:Loading datas/scripts/systems/sphere_system_aquarium.scp
+16:22:Loading datas/scripts/sphere_spawns.scp
+16:22:Loading datas/scripts/sphere_spells.scp
+16:22:Loading datas/scripts/functions/sphere_function_misc.scp
+16:22:Loading datas/scripts/functions/sphere_function_dialog.scp
+16:22:Loading datas/scripts/sphere_region.scp
+16:22:Loading datas/scripts/maps/sphere_map0.scp
+16:22:Loading datas/scripts/maps/sphere_map0_ml.scp
+16:22:Loading datas/scripts/maps/sphere_map0_sa.scp
+16:22:Loading datas/scripts/maps/sphere_map0_hs.scp
+16:22:Loading datas/scripts/maps/sphere_map1.scp
+16:22:Loading datas/scripts/maps/sphere_map2.scp
+16:22:Loading datas/scripts/maps/sphere_map2_ml.scp
+16:22:Loading datas/scripts/maps/sphere_map3.scp
+16:22:Loading datas/scripts/maps/sphere_map3_se.scp
+16:22:Loading datas/scripts/maps/sphere_map3_ml.scp
+16:22:Loading datas/scripts/maps/sphere_map4.scp
+16:22:Loading datas/scripts/maps/sphere_map5.scp
+16:22:Loading datas/scripts/maps/sphere_map5_tol.scp
+16:22:Loading datas/scripts/maps/sphere_map_points0.scp
+16:22:Loading datas/scripts/maps/sphere_map_points0_ml.scp
+16:22:Loading datas/scripts/maps/sphere_map_points0_hs.scp
+16:22:Loading datas/scripts/maps/sphere_map_points0_tol.scp
+16:22:Loading datas/scripts/maps/sphere_map_points1.scp
+16:22:Loading datas/scripts/maps/sphere_map_points2.scp
+16:22:Loading datas/scripts/maps/sphere_map_points2_ml.scp
+16:22:Loading datas/scripts/maps/sphere_map_points3.scp
+16:22:Loading datas/scripts/maps/sphere_map_points3_se.scp
+16:22:Loading datas/scripts/maps/sphere_map_points3_ml.scp
+16:22:Loading datas/scripts/maps/sphere_map_points4.scp
+16:22:Loading datas/scripts/maps/sphere_map_points5.scp
+16:22:Loading datas/scripts/maps/sphere_map_points5_tol.scp
+16:22:Loading datas/scripts/test.scp
+16:22:Loading datas/scripts/sphere_msgs.scp
+16:22:Loading datas/scripts/sphere_combat.scp
+16:22:Loading datas/scripts/sphere_add_sqlite.scp
+16:22:Loading datas/scripts/bin.scp
+16:22:Done loading scripts (55 of 206 triggers used).
+16:22:
+16:22:Loaded 246 client encryption keys.
+16:22:sphere.pid already exists. Secondary launch or unclean shutdown?
+16:22:Server started on hostname 'DESKTOP-GIBNJ24'
+16:22:Monitoring IP 192.168.0.9:2593
+16:22:Loading datas/saves/spheredata.scp...
+16:22:Loading datas/saves/spherestatics.scp...
+16:22:Loading datas/saves/sphereworld.scp...
+16:22:Loading datas/saves/spherechars.scp...
+16:22:ERROR:(spherechars.scp,18)Undefined keyword 'SPEECHCOLOR'
+16:22:Loading datas/saves/spheremultis.scp...
+16:22:Garbage Collection: started.
+16:22:Garbage Collection: done. 18 Objects accounted for.
+16:22:Option flags: NoDClickTarget + ScaleDamageByDurability + CommandSysmessages + OSIMultiSight + FileCommands + NoHouseMuteSpeech + FloodProtection + Buffs + NoPrefix + DyeType + DrinkIsFood
+16:22:Experimental flags: ItemStacking + TelnetPacketFilter + ScriptProfiler + DamageTools
+16:22:Admin=hamitdevecioglu@gmail.com, URL=www.uo-developer.com, Lang=Turkish, TZ=0
+16:22:Startup complete. items=17, chars=1
+16:22:Press '?' for console commands.
+16:22:0:Client connected [Total:1]. IP='127.0.0.1'. (Connecting/Connected: 1/1).
+16:22:0:Login for account 'xwerswoodx'. IP='127.0.0.1'. ConnectionType: ServerList.
+16:22:0:Client disconnected [Total:0]. Account: 'xwerswoodx'. IP='127.0.0.1'.
+16:22:1:Client connected [Total:1]. IP='127.0.0.1'. (Connecting/Connected: 1/1).
+16:22:1:Login for account 'xwerswoodx'. IP='127.0.0.1'. ConnectionType: CharList/Game.
+16:22:1:Character startup for account 'xwerswoodx', char 'Hamit'. IP='127.0.0.1'.
+16:22:1:'xwerswoodx' commands 'add c_hediyecinoelbaba'=1
+16:22:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:22:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:22:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:22:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:22:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:22:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:22:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:22:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:22:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:22:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:23:Server is being PAUSED for Resync
+16:23:Resync Restart
+16:23:
+Indexing the client files...
+16:23:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:23:Caching tiledata.mul...
+
+16:23:Indexing 201 script files...
+16:23:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:23:Done loading scripts.
+16:23:
+16:23:Resync complete!
+16:23:1:'xwerswoodx' commands 'add c_hediyecinoelbaba'=1
+16:23:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:23:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:23:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:23:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:23:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:23:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:23:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:23:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:23:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:23:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:23:Server is being PAUSED for Resync
+16:23:Resync Restart
+16:23:
+Indexing the client files...
+16:23:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:23:Caching tiledata.mul...
+
+16:23:Indexing 201 script files...
+16:23:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:23:Done loading scripts.
+16:23:
+16:23:Resync complete!
+16:24:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:24:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:24:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:24:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:24:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:24:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:24:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:24:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:24:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:24:ERROR:(bin.scp,150)Can't resolve <basefont color=08>
+16:24:Server is being PAUSED for Resync
+16:24:Resync Restart
+16:24:
+Indexing the client files...
+16:24:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:24:Caching tiledata.mul...
+
+16:24:Indexing 201 script files...
+16:24:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:24:Done loading scripts.
+16:24:
+16:24:Resync complete!
+16:24:Server is being PAUSED for Resync
+16:24:Resync Restart
+16:24:
+Indexing the client files...
+16:24:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:24:Caching tiledata.mul...
+
+16:24:Indexing 201 script files...
+16:24:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:24:Done loading scripts.
+16:24:
+16:24:Resync complete!
+16:25:Server is being PAUSED for Resync
+16:25:Resync Restart
+16:25:
+Indexing the client files...
+16:25:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:25:Caching tiledata.mul...
+
+16:25:Indexing 201 script files...
+16:25:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:25:Done loading scripts.
+16:25:
+16:25:Resync complete!
+16:25:Server is being PAUSED for Resync
+16:25:Resync Restart
+16:25:
+Indexing the client files...
+16:25:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:25:Caching tiledata.mul...
+
+16:25:Indexing 201 script files...
+16:25:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:25:Done loading scripts.
+16:25:
+16:25:Resync complete!
+16:27:Garbage Collection: started.
+16:27:Garbage Collection: done. 29 Objects accounted for.
+16:27:World data saved   (datas/saves/sphereworld.scp).
+16:27:Player data saved  (datas/saves/spherechars.scp).
+16:27:Multi data saved   (datas/saves/spheremultis.scp).
+16:27:Context data saved (datas/saves/spheredata.scp).
+16:27:World save completed, took 0.0463 seconds.
+16:28:Server is being PAUSED for Resync
+16:28:Resync Restart
+16:28:
+Indexing the client files...
+16:28:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:28:Caching tiledata.mul...
+
+16:28:Indexing 201 script files...
+16:28:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:28:Done loading scripts.
+16:28:
+16:28:Resync complete!
+16:32:Garbage Collection: started.
+16:32:Garbage Collection: done. 28 Objects accounted for.
+16:32:World data saved   (datas/saves/sphereworld.scp).
+16:32:Player data saved  (datas/saves/spherechars.scp).
+16:32:Multi data saved   (datas/saves/spheremultis.scp).
+16:32:Context data saved (datas/saves/spheredata.scp).
+16:32:World save completed, took 0.4994 seconds.
+16:33:1:'xwerswoodx' commands 'show strsub 1 0 ,A,B,C'=1
+16:33:1:'xwerswoodx' commands 'show strsub 1 0 A B C'=1
+16:33:1:'xwerswoodx' commands 'show strsub 1 0 .A.B.C'=1
+16:34:1:'xwerswoodx' commands 'show strsub 1 0 ,A,B,C'=1
+16:34:Server is being PAUSED for Resync
+16:34:Resync Restart
+16:34:
+Indexing the client files...
+16:34:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:34:Caching tiledata.mul...
+
+16:34:Indexing 201 script files...
+16:34:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:34:Done loading scripts.
+16:34:
+16:34:Resync complete!
+16:34:1:'xwerswoodx' commands 'Remove'=1
+16:34:1:'xwerswoodx' commands 'show f'=1
+16:34:1:'xwerswoodx' commands 'show f'=1
+16:34:Server is being PAUSED for Resync
+16:34:Resync Restart
+16:34:
+Indexing the client files...
+16:34:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:34:Caching tiledata.mul...
+
+16:34:Indexing 201 script files...
+16:34:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:34:Done loading scripts.
+16:34:
+16:34:Resync complete!
+16:34:1:'xwerswoodx' commands 'show f'=1
+16:35:Server is being PAUSED for Resync
+16:35:Resync Restart
+16:35:
+Indexing the client files...
+16:35:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:35:Caching tiledata.mul...
+
+16:35:Indexing 201 script files...
+16:35:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:35:Done loading scripts.
+16:35:
+16:35:Resync complete!
+16:35:1:'xwerswoodx' commands 'show f'=1
+16:36:ERROR:Undefined keyword 'rr'
+16:36:unknown command 'rr'
+16:36:ERROR:Undefined keyword 'rr'
+16:36:unknown command 'rr'
+16:36:Server is being PAUSED for Resync
+16:36:Resync Restart
+16:36:
+Indexing the client files...
+16:36:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:36:Caching tiledata.mul...
+
+16:36:Indexing 201 script files...
+16:36:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:36:Done loading scripts.
+16:36:
+16:36:Resync complete!
+16:36:Server is being PAUSED for Resync
+16:36:Resync Restart
+16:36:
+Indexing the client files...
+16:36:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:36:Caching tiledata.mul...
+
+16:36:Indexing 201 script files...
+16:36:Done loading scripts.
+16:36:
+16:36:Resync complete!
+16:37:Garbage Collection: started.
+16:37:Garbage Collection: done. 28 Objects accounted for.
+16:37:World data saved   (datas/saves/sphereworld.scp).
+16:37:Player data saved  (datas/saves/spherechars.scp).
+16:37:Multi data saved   (datas/saves/spheremultis.scp).
+16:37:Context data saved (datas/saves/spheredata.scp).
+16:37:World save completed, took 0.4845 seconds.
+16:38:Server is being PAUSED for Resync
+16:38:Resync Restart
+16:38:
+Indexing the client files...
+16:38:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:38:Caching tiledata.mul...
+
+16:38:Indexing 201 script files...
+16:38:Done loading scripts.
+16:38:
+16:38:Resync complete!
+16:38:1:'xwerswoodx' commands 'add i_stone_reward'=1
+16:39:Server is being PAUSED for Resync
+16:39:Resync Restart
+16:39:
+Indexing the client files...
+16:39:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:39:Caching tiledata.mul...
+
+16:39:Indexing 201 script files...
+16:39:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:39:Done loading scripts.
+16:39:
+16:39:Resync complete!
+16:39:1:'xwerswoodx' commands 'add i_stone_reward'=1
+16:39:Server is being PAUSED for Resync
+16:39:Resync Restart
+16:39:
+Indexing the client files...
+16:39:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:39:Caching tiledata.mul...
+
+16:39:Indexing 201 script files...
+16:39:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:39:Done loading scripts.
+16:39:
+16:39:Resync complete!
+16:40:Server is being PAUSED for Resync
+16:40:Resync Restart
+16:40:
+Indexing the client files...
+16:40:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:40:Caching tiledata.mul...
+
+16:40:Indexing 201 script files...
+16:40:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:40:Done loading scripts.
+16:40:
+16:40:Resync complete!
+16:40:Server is being PAUSED for Resync
+16:40:Resync Restart
+16:40:
+Indexing the client files...
+16:40:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+16:40:Caching tiledata.mul...
+
+16:40:Indexing 201 script files...
+16:40:WARNING:Resource 'datas/scripts/bin.scp' changed, resync.
+16:40:Done loading scripts.
+16:40:
+16:40:Resync complete!
+16:42:Garbage Collection: started.
+16:42:Garbage Collection: done. 28 Objects accounted for.
+16:42:World data saved   (datas/saves/sphereworld.scp).
+16:42:Player data saved  (datas/saves/spherechars.scp).
+16:42:Multi data saved   (datas/saves/spheremultis.scp).
+16:42:Context data saved (datas/saves/spheredata.scp).
+16:42:World save completed, took 0.1063 seconds.
+16:47:Garbage Collection: started.
+16:47:Garbage Collection: done. 28 Objects accounted for.
+16:47:World data saved   (datas/saves/sphereworld.scp).
+16:47:Player data saved  (datas/saves/spherechars.scp).
+16:47:Multi data saved   (datas/saves/spheremultis.scp).
+16:47:Context data saved (datas/saves/spheredata.scp).
+16:47:World save completed, took 0.6676 seconds.
+16:52:Garbage Collection: started.
+16:52:Garbage Collection: done. 28 Objects accounted for.
+16:52:World data saved   (datas/saves/sphereworld.scp).
+16:52:Player data saved  (datas/saves/spherechars.scp).
+16:52:Multi data saved   (datas/saves/spheremultis.scp).
+16:52:Context data saved (datas/saves/spheredata.scp).
+16:52:World save completed, took 0.4228 seconds.
+16:56:1:'xwerswoodx' commands 'add i_reward_coing'=1
+16:56:1:'xwerswoodx' commands 'add i_reward_coin,10000'=1
+16:57:Garbage Collection: started.
+16:57:Garbage Collection: done. 28 Objects accounted for.
+16:57:World data saved   (datas/saves/sphereworld.scp).
+16:57:Player data saved  (datas/saves/spherechars.scp).
+16:57:Multi data saved   (datas/saves/spheremultis.scp).
+16:57:Context data saved (datas/saves/spheredata.scp).
+16:57:World save completed, took 0.7506 seconds.
+17:02:Garbage Collection: started.
+17:02:Garbage Collection: done. 28 Objects accounted for.
+17:02:World data saved   (datas/saves/sphereworld.scp).
+17:02:Player data saved  (datas/saves/spherechars.scp).
+17:02:Multi data saved   (datas/saves/spheremultis.scp).
+17:02:Context data saved (datas/saves/spheredata.scp).
+17:02:World save completed, took 0.7786 seconds.
+17:07:Garbage Collection: started.
+17:07:Garbage Collection: done. 28 Objects accounted for.
+17:07:World data saved   (datas/saves/sphereworld.scp).
+17:07:Player data saved  (datas/saves/spherechars.scp).
+17:07:Multi data saved   (datas/saves/spheremultis.scp).
+17:07:Context data saved (datas/saves/spheredata.scp).
+17:07:World save completed, took 0.3452 seconds.
+17:12:Garbage Collection: started.
+17:12:Garbage Collection: done. 28 Objects accounted for.
+17:12:World data saved   (datas/saves/sphereworld.scp).
+17:12:Player data saved  (datas/saves/spherechars.scp).
+17:12:Multi data saved   (datas/saves/spheremultis.scp).
+17:12:Context data saved (datas/saves/spheredata.scp).
+17:12:World save completed, took 0.6031 seconds.
+17:17:Garbage Collection: started.
+17:17:Garbage Collection: done. 28 Objects accounted for.
+17:17:World data saved   (datas/saves/sphereworld.scp).
+17:17:Player data saved  (datas/saves/spherechars.scp).
+17:17:Multi data saved   (datas/saves/spheremultis.scp).
+17:17:Context data saved (datas/saves/spheredata.scp).
+17:17:World save completed, took 0.4301 seconds.
+17:22:Garbage Collection: started.
+17:22:Garbage Collection: done. 28 Objects accounted for.
+17:22:World data saved   (datas/saves/sphereworld.scp).
+17:22:Player data saved  (datas/saves/spherechars.scp).
+17:22:Multi data saved   (datas/saves/spheremultis.scp).
+17:22:Context data saved (datas/saves/spheredata.scp).
+17:22:World save completed, took 0.3471 seconds.
+17:27:Garbage Collection: started.
+17:27:Garbage Collection: done. 28 Objects accounted for.
+17:27:World data saved   (datas/saves/sphereworld.scp).
+17:27:Player data saved  (datas/saves/spherechars.scp).
+17:27:Multi data saved   (datas/saves/spheremultis.scp).
+17:27:Context data saved (datas/saves/spheredata.scp).
+17:27:World save completed, took 0.7619 seconds.

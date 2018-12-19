@@ -1,0 +1,12 @@
+TITLE=SphereServer-eXperimental World Script
+VERSION=0.56d-Nightly
+PREVBUILD=2969
+TIME=612522
+SAVECOUNT=183
+
+[TIMERF]
+CurTick=0
+
+[GLOBALS]
+
+[EOF]
