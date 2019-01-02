@@ -677,19 +677,17 @@ region_antimagic_recall_out		00004   // can't recall out of here.
 region_antimagic_gate			00008
 region_antimagic_teleport		00010   // can't teleport into here.
 region_antimagic_damage			00020   // just no bad magic here
-region_flag_ship			00040   // this is a ship region. ship commands
+region_flag_ship				00040   // this is a ship region. ship commands
 region_flag_nobuilding			00080   // no building in this area
 //region_flag_globalname		00100   // No longer in use
 region_flag_announce			00200   // announce to all who enter.
 region_flag_insta_logout		00400   // instant log out is allowed here. (hotel)
 region_flag_underground			00800   // dungeon type area. (no weather)
-region_flag_nodecay			01000   // things on the ground don't decay here.
-region_flag_safe			02000   // this region is safe from all harm.
-region_flag_guarded			04000   // try tag.guardowner
-region_flag_no_pvp			08000   // players cannot directly harm each other here.
-region_flag_arena			010000	// pvp is allowed, no murder or criminal acts are taken in count.
-region_flag_zoo				020000  // taming is not allowed.
-region_flag_antimagic_resurrect		040000  // resurrect is not allowed.
+region_flag_nodecay				01000   // things on the ground don't decay here.
+region_flag_safe				02000   // this region is safe from all harm.
+region_flag_guarded				04000   // try tag.guardowner
+region_flag_no_pvp				08000   // players cannot directly harm each other here.
+region_flag_arena				010000	// pvp is allowed, no murder or criminal acts are taken in count.
 
 [DEFNAME spell_flags]
 spellflag_dir_anim         00000001   // evoke type cast or directed. (animation)
@@ -773,33 +771,28 @@ statf_onhorse           080000000   // mounted on horseback.
 
 [DEFNAME attr_flags]
 // apply to items
-attr_identified		00001   // this is the identified name. ???
-attr_decay			00002   // timer currently set to decay.
-attr_newbie			00004   // not lost on death or sellable ?
-attr_move_always	00008   // always movable (else default as stored in client) (even if mul says not movable) never decays !
-attr_move_never		00010   // never movable (else default as stored in client) never decays !
-attr_magic			00020   // don't set this while worn! this item is magic as apposed to marked or markable.
-attr_owned			00040   // this is owned by the town. you need to steal it. never decays !
-attr_invis			00080   // gray hidden item (to gm's or owners?)
-attr_cursed			00100
-attr_cursed2		00200   // cursed damned unholy
-attr_blessed		00400
-attr_blessed2		00800   // blessed sacred holy
-attr_forsale		01000   // for sale on a vendor.
-attr_stolen			02000   // the item is hot. m_uidlink = previous owner.
-attr_can_decay		04000   // this item can decay. but it would seem that it would not (attr_move_never etc)
-attr_static			08000   // worldforge merge marker. (not used)
-attr_exceptional	010000		// is exceptional
-attr_enchanted		020000		// is enchanted
-attr_imbued			040000		// is imbued
-attr_questitem		080000	// is quest item
-attr_insured		0100000	// Is insured
-attr_nodroptrade	0200000	// no-drop/trade
-attr_artifact		0400000	// artifact
-attr_lockeddown		0800000	// locked down
-attr_secure			01000000	// secured
-attr_reforged		02000000	// Is Runic Reforged.
-attr_opened			04000000	// Is Door Opened (only used when DOOROPENID is set on the door)
+attr_identified		00000001   // this is the identified name. ???
+attr_decay		00000002   // timer currently set to decay.
+attr_newbie		00000004   // not lost on death or sellable ?
+attr_move_always	00000008   // always movable (else default as stored in client) (even if mul says not movable) never decays !
+attr_move_never		00000010   // never movable (else default as stored in client) never decays !
+attr_magic		00000020   // don't set this while worn! this item is magic as apposed to marked or markable.
+attr_owned		00000040   // this is owned by the town. you need to steal it. never decays !
+attr_invis		00000080   // gray hidden item (to gm's or owners?)
+attr_cursed		00000100
+attr_blessed		00000400
+attr_static		00008000   // worldforge merge marker. (not used)
+attr_exceptional	00010000   // is exceptional
+attr_enchanted		00020000   // is enchanted
+attr_imbued		00040000   // is imbued
+attr_questitem		00080000   // is quest item
+attr_insured		00100000   // Is insured
+attr_nodroptrade	00200000   // no-drop/trade
+attr_norepair		00400000   // artifact
+attr_lockeddown		00800000   // locked down
+attr_secure		01000000   // secured
+attr_reforged		02000000   // Is Runic Reforged.
+attr_opened		04000000   // Is Door Opened (only used when DOOROPENID is set on the door)
 
 [DEFNAME can_flags]
 // monster "can" type flags.

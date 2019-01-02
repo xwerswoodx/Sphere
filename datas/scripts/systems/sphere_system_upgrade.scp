@@ -1,0 +1,81 @@
+[DEFNAME d_system_upgrade]
+usys_maxUpgrade = 9
+usys_eachMorey = 10.0
+usys_percentage = 1000
+usys_chanceArray = 1000, 950, 900, 750, 500, 250, 100, 10, 1
+//usys_nameArray +0, +1, +2, +3, ... <dDEF.usys_maxUpgrade>
+usys_nameArray = Abundant|0, Common|0, Uncommon|6, Meager|16, Scarce|46, Rare|66, Extremely Rare|86, Unique|56, Legendary|96, Epic|106
+
+[ITEMDEF i_stone_upgrade]
+ID=i_grave_stone
+TYPE=t_normal
+NAME=upgrade stone
+
+On=@Create
+ATTR=attr_move_never|attr_static
+COLOR=07a2
+
+On=@DClick
+TARGET @,,1 Which weapon would you like to upgrade?
+
+On=@TargOn_Char
+SRC.sysMessage @,,1 You cannot upgrade characters.
+RETURN 1
+
+On=@TargOn_Ground
+SRC.sysMessage @,,1 You cannot upgrade land tiles.
+RETURN 1
+
+On=@TargOn_Item
+LOCAL.max = <eVal <dDEF.usys_eachMorey> * <dDEF.usys_maxUpgrade>>
+IF (<ARGO.isWeapon>) && (<dARGO.morey> < <dLOCAL.max>)
+  LOCAL.rand = <eVal rand(<dDEF.usys_percentage>)>
+  LOCAL.curLevel = <eVal <dARGO.morey> / <dDEF.usys_eachMorey>>
+  IF (<dLOCAL.curLevel> < 0)
+    LOCAL.curLevel = 0
+  ENDIF
+  ARGS=<DEF.usys_chanceArray>
+  LOCAL.need = <dARGV[<dLOCAL.curLevel>]>
+  IF !(<dLOCAL.need>)
+    LOCAL.need = 0
+  ENDIF
+  IF (<dLOCAL.rand> < <dLOCAL.need>) || (<SRC.isGm>)
+    ARGO.morey += <dDEF.usys_eachMorey>
+    IF !(<ARGO.attr>&attr_magic)
+      ARGO.attr = <ARGO.attr>|attr_magic
+    ENDIF
+    SRC.sysMessage @,,1 Your <ARGO.name> successfully upgraded to level <eVal <dLOCAL.curLevel> + 1>.
+  ELSE
+    LOCAL.return = Your failed to upgrade <ARGO.name>
+    IF (<R10>)
+      LOCAL.return = <LOCAL.return> and burned!
+      ARGO.remove
+    ENDIF
+    SRC.sysMessage @,,1 <LOCAL.return>
+  ENDIF
+ENDIF
+
+// getPerc <weaponUpgrade>
+[FUNCTION usys_getPerc]
+LOCAL.upgrade = <dARGS>
+ARGS=<DEF.usys_chanceArray>
+RETURN %<fVal 100 / (<dDEF.usys_percentage> / <dARGV[<dLOCAL.upgrade>]>)
+
+// usys_give <weapon baseid>,<upgrade level>
+[FUNCTION usys_give]
+SERV.newItem <ARGV[0]>, 1, <UID>
+NEW.morey = <eVal <dARGV[1]> * <dDEF.usys_eachMorey>>
+NEW.attr = <NEW.attr>|attr_magic|attr_identified
+NEW.update
+
+[TYPEDEF t_weapon_sword]
+On=@Click
+IF (<ATTR>&attr_identified)
+  LOCAL.title = <eVal <dMOREY> / <dDEF.usys_eachMorey>>
+  ARGS=<DEF.usys_nameArray>
+  ARGS=<explode '|', <ARGV[<dLOCAL.title>]>>
+  MESSAGE @<dARGV[1]>,,1 [<ARGV[<0>]> +<dLOCAL.title>]
+  COLOR=<dARGV[1]>
+ENDIF
+
+[EOF]

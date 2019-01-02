@@ -31,4 +31,25 @@ RETURN <ARGV[<eVal <dLOCAL.TARG> - 1>]>
 ARGS=A,B,C,D,E,F
 RETURN <ARGV[1]> - <ARGV[1-3]>
 
+[FUNCTION dialogCloseAll]
+IF (<dialogList.count> > 0)
+  FOR 0 <eVal <dialogList.count> - 1>
+    TRY dialogClose <dialogList.<dLOCAL._for>.id>
+  ENDFOR
+ENDIF
+
+[FUNCTION infoG]
+TARGETFG f_infoG
+
+[FUNCTION f_infoG]
+IF (<SERV.map(<TARGP.X>, <TARGP.Y>, <TARGP.M>).Statics> > 0)
+  SYSMESSAGE @,,1 Statics: <SERV.map(<TARGP.X>, <TARGP.Y>, <TARGP.M>).Statics>
+  FOR 0 <eVal <SERV.map(<TARGP.X>, <TARGP.Y>, <TARGP.M>).Statics> - 1>
+    SYSMESSAGE @,,1 Static <eVal <dLOCAL._for> + 1>: <SERV.map(<TARGP.X>, <TARGP.Y>, <TARGP.M>).Statics.<dLOCAL._for>> (<SERV.map(<TARGP.X>, <TARGP.Y>, <TARGP.M>).Statics.<dLOCAL._for>.baseId> Z: <SERV.map(<TARGP.X>, <TARGP.Y>, <TARGP.M>).Statics.<dLOCAL._for>.Z>)
+  ENDFOR
+ENDIF
+SYSMESSAGE @,,1 Pos: <TARGp.X>, <TARGp.Y>, <TARGp.Z>, <TARGp.M>
+SYSMESSAGE @,,1 Terrain: <SERV.map(<TARGP.X>, <TARGP.Y>, <TARGP.M>).Terrain> (Type: <SERV.map(<TARGP.X>, <TARGP.Y>, <TARGP.M>).TYPE> Z: <SERV.map(<TARGP.X>, <TARGP.Y>, <TARGP.M>).Terrain.Z>)
+
+
 [EOF]

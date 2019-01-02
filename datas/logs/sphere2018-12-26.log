@@ -1,0 +1,1768 @@
+Log date: 2018/12/26 00:03:33
+00:03:Garbage Collection: started.
+00:03:Garbage Collection: done. 19 Objects accounted for.
+00:03:World data saved   (datas/saves/sphereworld.scp).
+00:03:Player data saved  (datas/saves/spherechars.scp).
+00:03:Multi data saved   (datas/saves/spheremultis.scp).
+00:03:Context data saved (datas/saves/spheredata.scp).
+00:03:World save completed, took 0.1723 seconds.
+00:08:Garbage Collection: started.
+00:08:Garbage Collection: done. 19 Objects accounted for.
+00:08:World data saved   (datas/saves/sphereworld.scp).
+00:08:Player data saved  (datas/saves/spherechars.scp).
+00:08:Multi data saved   (datas/saves/spheremultis.scp).
+00:08:Context data saved (datas/saves/spheredata.scp).
+00:08:World save completed, took 0.5086 seconds.
+00:13:Garbage Collection: started.
+00:13:Garbage Collection: done. 19 Objects accounted for.
+00:13:World data saved   (datas/saves/sphereworld.scp).
+00:13:Player data saved  (datas/saves/spherechars.scp).
+00:13:Multi data saved   (datas/saves/spheremultis.scp).
+00:13:Context data saved (datas/saves/spheredata.scp).
+00:13:World save completed, took 0.3276 seconds.
+00:18:Garbage Collection: started.
+00:18:Garbage Collection: done. 19 Objects accounted for.
+00:18:World data saved   (datas/saves/sphereworld.scp).
+00:18:Player data saved  (datas/saves/spherechars.scp).
+00:18:Multi data saved   (datas/saves/spheremultis.scp).
+00:18:Context data saved (datas/saves/spheredata.scp).
+00:18:World save completed, took 0.1719 seconds.
+00:21:Server is being PAUSED for Resync
+00:21:Resync Restart
+00:21:
+Indexing the client files...
+00:21:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+00:21:Caching tiledata.mul...
+
+00:21:Indexing 204 script files...
+00:21:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+00:21:Done loading scripts.
+00:21:
+00:21:Resync complete!
+00:23:ERROR:Undefined keyword 'rr'
+00:23:unknown command 'rr'
+00:23:Server is being PAUSED for Resync
+00:23:Resync Restart
+00:23:
+Indexing the client files...
+00:23:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+00:23:Caching tiledata.mul...
+
+00:23:Indexing 204 script files...
+00:23:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+00:23:Done loading scripts.
+00:23:
+00:23:Resync complete!
+00:23:Garbage Collection: started.
+00:23:Garbage Collection: done. 19 Objects accounted for.
+00:23:World data saved   (datas/saves/sphereworld.scp).
+00:23:Player data saved  (datas/saves/spherechars.scp).
+00:23:Multi data saved   (datas/saves/spheremultis.scp).
+00:23:Context data saved (datas/saves/spheredata.scp).
+00:23:World save completed, took 0.8472 seconds.
+00:23:Server is being PAUSED for Resync
+00:23:Resync Restart
+00:23:
+Indexing the client files...
+00:23:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+00:23:Caching tiledata.mul...
+
+00:23:Indexing 204 script files...
+00:23:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+00:23:Done loading scripts.
+00:23:
+00:23:Resync complete!
+00:25:ERROR:Undefined keyword 'rr'
+00:25:unknown command 'rr'
+00:25:Server is being PAUSED for Resync
+00:25:Resync Restart
+00:25:
+Indexing the client files...
+00:25:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+00:25:Caching tiledata.mul...
+
+00:25:Indexing 204 script files...
+00:25:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+00:25:Done loading scripts.
+00:25:
+00:25:Resync complete!
+00:28:Garbage Collection: started.
+00:28:Garbage Collection: done. 19 Objects accounted for.
+00:28:World data saved   (datas/saves/sphereworld.scp).
+00:28:Player data saved  (datas/saves/spherechars.scp).
+00:28:Multi data saved   (datas/saves/spheremultis.scp).
+00:28:Context data saved (datas/saves/spheredata.scp).
+00:28:World save completed, took 0.4334 seconds.
+00:33:Garbage Collection: started.
+00:33:Garbage Collection: done. 19 Objects accounted for.
+00:33:World data saved   (datas/saves/sphereworld.scp).
+00:33:Player data saved  (datas/saves/spherechars.scp).
+00:33:Multi data saved   (datas/saves/spheremultis.scp).
+00:33:Context data saved (datas/saves/spheredata.scp).
+00:33:World save completed, took 0.5575 seconds.
+00:38:Garbage Collection: started.
+00:38:Garbage Collection: done. 19 Objects accounted for.
+00:38:World data saved   (datas/saves/sphereworld.scp).
+00:38:Player data saved  (datas/saves/spherechars.scp).
+00:38:Multi data saved   (datas/saves/spheremultis.scp).
+00:38:Context data saved (datas/saves/spheredata.scp).
+00:38:World save completed, took 0.6782 seconds.
+00:42:Server is being PAUSED for Resync
+00:42:Resync Restart
+00:42:
+Indexing the client files...
+00:42:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+00:42:Caching tiledata.mul...
+
+00:42:Indexing 204 script files...
+00:42:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+00:42:Done loading scripts.
+00:42:
+00:42:Resync complete!
+00:42:Server is being PAUSED for Resync
+00:42:Resync Restart
+00:42:
+Indexing the client files...
+00:42:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+00:42:Caching tiledata.mul...
+
+00:42:Indexing 204 script files...
+00:42:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+00:42:Done loading scripts.
+00:42:
+00:42:Resync complete!
+00:42:Server is being PAUSED for Resync
+00:42:Resync Restart
+00:42:
+Indexing the client files...
+00:42:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+00:42:Caching tiledata.mul...
+
+00:42:Indexing 204 script files...
+00:42:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+00:42:Done loading scripts.
+00:42:
+00:42:Resync complete!
+00:43:Server is being PAUSED for Resync
+00:43:Resync Restart
+00:43:
+Indexing the client files...
+00:43:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+00:43:Caching tiledata.mul...
+
+00:43:Indexing 204 script files...
+00:43:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+00:43:Done loading scripts.
+00:43:
+00:43:Resync complete!
+00:43:Garbage Collection: started.
+00:43:Garbage Collection: done. 19 Objects accounted for.
+00:43:World data saved   (datas/saves/sphereworld.scp).
+00:43:Player data saved  (datas/saves/spherechars.scp).
+00:43:Multi data saved   (datas/saves/spheremultis.scp).
+00:43:Context data saved (datas/saves/spheredata.scp).
+00:43:World save completed, took 0.2760 seconds.
+00:44:Server is being PAUSED for Resync
+00:44:Resync Restart
+00:44:
+Indexing the client files...
+00:44:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+00:44:Caching tiledata.mul...
+
+00:44:Indexing 204 script files...
+00:44:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+00:44:Done loading scripts.
+00:44:
+00:44:Resync complete!
+00:45:Server is being PAUSED for Resync
+00:45:Resync Restart
+00:45:
+Indexing the client files...
+00:45:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+00:45:Caching tiledata.mul...
+
+00:45:Indexing 204 script files...
+00:45:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+00:45:Done loading scripts.
+00:45:
+00:45:Resync complete!
+00:45:Server is being PAUSED for Resync
+00:45:Resync Restart
+00:45:
+Indexing the client files...
+00:45:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+00:45:Caching tiledata.mul...
+
+00:45:Indexing 204 script files...
+00:45:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+00:45:Done loading scripts.
+00:45:
+00:45:Resync complete!
+00:48:Garbage Collection: started.
+00:48:Garbage Collection: done. 19 Objects accounted for.
+00:48:World data saved   (datas/saves/sphereworld.scp).
+00:48:Player data saved  (datas/saves/spherechars.scp).
+00:48:Multi data saved   (datas/saves/spheremultis.scp).
+00:48:Context data saved (datas/saves/spheredata.scp).
+00:48:World save completed, took 0.1863 seconds.
+00:53:Garbage Collection: started.
+00:53:Garbage Collection: done. 19 Objects accounted for.
+00:53:World data saved   (datas/saves/sphereworld.scp).
+00:53:Player data saved  (datas/saves/spherechars.scp).
+00:53:Multi data saved   (datas/saves/spheremultis.scp).
+00:53:Context data saved (datas/saves/spheredata.scp).
+00:53:World save completed, took 0.8864 seconds.
+00:58:Garbage Collection: started.
+00:58:Garbage Collection: done. 19 Objects accounted for.
+00:58:World data saved   (datas/saves/sphereworld.scp).
+00:58:Player data saved  (datas/saves/spherechars.scp).
+00:58:Multi data saved   (datas/saves/spheremultis.scp).
+00:58:Context data saved (datas/saves/spheredata.scp).
+00:58:World save completed, took 0.2326 seconds.
+01:03:Garbage Collection: started.
+01:03:Garbage Collection: done. 19 Objects accounted for.
+01:03:World data saved   (datas/saves/sphereworld.scp).
+01:03:Player data saved  (datas/saves/spherechars.scp).
+01:03:Multi data saved   (datas/saves/spheremultis.scp).
+01:03:Context data saved (datas/saves/spheredata.scp).
+01:03:World save completed, took 0.6004 seconds.
+01:07:Server is being PAUSED for Resync
+01:07:Resync Restart
+01:07:
+Indexing the client files...
+01:07:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:07:Caching tiledata.mul...
+
+01:07:Indexing 204 script files...
+01:07:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:07:Done loading scripts.
+01:07:
+01:07:Resync complete!
+01:08:Server is being PAUSED for Resync
+01:08:Resync Restart
+01:08:
+Indexing the client files...
+01:08:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:08:Caching tiledata.mul...
+
+01:08:Indexing 204 script files...
+01:08:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:08:Done loading scripts.
+01:08:
+01:08:Resync complete!
+01:08:Garbage Collection: started.
+01:08:Garbage Collection: done. 19 Objects accounted for.
+01:08:World data saved   (datas/saves/sphereworld.scp).
+01:08:Player data saved  (datas/saves/spherechars.scp).
+01:08:Multi data saved   (datas/saves/spheremultis.scp).
+01:08:Context data saved (datas/saves/spheredata.scp).
+01:08:World save completed, took 0.6919 seconds.
+01:13:Garbage Collection: started.
+01:13:Garbage Collection: done. 19 Objects accounted for.
+01:13:World data saved   (datas/saves/sphereworld.scp).
+01:13:Player data saved  (datas/saves/spherechars.scp).
+01:13:Multi data saved   (datas/saves/spheremultis.scp).
+01:13:Context data saved (datas/saves/spheredata.scp).
+01:13:World save completed, took 0.3409 seconds.
+01:18:Garbage Collection: started.
+01:18:Garbage Collection: done. 19 Objects accounted for.
+01:18:World data saved   (datas/saves/sphereworld.scp).
+01:18:Player data saved  (datas/saves/spherechars.scp).
+01:18:Multi data saved   (datas/saves/spheremultis.scp).
+01:18:Context data saved (datas/saves/spheredata.scp).
+01:18:World save completed, took 0.4111 seconds.
+01:23:Garbage Collection: started.
+01:23:Garbage Collection: done. 19 Objects accounted for.
+01:23:World data saved   (datas/saves/sphereworld.scp).
+01:23:Player data saved  (datas/saves/spherechars.scp).
+01:23:Multi data saved   (datas/saves/spheremultis.scp).
+01:23:Context data saved (datas/saves/spheredata.scp).
+01:23:World save completed, took 0.6766 seconds.
+01:24:Server is being PAUSED for Resync
+01:24:Resync Restart
+01:24:
+Indexing the client files...
+01:24:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:24:Caching tiledata.mul...
+
+01:24:Indexing 204 script files...
+01:24:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:24:Done loading scripts.
+01:24:
+01:24:Resync complete!
+01:24:Server is being PAUSED for Resync
+01:24:Resync Restart
+01:24:
+Indexing the client files...
+01:24:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:24:Caching tiledata.mul...
+
+01:24:Indexing 204 script files...
+01:24:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:24:Done loading scripts.
+01:24:
+01:24:Resync complete!
+01:26:Server is being PAUSED for Resync
+01:26:Resync Restart
+01:26:
+Indexing the client files...
+01:26:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:26:Caching tiledata.mul...
+
+01:26:Indexing 204 script files...
+01:26:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:26:Done loading scripts.
+01:26:
+01:26:Resync complete!
+01:26:Server is being PAUSED for Resync
+01:26:Resync Restart
+01:26:
+Indexing the client files...
+01:26:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:26:Caching tiledata.mul...
+
+01:26:Indexing 204 script files...
+01:26:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:26:Done loading scripts.
+01:26:
+01:26:Resync complete!
+01:27:Server is being PAUSED for Resync
+01:27:Resync Restart
+01:27:
+Indexing the client files...
+01:27:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:27:Caching tiledata.mul...
+
+01:27:Indexing 204 script files...
+01:27:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:27:Done loading scripts.
+01:27:
+01:27:Resync complete!
+01:28:Garbage Collection: started.
+01:28:Garbage Collection: done. 19 Objects accounted for.
+01:28:World data saved   (datas/saves/sphereworld.scp).
+01:28:Player data saved  (datas/saves/spherechars.scp).
+01:28:Multi data saved   (datas/saves/spheremultis.scp).
+01:28:Context data saved (datas/saves/spheredata.scp).
+01:28:World save completed, took 0.7290 seconds.
+01:30:5:'xwerswoodx' commands 'Remove'=1
+01:30:5:'xwerswoodx' commands 'show serv.itemdef.0.id'=1
+01:30:5:'xwerswoodx' commands 'show serv.itemdef.1.id'=1
+01:31:Server is being PAUSED for Resync
+01:31:Resync Restart
+01:31:
+Indexing the client files...
+01:31:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:31:Caching tiledata.mul...
+
+01:31:Indexing 204 script files...
+01:31:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:31:Done loading scripts.
+01:31:
+01:31:Resync complete!
+01:32:Server is being PAUSED for Resync
+01:32:Resync Restart
+01:32:
+Indexing the client files...
+01:32:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:32:Caching tiledata.mul...
+
+01:32:Indexing 204 script files...
+01:32:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:32:Done loading scripts.
+01:32:
+01:32:Resync complete!
+01:32:Server is being PAUSED for Resync
+01:32:Resync Restart
+01:32:
+Indexing the client files...
+01:32:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:32:Caching tiledata.mul...
+
+01:32:Indexing 204 script files...
+01:32:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:32:Done loading scripts.
+01:32:
+01:32:Resync complete!
+01:33:Garbage Collection: started.
+01:33:Garbage Collection: done. 19 Objects accounted for.
+01:33:World data saved   (datas/saves/sphereworld.scp).
+01:33:Player data saved  (datas/saves/spherechars.scp).
+01:33:Multi data saved   (datas/saves/spheremultis.scp).
+01:33:Context data saved (datas/saves/spheredata.scp).
+01:33:World save completed, took 0.3054 seconds.
+01:38:Garbage Collection: started.
+01:38:Garbage Collection: done. 19 Objects accounted for.
+01:38:World data saved   (datas/saves/sphereworld.scp).
+01:38:Player data saved  (datas/saves/spherechars.scp).
+01:38:Multi data saved   (datas/saves/spheremultis.scp).
+01:38:Context data saved (datas/saves/spheredata.scp).
+01:38:World save completed, took 0.8098 seconds.
+01:40:Server is being PAUSED for Resync
+01:40:Resync Restart
+01:40:
+Indexing the client files...
+01:40:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:40:Caching tiledata.mul...
+
+01:40:Indexing 204 script files...
+01:40:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:40:Done loading scripts.
+01:40:
+01:40:Resync complete!
+01:41:Server is being PAUSED for Resync
+01:41:Resync Restart
+01:41:
+Indexing the client files...
+01:41:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:41:Caching tiledata.mul...
+
+01:41:Indexing 204 script files...
+01:41:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:41:Done loading scripts.
+01:41:
+01:41:Resync complete!
+01:41:Server is being PAUSED for Resync
+01:41:Resync Restart
+01:41:
+Indexing the client files...
+01:41:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:41:Caching tiledata.mul...
+
+01:41:Indexing 204 script files...
+01:41:Done loading scripts.
+01:41:
+01:41:Resync complete!
+01:42:Server is being PAUSED for Resync
+01:42:Resync Restart
+01:42:
+Indexing the client files...
+01:42:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:42:Caching tiledata.mul...
+
+01:42:Indexing 204 script files...
+01:42:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:42:Done loading scripts.
+01:42:
+01:42:Resync complete!
+01:43:Server is being PAUSED for Resync
+01:43:Resync Restart
+01:43:
+Indexing the client files...
+01:43:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:43:Caching tiledata.mul...
+
+01:43:Indexing 204 script files...
+01:43:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:43:Done loading scripts.
+01:43:
+01:43:Resync complete!
+01:43:Server is being PAUSED for Resync
+01:43:Resync Restart
+01:43:
+Indexing the client files...
+01:43:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:43:Caching tiledata.mul...
+
+01:43:Indexing 204 script files...
+01:43:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:43:Done loading scripts.
+01:43:
+01:43:Resync complete!
+01:43:Garbage Collection: started.
+01:43:Garbage Collection: done. 19 Objects accounted for.
+01:43:World data saved   (datas/saves/sphereworld.scp).
+01:43:Player data saved  (datas/saves/spherechars.scp).
+01:43:Multi data saved   (datas/saves/spheremultis.scp).
+01:43:Context data saved (datas/saves/spheredata.scp).
+01:43:World save completed, took 0.1112 seconds.
+01:43:ERROR:Undefined keyword 'rr'
+01:43:unknown command 'rr'
+01:43:Server is being PAUSED for Resync
+01:43:Resync Restart
+01:43:
+Indexing the client files...
+01:43:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:43:Caching tiledata.mul...
+
+01:43:Indexing 204 script files...
+01:43:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:43:Done loading scripts.
+01:43:
+01:43:Resync complete!
+01:44:Server is being PAUSED for Resync
+01:44:Resync Restart
+01:44:
+Indexing the client files...
+01:44:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:44:Caching tiledata.mul...
+
+01:44:Indexing 204 script files...
+01:44:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:44:Done loading scripts.
+01:44:
+01:44:Resync complete!
+01:44:Server is being PAUSED for Resync
+01:44:Resync Restart
+01:44:
+Indexing the client files...
+01:44:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:44:Caching tiledata.mul...
+
+01:44:Indexing 204 script files...
+01:44:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:44:Done loading scripts.
+01:44:
+01:44:Resync complete!
+01:45:Server is being PAUSED for Resync
+01:45:Resync Restart
+01:45:
+Indexing the client files...
+01:45:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:45:Caching tiledata.mul...
+
+01:45:Indexing 204 script files...
+01:45:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:45:Done loading scripts.
+01:45:
+01:45:Resync complete!
+01:46:Server is being PAUSED for Resync
+01:46:Resync Restart
+01:46:
+Indexing the client files...
+01:46:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:46:Caching tiledata.mul...
+
+01:46:Indexing 204 script files...
+01:46:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:46:Done loading scripts.
+01:46:
+01:46:Resync complete!
+01:47:Server is being PAUSED for Resync
+01:47:Resync Restart
+01:47:
+Indexing the client files...
+01:47:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:47:Caching tiledata.mul...
+
+01:47:Indexing 204 script files...
+01:47:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:47:Done loading scripts.
+01:47:
+01:47:Resync complete!
+01:47:Server is being PAUSED for Resync
+01:47:Resync Restart
+01:47:
+Indexing the client files...
+01:47:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:47:Caching tiledata.mul...
+
+01:47:Indexing 204 script files...
+01:47:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:47:Done loading scripts.
+01:47:
+01:47:Resync complete!
+01:48:Garbage Collection: started.
+01:48:Garbage Collection: done. 19 Objects accounted for.
+01:48:World data saved   (datas/saves/sphereworld.scp).
+01:48:Player data saved  (datas/saves/spherechars.scp).
+01:48:Multi data saved   (datas/saves/spheremultis.scp).
+01:48:Context data saved (datas/saves/spheredata.scp).
+01:48:World save completed, took 0.9892 seconds.
+01:52:Server is being PAUSED for Resync
+01:52:Resync Restart
+01:52:
+Indexing the client files...
+01:52:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:52:Caching tiledata.mul...
+
+01:52:Indexing 204 script files...
+01:52:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:52:Done loading scripts.
+01:52:
+01:52:Resync complete!
+01:53:Garbage Collection: started.
+01:53:Garbage Collection: done. 19 Objects accounted for.
+01:53:World data saved   (datas/saves/sphereworld.scp).
+01:53:Player data saved  (datas/saves/spherechars.scp).
+01:53:Multi data saved   (datas/saves/spheremultis.scp).
+01:53:Context data saved (datas/saves/spheredata.scp).
+01:53:World save completed, took 0.4609 seconds.
+01:54:Server is being PAUSED for Resync
+01:54:Resync Restart
+01:54:
+Indexing the client files...
+01:54:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:54:Caching tiledata.mul...
+
+01:54:Indexing 204 script files...
+01:54:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:54:Done loading scripts.
+01:54:
+01:54:Resync complete!
+01:55:Server is being PAUSED for Resync
+01:55:Resync Restart
+01:55:
+Indexing the client files...
+01:55:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:55:Caching tiledata.mul...
+
+01:55:Indexing 204 script files...
+01:55:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:55:Done loading scripts.
+01:55:
+01:55:Resync complete!
+01:56:5:'xwerswoodx' commands 'show hval 1153'=1
+01:56:Server is being PAUSED for Resync
+01:56:Resync Restart
+01:56:
+Indexing the client files...
+01:56:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:56:Caching tiledata.mul...
+
+01:56:Indexing 204 script files...
+01:56:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:56:Done loading scripts.
+01:56:
+01:56:Resync complete!
+01:57:Server is being PAUSED for Resync
+01:57:Resync Restart
+01:57:
+Indexing the client files...
+01:57:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:57:Caching tiledata.mul...
+
+01:57:Indexing 204 script files...
+01:57:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:57:Done loading scripts.
+01:57:
+01:57:Resync complete!
+01:57:Server is being PAUSED for Resync
+01:57:Resync Restart
+01:57:
+Indexing the client files...
+01:57:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:57:Caching tiledata.mul...
+
+01:57:Indexing 204 script files...
+01:57:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:57:Done loading scripts.
+01:57:
+01:57:Resync complete!
+01:58:Server is being PAUSED for Resync
+01:58:Resync Restart
+01:58:
+Indexing the client files...
+01:58:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:58:Caching tiledata.mul...
+
+01:58:Indexing 204 script files...
+01:58:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:58:Done loading scripts.
+01:58:
+01:58:Resync complete!
+01:58:Garbage Collection: started.
+01:58:Garbage Collection: done. 19 Objects accounted for.
+01:58:World data saved   (datas/saves/sphereworld.scp).
+01:58:Player data saved  (datas/saves/spherechars.scp).
+01:58:Multi data saved   (datas/saves/spheremultis.scp).
+01:58:Context data saved (datas/saves/spheredata.scp).
+01:58:World save completed, took 0.2233 seconds.
+01:59:Server is being PAUSED for Resync
+01:59:Resync Restart
+01:59:
+Indexing the client files...
+01:59:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:59:Caching tiledata.mul...
+
+01:59:Indexing 204 script files...
+01:59:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:59:Done loading scripts.
+01:59:
+01:59:Resync complete!
+01:59:Server is being PAUSED for Resync
+01:59:Resync Restart
+01:59:
+Indexing the client files...
+01:59:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+01:59:Caching tiledata.mul...
+
+01:59:Indexing 204 script files...
+01:59:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+01:59:Done loading scripts.
+01:59:
+01:59:Resync complete!
+02:03:Garbage Collection: started.
+02:03:Garbage Collection: done. 19 Objects accounted for.
+02:03:World data saved   (datas/saves/sphereworld.scp).
+02:03:Player data saved  (datas/saves/spherechars.scp).
+02:03:Multi data saved   (datas/saves/spheremultis.scp).
+02:03:Context data saved (datas/saves/spheredata.scp).
+02:03:World save completed, took 0.5434 seconds.
+02:06:5:'xwerswoodx' commands 'Remove'=1
+02:06:5:'xwerswoodx' commands 'show fval 10/22'=1
+02:06:5:'xwerswoodx' commands 'Remove'=1
+02:06:5:'xwerswoodx' commands 'show floatval 10/ 22'=1
+02:08:Server is being PAUSED for Resync
+02:08:Resync Restart
+02:08:
+Indexing the client files...
+02:08:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:08:Caching tiledata.mul...
+
+02:08:Indexing 204 script files...
+02:08:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:08:Done loading scripts.
+02:08:
+02:08:Resync complete!
+02:08:5:'xwerswoodx' commands 'xshow getCurrentPage'=1
+02:08:'xwerswoodx' commands uid=040001fec (dialog stone) to 'show getCurrentPage'=0
+02:08:5:'xwerswoodx' commands 'xshow getCurrentPage'=1
+02:08:'xwerswoodx' commands uid=040001fec (dialog stone) to 'show getCurrentPage'=0
+02:08:5:'xwerswoodx' commands 'xshow getCurPage'=1
+02:08:'xwerswoodx' commands uid=040001fec (dialog stone) to 'show getCurPage'=1
+02:08:Garbage Collection: started.
+02:08:Garbage Collection: done. 19 Objects accounted for.
+02:08:World data saved   (datas/saves/sphereworld.scp).
+02:08:Player data saved  (datas/saves/spherechars.scp).
+02:08:Multi data saved   (datas/saves/spheremultis.scp).
+02:08:Context data saved (datas/saves/spheredata.scp).
+02:08:World save completed, took 0.8420 seconds.
+02:09:Server is being PAUSED for Resync
+02:09:Resync Restart
+02:09:
+Indexing the client files...
+02:09:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:09:Caching tiledata.mul...
+
+02:09:Indexing 204 script files...
+02:09:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:09:Done loading scripts.
+02:09:
+02:09:Resync complete!
+02:09:5:'xwerswoodx' commands 'xshow getCurPage'=1
+02:09:'xwerswoodx' commands uid=040001fec (dialog stone) to 'show getCurPage'=1
+02:09:5:'xwerswoodx' commands 'show eval 0.4541'=1
+02:09:5:'xwerswoodx' commands 'show eval 0.43'=1
+02:10:ERROR:Undefined keyword 'rr'
+02:10:unknown command 'rr'
+02:10:Server is being PAUSED for Resync
+02:10:Resync Restart
+02:10:
+Indexing the client files...
+02:10:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:10:Caching tiledata.mul...
+
+02:10:Indexing 204 script files...
+02:10:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:10:Done loading scripts.
+02:10:
+02:10:Resync complete!
+02:10:Server is being PAUSED for Resync
+02:10:Resync Restart
+02:10:
+Indexing the client files...
+02:10:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:10:Caching tiledata.mul...
+
+02:10:Indexing 204 script files...
+02:10:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:10:Done loading scripts.
+02:10:
+02:10:Resync complete!
+02:10:5:'xwerswoodx' commands 'xshow getCurPage'=1
+02:10:'xwerswoodx' commands uid=040001fec (dialog stone) to 'show getCurPage'=1
+02:13:Garbage Collection: started.
+02:13:Garbage Collection: done. 19 Objects accounted for.
+02:13:World data saved   (datas/saves/sphereworld.scp).
+02:13:Player data saved  (datas/saves/spherechars.scp).
+02:13:Multi data saved   (datas/saves/spheremultis.scp).
+02:13:Context data saved (datas/saves/spheredata.scp).
+02:13:World save completed, took 0.6601 seconds.
+02:17:5:'xwerswoodx' commands 'xshow getCurPage'=1
+02:17:5:'xwerswoodx' commands 'xshow getCurPage 0i22'=1
+02:17:5:'xwerswoodx' commands 'xshow getCurPage 0,22'=1
+02:17:'xwerswoodx' commands uid=040001fec (dialog stone) to 'show getCurPage 0,22'=1
+02:17:5:'xwerswoodx' commands 'xshow getCurPage 1,22'=1
+02:17:'xwerswoodx' commands uid=040001fec (dialog stone) to 'show getCurPage 1,22'=1
+02:18:Server is being PAUSED for Resync
+02:18:Resync Restart
+02:18:
+Indexing the client files...
+02:18:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:18:Caching tiledata.mul...
+
+02:18:Indexing 204 script files...
+02:18:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:18:Done loading scripts.
+02:18:
+02:18:Resync complete!
+02:18:5:'xwerswoodx' commands 'xshow getCurPage 1,22'=1
+02:18:'xwerswoodx' commands uid=040001fec (dialog stone) to 'show getCurPage 1,22'=1
+02:18:5:'xwerswoodx' commands 'xshow getCurPage 0,22'=1
+02:18:'xwerswoodx' commands uid=040001fec (dialog stone) to 'show getCurPage 0,22'=1
+02:18:5:'xwerswoodx' commands 'xshow getCurPage 22,22'=1
+02:18:'xwerswoodx' commands uid=040001fec (dialog stone) to 'show getCurPage 22,22'=1
+02:18:5:'xwerswoodx' commands 'xshow getCurPage 23,22'=1
+02:18:'xwerswoodx' commands uid=040001fec (dialog stone) to 'show getCurPage 23,22'=1
+02:18:Garbage Collection: started.
+02:18:Garbage Collection: done. 19 Objects accounted for.
+02:18:World data saved   (datas/saves/sphereworld.scp).
+02:18:Player data saved  (datas/saves/spherechars.scp).
+02:18:Multi data saved   (datas/saves/spheremultis.scp).
+02:18:Context data saved (datas/saves/spheredata.scp).
+02:18:World save completed, took 0.0135 seconds.
+02:20:Server is being PAUSED for Resync
+02:20:Resync Restart
+02:20:
+Indexing the client files...
+02:20:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:20:Caching tiledata.mul...
+
+02:20:Indexing 204 script files...
+02:20:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:20:Done loading scripts.
+02:20:
+02:20:Resync complete!
+02:20:Server is being PAUSED for Resync
+02:20:Resync Restart
+02:20:
+Indexing the client files...
+02:20:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:20:Caching tiledata.mul...
+
+02:20:Indexing 204 script files...
+02:20:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:20:Done loading scripts.
+02:20:
+02:20:Resync complete!
+02:23:Garbage Collection: started.
+02:23:Garbage Collection: done. 19 Objects accounted for.
+02:23:World data saved   (datas/saves/sphereworld.scp).
+02:23:Player data saved  (datas/saves/spherechars.scp).
+02:23:Multi data saved   (datas/saves/spheremultis.scp).
+02:23:Context data saved (datas/saves/spheredata.scp).
+02:23:World save completed, took 0.7135 seconds.
+02:24:Server is being PAUSED for Resync
+02:24:Resync Restart
+02:24:
+Indexing the client files...
+02:24:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:24:Caching tiledata.mul...
+
+02:24:Indexing 204 script files...
+02:24:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:24:Done loading scripts.
+02:24:
+02:24:Resync complete!
+02:24:Server is being PAUSED for Resync
+02:24:Resync Restart
+02:24:
+Indexing the client files...
+02:24:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:24:Caching tiledata.mul...
+
+02:24:Indexing 204 script files...
+02:24:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:24:Done loading scripts.
+02:24:
+02:24:Resync complete!
+02:25:Server is being PAUSED for Resync
+02:25:Resync Restart
+02:25:
+Indexing the client files...
+02:25:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:25:Caching tiledata.mul...
+
+02:25:Indexing 204 script files...
+02:25:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:25:Done loading scripts.
+02:25:
+02:25:Resync complete!
+02:25:Server is being PAUSED for Resync
+02:25:Resync Restart
+02:25:
+Indexing the client files...
+02:25:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:25:Caching tiledata.mul...
+
+02:25:Indexing 204 script files...
+02:25:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:25:Done loading scripts.
+02:25:
+02:25:Resync complete!
+02:25:Server is being PAUSED for Resync
+02:25:Resync Restart
+02:25:
+Indexing the client files...
+02:25:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:25:Caching tiledata.mul...
+
+02:25:Indexing 204 script files...
+02:25:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:25:Done loading scripts.
+02:25:
+02:25:Resync complete!
+02:25:Server is being PAUSED for Resync
+02:25:Resync Restart
+02:25:
+Indexing the client files...
+02:25:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:25:Caching tiledata.mul...
+
+02:25:Indexing 204 script files...
+02:25:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:25:Done loading scripts.
+02:25:
+02:25:Resync complete!
+02:25:Server is being PAUSED for Resync
+02:25:Resync Restart
+02:25:
+Indexing the client files...
+02:25:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:25:Caching tiledata.mul...
+
+02:25:Indexing 204 script files...
+02:25:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:25:Done loading scripts.
+02:25:
+02:25:Resync complete!
+02:25:Server is being PAUSED for Resync
+02:25:Resync Restart
+02:25:
+Indexing the client files...
+02:25:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:25:Caching tiledata.mul...
+
+02:25:Indexing 204 script files...
+02:25:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:25:Done loading scripts.
+02:25:
+02:25:Resync complete!
+02:27:Server is being PAUSED for Resync
+02:27:Resync Restart
+02:27:
+Indexing the client files...
+02:27:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:27:Caching tiledata.mul...
+
+02:27:Indexing 204 script files...
+02:27:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:27:Done loading scripts.
+02:27:
+02:27:Resync complete!
+02:28:Garbage Collection: started.
+02:28:Garbage Collection: done. 19 Objects accounted for.
+02:28:World data saved   (datas/saves/sphereworld.scp).
+02:28:Player data saved  (datas/saves/spherechars.scp).
+02:28:Multi data saved   (datas/saves/spheremultis.scp).
+02:28:Context data saved (datas/saves/spheredata.scp).
+02:28:World save completed, took 0.8653 seconds.
+02:28:Server is being PAUSED for Resync
+02:28:Resync Restart
+02:28:
+Indexing the client files...
+02:28:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:28:Caching tiledata.mul...
+
+02:28:Indexing 204 script files...
+02:28:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:28:Done loading scripts.
+02:28:
+02:28:Resync complete!
+02:29:Server is being PAUSED for Resync
+02:29:Resync Restart
+02:29:
+Indexing the client files...
+02:29:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:29:Caching tiledata.mul...
+
+02:29:Indexing 204 script files...
+02:29:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:29:Done loading scripts.
+02:29:
+02:29:Resync complete!
+02:29:Server is being PAUSED for Resync
+02:29:Resync Restart
+02:29:
+Indexing the client files...
+02:29:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:29:Caching tiledata.mul...
+
+02:29:Indexing 204 script files...
+02:29:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:29:Done loading scripts.
+02:29:
+02:29:Resync complete!
+02:30:Server is being PAUSED for Resync
+02:30:Resync Restart
+02:30:
+Indexing the client files...
+02:30:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:30:Caching tiledata.mul...
+
+02:30:Indexing 204 script files...
+02:30:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:30:Done loading scripts.
+02:30:
+02:30:Resync complete!
+02:30:5:'Hamit' Says UNICODE 'ENG' 'xzv' mode=0
+02:31:5:'Hamit' Says UNICODE 'ENG' '"' mode=0
+02:31:5:'xwerswoodx' commands 'kill'=1
+02:31:'horse' was KILLed by 'xwerswoodx'
+02:31:'xwerswoodx' commands uid=01fed (horse) to 'kill'=1
+02:31:5:'Hamit' Says UNICODE 'ENG' 'z<<<<0' mode=0
+02:31:5:'Hamit' Says UNICODE 'ENG' '2169498' mode=0
+02:32:Server is being PAUSED for Resync
+02:32:Resync Restart
+02:32:
+Indexing the client files...
+02:32:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:32:Caching tiledata.mul...
+
+02:32:Indexing 204 script files...
+02:32:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:32:Done loading scripts.
+02:32:
+02:32:Resync complete!
+02:33:ERROR:(sphere_system_dialogs.scp,614)Undefined keyword 'SYSMESSAGE'
+02:33:ERROR:(sphere_system_dialogs.scp,614)Undefined keyword 'SYSMESSAGE'
+02:33:5:'xwerswoodx' commands 'kill'=1
+02:33:ERROR:Undefined keyword 'kill'
+02:33:'xwerswoodx' commands uid=040001fec (dialog stone) to 'kill'=0
+02:33:ERROR:(sphere_system_dialogs.scp,614)Undefined keyword 'SYSMESSAGE'
+02:33:Server is being PAUSED for Resync
+02:33:Resync Restart
+02:33:
+Indexing the client files...
+02:33:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:33:Caching tiledata.mul...
+
+02:33:Indexing 204 script files...
+02:33:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:33:Done loading scripts.
+02:33:
+02:33:Resync complete!
+02:33:Garbage Collection: started.
+02:33:Garbage Collection: done. 19 Objects accounted for.
+02:33:World data saved   (datas/saves/sphereworld.scp).
+02:33:Player data saved  (datas/saves/spherechars.scp).
+02:33:Multi data saved   (datas/saves/spheremultis.scp).
+02:33:Context data saved (datas/saves/spheredata.scp).
+02:33:World save completed, took 0.0259 seconds.
+02:33:ERROR:(sphere_system_dialogs.scp,614)Undefined keyword 'SYSMESSAGE'
+02:33:ERROR:(sphere_system_dialogs.scp,614)Undefined keyword 'SYSMESSAGE'
+02:33:ERROR:(sphere_system_dialogs.scp,614)Undefined keyword 'SYSMESSAGE'
+02:33:ERROR:(sphere_system_dialogs.scp,614)Undefined keyword 'SYSMESSAGE'
+02:33:ERROR:(sphere_system_dialogs.scp,614)Undefined keyword 'SYSMESSAGE'
+02:33:ERROR:Undefined keyword 're'
+02:33:unknown command 're'
+02:33:Server is being PAUSED for Resync
+02:33:Resync Restart
+02:33:
+Indexing the client files...
+02:33:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:33:Caching tiledata.mul...
+
+02:33:Indexing 204 script files...
+02:33:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:33:Done loading scripts.
+02:33:
+02:33:Resync complete!
+02:36:Server is being PAUSED for Resync
+02:36:Resync Restart
+02:36:
+Indexing the client files...
+02:36:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:36:Caching tiledata.mul...
+
+02:36:Indexing 204 script files...
+02:36:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:36:Done loading scripts.
+02:36:
+02:36:Resync complete!
+02:36:ERROR:Undefined keyword 'rr'
+02:36:unknown command 'rr'
+02:36:Server is being PAUSED for Resync
+02:36:Resync Restart
+02:36:
+Indexing the client files...
+02:36:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:36:Caching tiledata.mul...
+
+02:36:Indexing 204 script files...
+02:36:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:36:Done loading scripts.
+02:36:
+02:36:Resync complete!
+02:37:Server is being PAUSED for Resync
+02:37:Resync Restart
+02:37:
+Indexing the client files...
+02:37:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:37:Caching tiledata.mul...
+
+02:37:Indexing 204 script files...
+02:37:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:37:Done loading scripts.
+02:37:
+02:37:Resync complete!
+02:37:Server is being PAUSED for Resync
+02:37:Resync Restart
+02:37:
+Indexing the client files...
+02:37:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:37:Caching tiledata.mul...
+
+02:37:Indexing 204 script files...
+02:37:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:37:Done loading scripts.
+02:37:
+02:37:Resync complete!
+02:38:Garbage Collection: started.
+02:38:Garbage Collection: done. 18 Objects accounted for.
+02:38:World data saved   (datas/saves/sphereworld.scp).
+02:38:Player data saved  (datas/saves/spherechars.scp).
+02:38:Multi data saved   (datas/saves/spheremultis.scp).
+02:38:Context data saved (datas/saves/spheredata.scp).
+02:38:World save completed, took 0.1189 seconds.
+02:43:Server is being PAUSED for Resync
+02:43:Resync Restart
+02:43:
+Indexing the client files...
+02:43:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:43:Caching tiledata.mul...
+
+02:43:Indexing 204 script files...
+02:43:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:43:Done loading scripts.
+02:43:
+02:43:Resync complete!
+02:43:Garbage Collection: started.
+02:43:Garbage Collection: done. 18 Objects accounted for.
+02:43:World data saved   (datas/saves/sphereworld.scp).
+02:43:Player data saved  (datas/saves/spherechars.scp).
+02:43:Multi data saved   (datas/saves/spheremultis.scp).
+02:43:Context data saved (datas/saves/spheredata.scp).
+02:43:World save completed, took 0.3140 seconds.
+02:44:Server is being PAUSED for Resync
+02:44:Resync Restart
+02:44:
+Indexing the client files...
+02:44:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:44:Caching tiledata.mul...
+
+02:44:Indexing 204 script files...
+02:44:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:44:Done loading scripts.
+02:44:
+02:44:Resync complete!
+02:44:5:'xwerswoodx' commands 'Remove'=1
+02:44:5:'xwerswoodx' commands 'show fixTextSpace Background'=1
+02:44:5:'xwerswoodx' commands 'show fixTextSpace a'=1
+02:45:Server is being PAUSED for Resync
+02:45:Resync Restart
+02:45:
+Indexing the client files...
+02:45:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:45:Caching tiledata.mul...
+
+02:45:Indexing 204 script files...
+02:45:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:45:Done loading scripts.
+02:45:
+02:45:Resync complete!
+02:45:5:'xwerswoodx' commands 'show fixTextSpace Background'=1
+02:45:5:'xwerswoodx' commands 'show fixTextSpace Background'=1
+02:45:Server is being PAUSED for Resync
+02:45:Resync Restart
+02:45:
+Indexing the client files...
+02:45:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:45:Caching tiledata.mul...
+
+02:45:Indexing 204 script files...
+02:45:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:45:Done loading scripts.
+02:45:
+02:45:Resync complete!
+02:45:5:'xwerswoodx' commands 'show fixTextSpace Background'=1
+02:45:5:'xwerswoodx' commands 'show fixTextSpace Background'=1
+02:45:Server is being PAUSED for Resync
+02:45:Resync Restart
+02:45:
+Indexing the client files...
+02:45:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:45:Caching tiledata.mul...
+
+02:45:Indexing 204 script files...
+02:45:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:45:Done loading scripts.
+02:45:
+02:45:Resync complete!
+02:45:5:'xwerswoodx' commands 'show fixTextSpace Background'=1
+02:46:Server is being PAUSED for Resync
+02:46:Resync Restart
+02:46:
+Indexing the client files...
+02:46:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:46:Caching tiledata.mul...
+
+02:46:Indexing 204 script files...
+02:46:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:46:Done loading scripts.
+02:46:
+02:46:Resync complete!
+02:46:5:'xwerswoodx' commands 'show fixTextSpace Background'=1
+02:46:5:'xwerswoodx' commands 'show fixTextSpace Background'=1
+02:47:Server is being PAUSED for Resync
+02:47:Resync Restart
+02:47:
+Indexing the client files...
+02:47:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:47:Caching tiledata.mul...
+
+02:47:Indexing 204 script files...
+02:47:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:47:Done loading scripts.
+02:47:
+02:47:Resync complete!
+02:47:5:'xwerswoodx' commands 'show fixTextSpace Background'=1
+02:47:5:'xwerswoodx' commands 'show fixText a B c'=1
+02:47:5:'xwerswoodx' commands 'show fixText a'=1
+02:47:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:47:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:47:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:47:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:47:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:47:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:48:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:48:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:48:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:48:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:48:Garbage Collection: started.
+02:48:Garbage Collection: done. 18 Objects accounted for.
+02:48:World data saved   (datas/saves/sphereworld.scp).
+02:48:Player data saved  (datas/saves/spherechars.scp).
+02:48:Multi data saved   (datas/saves/spheremultis.scp).
+02:48:Context data saved (datas/saves/spheredata.scp).
+02:48:World save completed, took 0.2082 seconds.
+02:48:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:48:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:48:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:48:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:48:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:49:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:49:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:49:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:49:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:49:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:49:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:49:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:49:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:49:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:49:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:49:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:49:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:50:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:50:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:50:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:50:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:50:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:50:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:50:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:50:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:50:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:50:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:50:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:50:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:51:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:51:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:51:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:51:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:51:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:51:ERROR:(sphere_system_dialogs.scp,785)Undefined keyword 'SYSMESSAGE'
+02:51:Server is being PAUSED for Resync
+02:51:Resync Restart
+02:51:
+Indexing the client files...
+02:51:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:51:Caching tiledata.mul...
+
+02:51:Indexing 204 script files...
+02:51:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:51:Done loading scripts.
+02:51:
+02:51:Resync complete!
+02:52:Server is being PAUSED for Resync
+02:52:Resync Restart
+02:52:
+Indexing the client files...
+02:52:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:52:Caching tiledata.mul...
+
+02:52:Indexing 204 script files...
+02:52:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:52:Done loading scripts.
+02:52:
+02:52:Resync complete!
+02:52:5:'xwerswoodx' commands 'xshow taglist'=1
+02:52:'xwerswoodx' commands uid=040001fec (dialog stone) to 'show taglist'=0
+02:52:5:'xwerswoodx' commands 'xtaglist'=1
+02:52:'xwerswoodx' commands uid=040001fec (dialog stone) to 'taglist'=1
+02:53:Garbage Collection: started.
+02:53:Garbage Collection: done. 18 Objects accounted for.
+02:53:World data saved   (datas/saves/sphereworld.scp).
+02:53:Player data saved  (datas/saves/spherechars.scp).
+02:53:Multi data saved   (datas/saves/spheremultis.scp).
+02:53:Context data saved (datas/saves/spheredata.scp).
+02:53:World save completed, took 0.3843 seconds.
+02:54:Server is being PAUSED for Resync
+02:54:Resync Restart
+02:54:
+Indexing the client files...
+02:54:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:54:Caching tiledata.mul...
+
+02:54:Indexing 204 script files...
+02:54:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:54:Done loading scripts.
+02:54:
+02:54:Resync complete!
+02:58:Garbage Collection: started.
+02:58:Garbage Collection: done. 18 Objects accounted for.
+02:58:World data saved   (datas/saves/sphereworld.scp).
+02:58:Player data saved  (datas/saves/spherechars.scp).
+02:58:Multi data saved   (datas/saves/spheremultis.scp).
+02:58:Context data saved (datas/saves/spheredata.scp).
+02:58:World save completed, took 0.8549 seconds.
+03:00:Server is being PAUSED for Resync
+03:00:Resync Restart
+03:00:
+Indexing the client files...
+03:00:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:00:Caching tiledata.mul...
+
+03:00:Indexing 204 script files...
+03:00:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:00:Done loading scripts.
+03:00:
+03:00:Resync complete!
+03:00:5:'xwerswoodx' commands 'Remove'=1
+03:00:5:'xwerswoodx' commands 'show f_compile 3,a,b,c,d,'=1
+03:00:5:'xwerswoodx' commands 'show f_compile 3,a,b,c,d,e'=1
+03:00:Server is being PAUSED for Resync
+03:00:Resync Restart
+03:00:
+Indexing the client files...
+03:00:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:00:Caching tiledata.mul...
+
+03:00:Indexing 204 script files...
+03:00:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:00:Done loading scripts.
+03:00:
+03:00:Resync complete!
+03:00:5:'xwerswoodx' commands 'show f_compile 3,a,b,c,d,e'=1
+03:01:Server is being PAUSED for Resync
+03:01:Resync Restart
+03:01:
+Indexing the client files...
+03:01:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:01:Caching tiledata.mul...
+
+03:01:Indexing 204 script files...
+03:01:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:01:Done loading scripts.
+03:01:
+03:01:Resync complete!
+03:01:5:'xwerswoodx' commands 'show f_compile 3,a,b,c,d,e'=1
+03:01:Server is being PAUSED for Resync
+03:01:Resync Restart
+03:01:
+Indexing the client files...
+03:01:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:01:Caching tiledata.mul...
+
+03:01:Indexing 204 script files...
+03:01:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:01:Done loading scripts.
+03:01:
+03:01:Resync complete!
+03:01:5:'xwerswoodx' commands 'show f_compile 3,a,b,c,d,e'=1
+03:01:Server is being PAUSED for Resync
+03:01:Resync Restart
+03:01:
+Indexing the client files...
+03:01:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:01:Caching tiledata.mul...
+
+03:01:Indexing 204 script files...
+03:01:Done loading scripts.
+03:01:
+03:01:Resync complete!
+03:02:5:'xwerswoodx' commands 'show f_compile 3,a,b,c,d,e'=1
+03:02:5:Client disconnected [Total:0]. Account: 'xwerswoodx'. Char: 'Hamit'. IP='127.0.0.1'.
+03:02:6:Client connected [Total:1]. IP='127.0.0.1'. (Connecting/Connected: 1/1).
+03:02:6:Login for account 'xwerswoodx'. IP='127.0.0.1'. ConnectionType: ServerList.
+03:02:6:Client disconnected [Total:0]. Account: 'xwerswoodx'. IP='127.0.0.1'.
+03:02:7:Client connected [Total:1]. IP='127.0.0.1'. (Connecting/Connected: 1/2).
+03:02:7:Login for account 'xwerswoodx'. IP='127.0.0.1'. ConnectionType: CharList/Game.
+03:02:7:Character startup for account 'xwerswoodx', char 'Hamit'. IP='127.0.0.1'.
+03:02:Server is being PAUSED for Resync
+03:02:Resync Restart
+03:02:
+Indexing the client files...
+03:02:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:02:Caching tiledata.mul...
+
+03:02:Indexing 204 script files...
+03:02:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:02:Done loading scripts.
+03:02:
+03:02:Resync complete!
+03:03:Garbage Collection: started.
+03:03:Garbage Collection: done. 18 Objects accounted for.
+03:03:World data saved   (datas/saves/sphereworld.scp).
+03:03:Player data saved  (datas/saves/spherechars.scp).
+03:03:Multi data saved   (datas/saves/spheremultis.scp).
+03:03:Context data saved (datas/saves/spheredata.scp).
+03:03:World save completed, took 0.3782 seconds.
+03:08:Garbage Collection: started.
+03:08:Garbage Collection: done. 18 Objects accounted for.
+03:08:World data saved   (datas/saves/sphereworld.scp).
+03:08:Player data saved  (datas/saves/spherechars.scp).
+03:08:Multi data saved   (datas/saves/spheremultis.scp).
+03:08:Context data saved (datas/saves/spheredata.scp).
+03:08:World save completed, took 0.2098 seconds.
+03:11:Server is being PAUSED for Resync
+03:11:Resync Restart
+03:11:
+Indexing the client files...
+03:11:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:11:Caching tiledata.mul...
+
+03:11:Indexing 204 script files...
+03:11:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:11:Done loading scripts.
+03:11:
+03:11:Resync complete!
+03:12:Server is being PAUSED for Resync
+03:12:Resync Restart
+03:12:
+Indexing the client files...
+03:12:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:12:Caching tiledata.mul...
+
+03:12:Indexing 204 script files...
+03:12:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:12:Done loading scripts.
+03:12:
+03:12:Resync complete!
+03:12:Server is being PAUSED for Resync
+03:12:Resync Restart
+03:12:
+Indexing the client files...
+03:12:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:12:Caching tiledata.mul...
+
+03:12:Indexing 204 script files...
+03:12:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:12:Done loading scripts.
+03:12:
+03:12:Resync complete!
+03:12:Server is being PAUSED for Resync
+03:12:Resync Restart
+03:12:
+Indexing the client files...
+03:12:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:12:Caching tiledata.mul...
+
+03:12:Indexing 204 script files...
+03:12:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:12:Done loading scripts.
+03:12:
+03:12:Resync complete!
+03:13:ERROR:(sphere_system_dialogs.scp,794)Undefined symbol '15' ['+15']
+03:13:Garbage Collection: started.
+03:13:Garbage Collection: done. 18 Objects accounted for.
+03:13:World data saved   (datas/saves/sphereworld.scp).
+03:13:Player data saved  (datas/saves/spherechars.scp).
+03:13:Multi data saved   (datas/saves/spheremultis.scp).
+03:13:Context data saved (datas/saves/spheredata.scp).
+03:13:World save completed, took 0.2198 seconds.
+03:14:ERROR:(sphere_system_dialogs.scp,794)Undefined symbol '3' ['+3']
+03:14:ERROR:(sphere_system_dialogs.scp,794)Undefined symbol '6' ['+6']
+03:14:ERROR:(sphere_system_dialogs.scp,794)Undefined symbol '9' ['+9']
+03:15:ERROR:(sphere_system_dialogs.scp,794)Undefined symbol '12' ['+12']
+03:18:Garbage Collection: started.
+03:18:Garbage Collection: done. 18 Objects accounted for.
+03:18:World data saved   (datas/saves/sphereworld.scp).
+03:18:Player data saved  (datas/saves/spherechars.scp).
+03:18:Multi data saved   (datas/saves/spheremultis.scp).
+03:18:Context data saved (datas/saves/spheredata.scp).
+03:18:World save completed, took 0.9699 seconds.
+03:22:Server is being PAUSED for Resync
+03:22:Resync Restart
+03:22:
+Indexing the client files...
+03:22:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:22:Caching tiledata.mul...
+
+03:22:Indexing 204 script files...
+03:22:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:22:Done loading scripts.
+03:22:
+03:22:Resync complete!
+03:23:Server is being PAUSED for Resync
+03:23:Resync Restart
+03:23:
+Indexing the client files...
+03:23:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:23:Caching tiledata.mul...
+
+03:23:Indexing 204 script files...
+03:23:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:23:Done loading scripts.
+03:23:
+03:23:Resync complete!
+03:23:Garbage Collection: started.
+03:23:Garbage Collection: done. 18 Objects accounted for.
+03:23:World data saved   (datas/saves/sphereworld.scp).
+03:23:Player data saved  (datas/saves/spherechars.scp).
+03:23:Multi data saved   (datas/saves/spheremultis.scp).
+03:23:Context data saved (datas/saves/spheredata.scp).
+03:23:World save completed, took 0.4488 seconds.
+03:24:7:'xwerswoodx' commands 'xtaglist'=1
+03:24:'xwerswoodx' commands uid=040001fec (dialog stone) to 'taglist'=1
+03:24:7:'xwerswoodx' commands 'Remove'=1
+03:24:7:Client disconnected [Total:0]. Account: 'xwerswoodx'. Char: 'Hamit'. IP='127.0.0.1'.
+03:24:8:Client connected [Total:1]. IP='127.0.0.1'. (Connecting/Connected: 1/1).
+03:24:8:Login for account 'xwerswoodx'. IP='127.0.0.1'. ConnectionType: ServerList.
+03:24:9:Client connected [Total:2]. IP='127.0.0.1'. (Connecting/Connected: 1/2).
+03:24:8:Client disconnected [Total:1]. Account: 'xwerswoodx'. IP='127.0.0.1'.
+03:24:9:Login for account 'xwerswoodx'. IP='127.0.0.1'. ConnectionType: CharList/Game.
+03:24:9:Character startup for account 'xwerswoodx', char 'Hamit'. IP='127.0.0.1'.
+03:24:9:'xwerswoodx' commands 'Remove'=1
+03:24:'xwerswoodx' commands uid=040001fec (dialog stone) to 'Remove'=1
+03:24:9:'xwerswoodx' commands 'add i_stone_dialog'=1
+03:25:Server is being PAUSED for Resync
+03:25:Resync Restart
+03:25:
+Indexing the client files...
+03:25:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:25:Caching tiledata.mul...
+
+03:25:Indexing 204 script files...
+03:25:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:25:Done loading scripts.
+03:25:
+03:25:Resync complete!
+03:25:9:'xwerswoodx' commands 'xtaglist'=1
+03:25:'xwerswoodx' commands uid=040001fe9 (dialog stone) to 'taglist'=1
+03:26:9:'xwerswoodx' commands 'xtaglist'=1
+03:26:'xwerswoodx' commands uid=040001fe9 (dialog stone) to 'taglist'=1
+03:26:9:'xwerswoodx' commands 'Remove'=1
+03:26:'xwerswoodx' commands uid=040001fe9 (dialog stone) to 'Remove'=1
+03:26:9:'xwerswoodx' commands 'add i_stone_dialog'=1
+03:27:9:'xwerswoodx' commands 'Remove'=1
+03:27:'xwerswoodx' commands uid=040001fe9 (dialog stone) to 'Remove'=1
+03:27:9:'xwerswoodx' commands 'add i_stone_dialog'=1
+03:28:Garbage Collection: started.
+03:28:Garbage Collection: done. 18 Objects accounted for.
+03:28:World data saved   (datas/saves/sphereworld.scp).
+03:28:Player data saved  (datas/saves/spherechars.scp).
+03:28:Multi data saved   (datas/saves/spheremultis.scp).
+03:28:Context data saved (datas/saves/spheredata.scp).
+03:28:World save completed, took 0.3709 seconds.
+03:29:Server is being PAUSED for Resync
+03:29:Resync Restart
+03:29:
+Indexing the client files...
+03:29:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:29:Caching tiledata.mul...
+
+03:29:Indexing 204 script files...
+03:29:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:29:Done loading scripts.
+03:29:
+03:29:Resync complete!
+03:29:9:'xwerswoodx' commands 'Remove'=1
+03:29:'xwerswoodx' commands uid=040001fe9 (dialog stone) to 'Remove'=1
+03:29:9:'xwerswoodx' commands 'add i_stone_dialog'=1
+03:31:Server is being PAUSED for Resync
+03:31:Resync Restart
+03:31:
+Indexing the client files...
+03:31:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:31:Caching tiledata.mul...
+
+03:31:Indexing 204 script files...
+03:31:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:31:Done loading scripts.
+03:31:
+03:31:Resync complete!
+03:33:Garbage Collection: started.
+03:33:Garbage Collection: done. 18 Objects accounted for.
+03:33:World data saved   (datas/saves/sphereworld.scp).
+03:33:Player data saved  (datas/saves/spherechars.scp).
+03:33:Multi data saved   (datas/saves/spheremultis.scp).
+03:33:Context data saved (datas/saves/spheredata.scp).
+03:33:World save completed, took 0.0117 seconds.
+03:33:Server is being PAUSED for Resync
+03:33:Resync Restart
+03:33:
+Indexing the client files...
+03:33:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:33:Caching tiledata.mul...
+
+03:33:Indexing 204 script files...
+03:33:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:33:Done loading scripts.
+03:33:
+03:33:Resync complete!
+03:35:Server is being PAUSED for Resync
+03:35:Resync Restart
+03:35:
+Indexing the client files...
+03:35:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:35:Caching tiledata.mul...
+
+03:35:Indexing 204 script files...
+03:35:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:35:Done loading scripts.
+03:35:
+03:35:Resync complete!
+03:37:Server is being PAUSED for Resync
+03:37:Resync Restart
+03:37:
+Indexing the client files...
+03:37:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:37:Caching tiledata.mul...
+
+03:37:Indexing 204 script files...
+03:37:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:37:Done loading scripts.
+03:37:
+03:37:Resync complete!
+03:38:Garbage Collection: started.
+03:38:Garbage Collection: done. 18 Objects accounted for.
+03:38:World data saved   (datas/saves/sphereworld.scp).
+03:38:Player data saved  (datas/saves/spherechars.scp).
+03:38:Multi data saved   (datas/saves/spheremultis.scp).
+03:38:Context data saved (datas/saves/spheredata.scp).
+03:38:World save completed, took 0.0539 seconds.
+03:39:Server is being PAUSED for Resync
+03:39:Resync Restart
+03:39:
+Indexing the client files...
+03:39:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:39:Caching tiledata.mul...
+
+03:39:Indexing 204 script files...
+03:39:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:39:Done loading scripts.
+03:39:
+03:39:Resync complete!
+03:39:Server is being PAUSED for Resync
+03:39:Resync Restart
+03:39:
+Indexing the client files...
+03:39:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:39:Caching tiledata.mul...
+
+03:39:Indexing 204 script files...
+03:39:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:39:Done loading scripts.
+03:39:
+03:39:Resync complete!
+03:39:Server is being PAUSED for Resync
+03:39:Resync Restart
+03:39:
+Indexing the client files...
+03:39:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:39:Caching tiledata.mul...
+
+03:40:Indexing 204 script files...
+03:40:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:40:Done loading scripts.
+03:40:
+03:40:Resync complete!
+03:40:Server is being PAUSED for Resync
+03:40:Resync Restart
+03:40:
+Indexing the client files...
+03:40:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:40:Caching tiledata.mul...
+
+03:40:Indexing 204 script files...
+03:40:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:40:Done loading scripts.
+03:40:
+03:40:Resync complete!
+03:40:Server is being PAUSED for Resync
+03:40:Resync Restart
+03:40:
+Indexing the client files...
+03:40:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:40:Caching tiledata.mul...
+
+03:40:Indexing 204 script files...
+03:40:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:40:Done loading scripts.
+03:40:
+03:40:Resync complete!
+03:42:Server is being PAUSED for Resync
+03:42:Resync Restart
+03:42:
+Indexing the client files...
+03:42:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:42:Caching tiledata.mul...
+
+03:42:Indexing 204 script files...
+03:42:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:42:Done loading scripts.
+03:42:
+03:42:Resync complete!
+03:43:Server is being PAUSED for Resync
+03:43:Resync Restart
+03:43:
+Indexing the client files...
+03:43:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:43:Caching tiledata.mul...
+
+03:43:Indexing 204 script files...
+03:43:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:43:Done loading scripts.
+03:43:
+03:43:Resync complete!
+03:43:Garbage Collection: started.
+03:43:Garbage Collection: done. 18 Objects accounted for.
+03:43:World data saved   (datas/saves/sphereworld.scp).
+03:43:Player data saved  (datas/saves/spherechars.scp).
+03:43:Multi data saved   (datas/saves/spheremultis.scp).
+03:43:Context data saved (datas/saves/spheredata.scp).
+03:43:World save completed, took 0.8188 seconds.
+03:48:Garbage Collection: started.
+03:48:Garbage Collection: done. 18 Objects accounted for.
+03:48:World data saved   (datas/saves/sphereworld.scp).
+03:48:Player data saved  (datas/saves/spherechars.scp).
+03:48:Multi data saved   (datas/saves/spheremultis.scp).
+03:48:Context data saved (datas/saves/spheredata.scp).
+03:48:World save completed, took 0.9151 seconds.
+03:53:Garbage Collection: started.
+03:53:Garbage Collection: done. 18 Objects accounted for.
+03:53:World data saved   (datas/saves/sphereworld.scp).
+03:53:Player data saved  (datas/saves/spherechars.scp).
+03:53:Multi data saved   (datas/saves/spheremultis.scp).
+03:53:Context data saved (datas/saves/spheredata.scp).
+03:53:World save completed, took 0.0344 seconds.
+03:58:Garbage Collection: started.
+03:58:Garbage Collection: done. 18 Objects accounted for.
+03:58:World data saved   (datas/saves/sphereworld.scp).
+03:58:Player data saved  (datas/saves/spherechars.scp).
+03:58:Multi data saved   (datas/saves/spheremultis.scp).
+03:58:Context data saved (datas/saves/spheredata.scp).
+03:58:World save completed, took 0.3960 seconds.
+04:02:9:Client disconnected [Total:0]. Account: 'xwerswoodx'. Char: 'Hamit'. IP='127.0.0.1'.
+04:02:FATAL:Server terminated: Console window closed (code 5)

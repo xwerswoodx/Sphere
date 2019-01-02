@@ -1,0 +1,61 @@
+VERSION=0.56d
+// List of Types
+// kill
+
+[DEFNAME d_system_achievements]
+achievement_table = sphere_achievements
+
+ach_types = Kill
+ach_kill = Kill 100 gray horses|c_horse_gray|baseid|100|05007
+
+[FUNCTION f_ach_connect]
+IF !(<LDB.connected>)
+  LDB.connect "<DEF.DB_File>" //DB_File from sphere_add_sqlite.scp
+ENDIF
+
+
+// f_ach_add_kill <TARGET UID>
+[FUNCTION f_ach_add_kill]
+REF1=<ARGS>
+LOCAL.table = <DEF.achievement_table>_<ACCOUNT.NAME>_kill
+f_ach_connect
+LDB.execute CREATE TABLE IF NOT EXISTS '<LOCAL.table>' ('baseid' TEXT PRIMARY KEY NOT NULL, 'dispid' TEXT, 'amount' INT)
+LDB.execute BEGIN
+  LOCAL.baseId = <REF1.baseID>
+  LOCAL.dispId = <REF1.dispID>
+  LOCAL.amount = 1
+  LDB.query "SELECT * FROM <LOCAL.table> WHERE baseid LIKE '%<LOCAL.baseID>%'"
+IF (<LDB.Row.Numrows>)
+  LOCAL.amount += <LDB.row.0.amount>
+ENDIF
+LDB.query "DELETE FROM '<LOCAL.table>' WHERE baseid LIKE '%<LOCAL.baseId>%'"
+LDB.query INSERT INTO '<LOCAL.table>' ('baseid', 'dispid', 'amount') VALUES ("<LOCAL.baseID>", "<LOCAL.dispID>", <dLOCAL.AMOUNT>)
+LDB.execute COMMIT
+LDB.close
+
+// <f_ach_get <TYPE>,<PRIMARY KEY>,<EQUALS TO?>[,<RETURN VALUE>]
+// Check line 2 for types.
+[FUNCTION f_ach_get]
+LOCAL.type = <STRTOLOWER <ARGV[0]>>
+LOCAL.search = <ARGV[1]>
+LOCAL.equal = <ARGV[2]>
+LOCAL.get = amount
+IF !(<isEmpty <ARGV[3]>>)
+  LOCAL.get = <ARGV[3]>
+ENDIF
+f_ach_connect
+LDB.execute BEGIN
+  LDB.query "SELECT * FROM <DEF.achievement_table>_<ACCOUNT.NAME>_<LOCAL.type> WHERE <LOCAL.search> LIKE '%<LOCAL.equal>%'"
+  LOCAL.return <LDB.Row.0.<LOCAL.get>>
+LDB.execute COMMIT
+LDB.close
+RETURN <LOCAL.return>
+
+[DIALOG d_ach_dialog]
+0, 0
+NOMOVE
+dResizepic 100 100 500 400 Achievements
+oResizepic 120 150 160 330
+
+
+[EOF]

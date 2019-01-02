@@ -13,10 +13,9 @@
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 [DEFNAME adddef]
-DB_File = scripts/adddialog.db
+DB_File = datas/databases/local.db
 Item_DB = sphere_items
 Char_DB = sphere_chars
-
 
 [function f_add_rebuild]
 f_add_clear

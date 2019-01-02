@@ -1,0 +1,104 @@
+VERSION=0.56d
+
+// -
+// Armor Penetration (Bow + 2hnd Sw)
+// Bleeding
+// Stun
+// Multi Shot (Bow)
+// Dismount(2hnd Fence)
+// Disarm
+// -
+
+[Events e_bonus_armor_penetration]
+On=@Hit
+IF <ARGO.isItem>
+  LOCAL.bonusAmount = 30
+  IF (<ARGO.dTAG0.Penetration>)
+    LOCAL.bonusAmount = <ARGO.dTAG0.Penetration>
+  ENDIF
+
+  LOCAL.bonus=<eVal (<dARGN1> * <dLOCAL.bonusAmount>) / 100>
+  ARGN1 -= <dLOCAL.bonus>
+  SRC.DAMAGE <dLOCAL.bonus>,dam_god,<UID>
+ENDIF
+
+[Events e_bonus_bleeding]
+On=@Hit
+LOCAL.armsLoreBonus = <eVal <armsLore> / 200>
+LOCAL.itemIdBonus = <eVal <itemID> / 200>
+LOCAL.luckBonus = <eVal <LUCK> / 2>
+IF (<dLOCAL.luckBonus> > 50)
+  LOCAL.luckBonus = 50
+ELIF (<dLOCAL.luckBonus> <= 0)
+  LOCAL.luckBonus = 1
+ENDIF
+LOCAL.rand = <eVal 35 - <dLOCAL.armsLoreBonus> - <dLOCAL.itemIdBonus>>
+LOCAL.rand -= <eVal (<dLOCAL.rand> * <dLOCAL.luckBonus>) / 100>
+
+IF (<ARGO.isItem>) && !(<SRC.findID.i_handr_bleeding>) && (!<R25>)
+  LOCAL.skill = <<ARGO.SKILL>>
+  LOCAL.bonus = <eVal <dLOCAL.Skill> / 200>
+  SRC.newItem i_handr_bleeding
+  NEW.EQUIP
+  NEW.TAG0.damage=<dLOCAL.bonus>
+  NEW.LINK=<UID>
+  NEW.TIMER 1
+ENDIF
+
+[ITEMDEF i_handr_bleeding]
+ID=i_handr_1
+NAME=bleeding handler
+TYPE=t_eq_script
+
+On=@Create
+ATTR=attr_newbie|attr_invis
+MORE1=0
+
+On=@Timer
+IF (<dMORE1> < 7) && (<dTAG0.damage>) && (<LINK.isPlayer>)
+  MORE1 += 1
+  LOCAL.damageMin=<eVal <dTAG0.damage> - 1>
+  LOCAL.damageMax=<eVal <dTAG0.damage> + 1>
+  IF (<dLOCAL.damageMin> < 0)
+    LOCAL.damageMin=0
+  ENDIF
+  CONT.DAMAGE <R<dLOCAL.damageMin>,<dLOCAL.damageMax>>,dam_god,<LINK>
+  TIMER 1
+  RETURN 1
+ELSE
+  ATTR |=attr_decay
+ENDIF
+
+[Events e_bonus_stun]
+On=@Hit
+LOCAL.armsLoreBonus = <eVal <armsLore> / 200>
+LOCAL.itemIdBonus = <eVal <itemID> / 200>
+LOCAL.luckBonus = <eVal <LUCK> / 2>
+IF (<dLOCAL.luckBonus> > 50)
+  LOCAL.luckBonus = 50
+ELIF (<dLOCAL.luckBonus> <= 0)
+  LOCAL.luckBonus = 1
+ENDIF
+LOCAL.rand = <eVal 35 - <dLOCAL.armsLoreBonus> - <dLOCAL.itemIdBonus>>
+LOCAL.rand -= <eVal (<dLOCAL.rand> * <dLOCAL.luckBonus>) / 100>
+
+IF (<ARGO.isItem>) && (!<R<dLOCAL.rand>>)
+  LOCAL.skill = <<ARGO.SKILL>>
+  LOCAL.bonus = <eVal <dLOCAL.skill> / 400>
+  SRC.stunPlayer <dLOCAL.bonus>
+ENDIF
+
+// <SOURCE>.stunPlayer <second>
+[FUNCTION stunPlayer]
+TAG0.noMoveTill=<EVAL <SERV.TIME> + (6 * <dARGS>)>
+
+[FUNCTION emoteTR]
+LOCAL.color=<dDEF.SAY_DEF_COLOR>
+LOCAL.text=<ARGS>
+IF (STRMATCH('@*', '<ARGS>'))
+  LOCAL.color=<STRSUB 1 0 <STRARG <ARGS>>>
+  LOCAL.text=<STREAT <ARGS>>
+ENDIF
+SAYUA <dLOCAL.COLOR>,6,6,1 <LOCAL.text>
+
+[EOF]

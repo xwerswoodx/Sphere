@@ -1,0 +1,871 @@
+Log date: 2019/01/02 00:02:06
+00:02:Garbage Collection: started.
+00:02:Garbage Collection: done. 33 Objects accounted for.
+00:02:World data saved   (datas/saves/sphereworld.scp).
+00:02:Player data saved  (datas/saves/spherechars.scp).
+00:02:Multi data saved   (datas/saves/spheremultis.scp).
+00:02:Context data saved (datas/saves/spheredata.scp).
+00:02:World save completed, took 0.1896 seconds.
+00:07:Garbage Collection: started.
+00:07:Garbage Collection: done. 33 Objects accounted for.
+00:07:World data saved   (datas/saves/sphereworld.scp).
+00:07:Player data saved  (datas/saves/spherechars.scp).
+00:07:Multi data saved   (datas/saves/spheremultis.scp).
+00:07:Context data saved (datas/saves/spheredata.scp).
+00:07:World save completed, took 0.3534 seconds.
+00:12:Garbage Collection: started.
+00:12:Garbage Collection: done. 33 Objects accounted for.
+00:12:World data saved   (datas/saves/sphereworld.scp).
+00:12:Player data saved  (datas/saves/spherechars.scp).
+00:12:Multi data saved   (datas/saves/spheremultis.scp).
+00:12:Context data saved (datas/saves/spheredata.scp).
+00:12:World save completed, took 0.7645 seconds.
+00:17:Garbage Collection: started.
+00:17:Garbage Collection: done. 33 Objects accounted for.
+00:17:World data saved   (datas/saves/sphereworld.scp).
+00:17:Player data saved  (datas/saves/spherechars.scp).
+00:17:Multi data saved   (datas/saves/spheremultis.scp).
+00:17:Context data saved (datas/saves/spheredata.scp).
+00:17:World save completed, took 0.8669 seconds.
+00:22:Garbage Collection: started.
+00:22:Garbage Collection: done. 33 Objects accounted for.
+00:22:World data saved   (datas/saves/sphereworld.scp).
+00:22:Player data saved  (datas/saves/spherechars.scp).
+00:22:Multi data saved   (datas/saves/spheremultis.scp).
+00:22:Context data saved (datas/saves/spheredata.scp).
+00:22:World save completed, took 0.1446 seconds.
+00:27:Garbage Collection: started.
+00:27:Garbage Collection: done. 33 Objects accounted for.
+00:27:World data saved   (datas/saves/sphereworld.scp).
+00:27:Player data saved  (datas/saves/spherechars.scp).
+00:27:Multi data saved   (datas/saves/spheremultis.scp).
+00:27:Context data saved (datas/saves/spheredata.scp).
+00:27:World save completed, took 0.6354 seconds.
+00:32:Garbage Collection: started.
+00:32:Garbage Collection: done. 33 Objects accounted for.
+00:32:World data saved   (datas/saves/sphereworld.scp).
+00:32:Player data saved  (datas/saves/spherechars.scp).
+00:32:Multi data saved   (datas/saves/spheremultis.scp).
+00:32:Context data saved (datas/saves/spheredata.scp).
+00:32:World save completed, took 0.4239 seconds.
+00:37:Garbage Collection: started.
+00:37:Garbage Collection: done. 33 Objects accounted for.
+00:37:World data saved   (datas/saves/sphereworld.scp).
+00:37:Player data saved  (datas/saves/spherechars.scp).
+00:37:Multi data saved   (datas/saves/spheremultis.scp).
+00:37:Context data saved (datas/saves/spheredata.scp).
+00:37:World save completed, took 0.6781 seconds.
+00:42:Garbage Collection: started.
+00:42:Garbage Collection: done. 33 Objects accounted for.
+00:42:World data saved   (datas/saves/sphereworld.scp).
+00:42:Player data saved  (datas/saves/spherechars.scp).
+00:42:Multi data saved   (datas/saves/spheremultis.scp).
+00:42:Context data saved (datas/saves/spheredata.scp).
+00:42:World save completed, took 0.5888 seconds.
+00:47:Garbage Collection: started.
+00:47:Garbage Collection: done. 33 Objects accounted for.
+00:47:World data saved   (datas/saves/sphereworld.scp).
+00:47:Player data saved  (datas/saves/spherechars.scp).
+00:47:Multi data saved   (datas/saves/spheremultis.scp).
+00:47:Context data saved (datas/saves/spheredata.scp).
+00:47:World save completed, took 0.1719 seconds.
+00:52:Garbage Collection: started.
+00:52:Garbage Collection: done. 33 Objects accounted for.
+00:52:World data saved   (datas/saves/sphereworld.scp).
+00:52:Player data saved  (datas/saves/spherechars.scp).
+00:52:Multi data saved   (datas/saves/spheremultis.scp).
+00:52:Context data saved (datas/saves/spheredata.scp).
+00:52:World save completed, took 0.5564 seconds.
+00:57:Garbage Collection: started.
+00:57:Garbage Collection: done. 33 Objects accounted for.
+00:57:World data saved   (datas/saves/sphereworld.scp).
+00:57:Player data saved  (datas/saves/spherechars.scp).
+00:57:Multi data saved   (datas/saves/spheremultis.scp).
+00:57:Context data saved (datas/saves/spheredata.scp).
+00:57:World save completed, took 0.2394 seconds.
+01:02:Garbage Collection: started.
+01:02:Garbage Collection: done. 33 Objects accounted for.
+01:02:World data saved   (datas/saves/sphereworld.scp).
+01:02:Player data saved  (datas/saves/spherechars.scp).
+01:02:Multi data saved   (datas/saves/spheremultis.scp).
+01:02:Context data saved (datas/saves/spheredata.scp).
+01:02:World save completed, took 0.1123 seconds.
+01:07:Garbage Collection: started.
+01:07:Garbage Collection: done. 33 Objects accounted for.
+01:07:World data saved   (datas/saves/sphereworld.scp).
+01:07:Player data saved  (datas/saves/spherechars.scp).
+01:07:Multi data saved   (datas/saves/spheremultis.scp).
+01:07:Context data saved (datas/saves/spheredata.scp).
+01:07:World save completed, took 0.1867 seconds.
+01:12:Garbage Collection: started.
+01:12:Garbage Collection: done. 33 Objects accounted for.
+01:12:World data saved   (datas/saves/sphereworld.scp).
+01:12:Player data saved  (datas/saves/spherechars.scp).
+01:12:Multi data saved   (datas/saves/spheremultis.scp).
+01:12:Context data saved (datas/saves/spheredata.scp).
+01:12:World save completed, took 0.5582 seconds.
+01:17:Garbage Collection: started.
+01:17:Garbage Collection: done. 33 Objects accounted for.
+01:17:World data saved   (datas/saves/sphereworld.scp).
+01:17:Player data saved  (datas/saves/spherechars.scp).
+01:17:Multi data saved   (datas/saves/spheremultis.scp).
+01:17:Context data saved (datas/saves/spheredata.scp).
+01:17:World save completed, took 0.4830 seconds.
+01:22:Garbage Collection: started.
+01:22:Garbage Collection: done. 33 Objects accounted for.
+01:22:World data saved   (datas/saves/sphereworld.scp).
+01:22:Player data saved  (datas/saves/spherechars.scp).
+01:22:Multi data saved   (datas/saves/spheremultis.scp).
+01:22:Context data saved (datas/saves/spheredata.scp).
+01:22:World save completed, took 0.1009 seconds.
+01:27:Garbage Collection: started.
+01:27:Garbage Collection: done. 33 Objects accounted for.
+01:27:World data saved   (datas/saves/sphereworld.scp).
+01:27:Player data saved  (datas/saves/spherechars.scp).
+01:27:Multi data saved   (datas/saves/spheremultis.scp).
+01:27:Context data saved (datas/saves/spheredata.scp).
+01:27:World save completed, took 0.4915 seconds.
+01:32:Garbage Collection: started.
+01:32:Garbage Collection: done. 33 Objects accounted for.
+01:32:World data saved   (datas/saves/sphereworld.scp).
+01:32:Player data saved  (datas/saves/spherechars.scp).
+01:32:Multi data saved   (datas/saves/spheremultis.scp).
+01:32:Context data saved (datas/saves/spheredata.scp).
+01:32:World save completed, took 0.7375 seconds.
+01:37:Garbage Collection: started.
+01:37:Garbage Collection: done. 33 Objects accounted for.
+01:37:World data saved   (datas/saves/sphereworld.scp).
+01:37:Player data saved  (datas/saves/spherechars.scp).
+01:37:Multi data saved   (datas/saves/spheremultis.scp).
+01:37:Context data saved (datas/saves/spheredata.scp).
+01:37:World save completed, took 0.4083 seconds.
+01:42:Garbage Collection: started.
+01:42:Garbage Collection: done. 33 Objects accounted for.
+01:42:World data saved   (datas/saves/sphereworld.scp).
+01:42:Player data saved  (datas/saves/spherechars.scp).
+01:42:Multi data saved   (datas/saves/spheremultis.scp).
+01:42:Context data saved (datas/saves/spheredata.scp).
+01:42:World save completed, took 0.4654 seconds.
+01:47:Garbage Collection: started.
+01:47:Garbage Collection: done. 33 Objects accounted for.
+01:47:World data saved   (datas/saves/sphereworld.scp).
+01:47:Player data saved  (datas/saves/spherechars.scp).
+01:47:Multi data saved   (datas/saves/spheremultis.scp).
+01:47:Context data saved (datas/saves/spheredata.scp).
+01:47:World save completed, took 0.6726 seconds.
+01:50:1:'xwerswoodx' commands 'static i_stone_dialog'=1
+01:52:Garbage Collection: started.
+01:52:Garbage Collection: done. 34 Objects accounted for.
+01:52:World data saved   (datas/saves/sphereworld.scp).
+01:52:Player data saved  (datas/saves/spherechars.scp).
+01:52:Multi data saved   (datas/saves/spheremultis.scp).
+01:52:Context data saved (datas/saves/spheredata.scp).
+01:52:World save completed, took 0.6557 seconds.
+01:57:Garbage Collection: started.
+01:57:Garbage Collection: done. 34 Objects accounted for.
+01:57:World data saved   (datas/saves/sphereworld.scp).
+01:57:Player data saved  (datas/saves/spherechars.scp).
+01:57:Multi data saved   (datas/saves/spheremultis.scp).
+01:57:Context data saved (datas/saves/spheredata.scp).
+01:57:World save completed, took 0.8388 seconds.
+02:02:Garbage Collection: started.
+02:02:Garbage Collection: done. 34 Objects accounted for.
+02:02:World data saved   (datas/saves/sphereworld.scp).
+02:02:Player data saved  (datas/saves/spherechars.scp).
+02:02:Multi data saved   (datas/saves/spheremultis.scp).
+02:02:Context data saved (datas/saves/spheredata.scp).
+02:02:World save completed, took 0.3646 seconds.
+02:07:Garbage Collection: started.
+02:07:Garbage Collection: done. 34 Objects accounted for.
+02:07:World data saved   (datas/saves/sphereworld.scp).
+02:07:Player data saved  (datas/saves/spherechars.scp).
+02:07:Multi data saved   (datas/saves/spheremultis.scp).
+02:07:Context data saved (datas/saves/spheredata.scp).
+02:07:World save completed, took 0.4001 seconds.
+02:12:Garbage Collection: started.
+02:12:Garbage Collection: done. 34 Objects accounted for.
+02:12:World data saved   (datas/saves/sphereworld.scp).
+02:12:Player data saved  (datas/saves/spherechars.scp).
+02:12:Multi data saved   (datas/saves/spheremultis.scp).
+02:12:Context data saved (datas/saves/spheredata.scp).
+02:12:World save completed, took 0.2662 seconds.
+02:17:Garbage Collection: started.
+02:17:Garbage Collection: done. 34 Objects accounted for.
+02:17:World data saved   (datas/saves/sphereworld.scp).
+02:17:Player data saved  (datas/saves/spherechars.scp).
+02:17:Multi data saved   (datas/saves/spheremultis.scp).
+02:17:Context data saved (datas/saves/spheredata.scp).
+02:17:World save completed, took 0.3386 seconds.
+02:22:Garbage Collection: started.
+02:22:Garbage Collection: done. 34 Objects accounted for.
+02:22:World data saved   (datas/saves/sphereworld.scp).
+02:22:Player data saved  (datas/saves/spherechars.scp).
+02:22:Multi data saved   (datas/saves/spheremultis.scp).
+02:22:Context data saved (datas/saves/spheredata.scp).
+02:22:World save completed, took 0.1813 seconds.
+02:27:Garbage Collection: started.
+02:27:Garbage Collection: done. 34 Objects accounted for.
+02:27:World data saved   (datas/saves/sphereworld.scp).
+02:27:Player data saved  (datas/saves/spherechars.scp).
+02:27:Multi data saved   (datas/saves/spheremultis.scp).
+02:27:Context data saved (datas/saves/spheredata.scp).
+02:27:World save completed, took 0.3579 seconds.
+02:32:Garbage Collection: started.
+02:32:Garbage Collection: done. 34 Objects accounted for.
+02:32:World data saved   (datas/saves/sphereworld.scp).
+02:32:Player data saved  (datas/saves/spherechars.scp).
+02:32:Multi data saved   (datas/saves/spheremultis.scp).
+02:32:Context data saved (datas/saves/spheredata.scp).
+02:32:World save completed, took 0.2703 seconds.
+02:37:Garbage Collection: started.
+02:37:Garbage Collection: done. 34 Objects accounted for.
+02:37:World data saved   (datas/saves/sphereworld.scp).
+02:37:Player data saved  (datas/saves/spherechars.scp).
+02:37:Multi data saved   (datas/saves/spheremultis.scp).
+02:37:Context data saved (datas/saves/spheredata.scp).
+02:37:World save completed, took 0.2738 seconds.
+02:42:Garbage Collection: started.
+02:42:Garbage Collection: done. 34 Objects accounted for.
+02:42:World data saved   (datas/saves/sphereworld.scp).
+02:42:Player data saved  (datas/saves/spherechars.scp).
+02:42:Multi data saved   (datas/saves/spheremultis.scp).
+02:42:Context data saved (datas/saves/spheredata.scp).
+02:42:World save completed, took 0.6330 seconds.
+02:45:1:'xwerswoodx' commands 'xtaglist'=1
+02:45:'xwerswoodx' commands uid=040001fc0 (dialog stone) to 'taglist'=1
+02:46:1:'xwerswoodx' commands 'xtag.line_8=htmlgump_7 DCROPPEDTEXT 110 100 65 20 0 <center>01'=1
+02:46:'xwerswoodx' commands uid=040001fc0 (dialog stone) to 'tag.line_8 htmlgump_7 DCROPPEDTEXT 110 100 65 20 0 <center>01'=1
+02:46:1:'xwerswoodx' commands 'xtag.line_8=htmlgump_7 DCROPPEDTEXT 110 100 65 20 0 01'=1
+02:46:'xwerswoodx' commands uid=040001fc0 (dialog stone) to 'tag.line_8 htmlgump_7 DCROPPEDTEXT 110 100 65 20 0 01'=1
+02:47:Garbage Collection: started.
+02:47:Garbage Collection: done. 34 Objects accounted for.
+02:47:World data saved   (datas/saves/sphereworld.scp).
+02:47:Player data saved  (datas/saves/spherechars.scp).
+02:47:Multi data saved   (datas/saves/spheremultis.scp).
+02:47:Context data saved (datas/saves/spheredata.scp).
+02:47:World save completed, took 0.6122 seconds.
+02:52:Garbage Collection: started.
+02:52:Garbage Collection: done. 34 Objects accounted for.
+02:52:World data saved   (datas/saves/sphereworld.scp).
+02:52:Player data saved  (datas/saves/spherechars.scp).
+02:52:Multi data saved   (datas/saves/spheremultis.scp).
+02:52:Context data saved (datas/saves/spheredata.scp).
+02:52:World save completed, took 0.9876 seconds.
+02:53:Server is being PAUSED for Resync
+02:53:Resync Restart
+02:53:
+Indexing the client files...
+02:53:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:53:Caching tiledata.mul...
+
+02:53:Indexing 204 script files...
+02:53:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:53:Done loading scripts.
+02:53:
+02:53:Resync complete!
+02:53:Server is being PAUSED for Resync
+02:53:Resync Restart
+02:53:
+Indexing the client files...
+02:53:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:53:Caching tiledata.mul...
+
+02:53:Indexing 204 script files...
+02:53:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:53:Done loading scripts.
+02:53:
+02:53:Resync complete!
+02:57:Garbage Collection: started.
+02:57:Garbage Collection: done. 34 Objects accounted for.
+02:57:World data saved   (datas/saves/sphereworld.scp).
+02:57:Player data saved  (datas/saves/spherechars.scp).
+02:57:Multi data saved   (datas/saves/spheremultis.scp).
+02:57:Context data saved (datas/saves/spheredata.scp).
+02:57:World save completed, took 0.4348 seconds.
+02:58:Server is being PAUSED for Resync
+02:58:Resync Restart
+02:58:
+Indexing the client files...
+02:58:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:58:Caching tiledata.mul...
+
+02:58:Indexing 204 script files...
+02:58:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:58:Done loading scripts.
+02:58:
+02:58:Resync complete!
+02:59:Server is being PAUSED for Resync
+02:59:Resync Restart
+02:59:
+Indexing the client files...
+02:59:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+02:59:Caching tiledata.mul...
+
+02:59:Indexing 204 script files...
+02:59:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+02:59:Done loading scripts.
+02:59:
+02:59:Resync complete!
+02:59:ERROR:(sphere_system_dialogs.scp,750)Can't resolve <ARGTXT[24005]>
+03:00:Server is being PAUSED for Resync
+03:00:Resync Restart
+03:00:
+Indexing the client files...
+03:00:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:00:Caching tiledata.mul...
+
+03:00:Indexing 204 script files...
+03:00:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:00:Done loading scripts.
+03:00:
+03:00:Resync complete!
+03:00:Server is being PAUSED for Resync
+03:00:Resync Restart
+03:00:
+Indexing the client files...
+03:00:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:00:Caching tiledata.mul...
+
+03:00:Indexing 204 script files...
+03:00:WARNING:Resource 'datas/scripts/systems/sphere_system_dialogs.scp' changed, resync.
+03:00:Done loading scripts.
+03:00:
+03:00:Resync complete!
+03:02:Garbage Collection: started.
+03:02:Garbage Collection: done. 34 Objects accounted for.
+03:02:World data saved   (datas/saves/sphereworld.scp).
+03:02:Player data saved  (datas/saves/spherechars.scp).
+03:02:Multi data saved   (datas/saves/spheremultis.scp).
+03:02:Context data saved (datas/saves/spheredata.scp).
+03:02:World save completed, took 0.4866 seconds.
+03:07:Garbage Collection: started.
+03:07:Garbage Collection: done. 34 Objects accounted for.
+03:07:World data saved   (datas/saves/sphereworld.scp).
+03:07:Player data saved  (datas/saves/spherechars.scp).
+03:07:Multi data saved   (datas/saves/spheremultis.scp).
+03:07:Context data saved (datas/saves/spheredata.scp).
+03:07:World save completed, took 0.6709 seconds.
+03:12:Garbage Collection: started.
+03:12:Garbage Collection: done. 34 Objects accounted for.
+03:12:World data saved   (datas/saves/sphereworld.scp).
+03:12:Player data saved  (datas/saves/spherechars.scp).
+03:12:Multi data saved   (datas/saves/spheremultis.scp).
+03:12:Context data saved (datas/saves/spheredata.scp).
+03:12:World save completed, took 0.7107 seconds.
+03:17:Garbage Collection: started.
+03:17:Garbage Collection: done. 34 Objects accounted for.
+03:17:World data saved   (datas/saves/sphereworld.scp).
+03:17:Player data saved  (datas/saves/spherechars.scp).
+03:17:Multi data saved   (datas/saves/spheremultis.scp).
+03:17:Context data saved (datas/saves/spheredata.scp).
+03:17:World save completed, took 0.7059 seconds.
+03:22:Garbage Collection: started.
+03:22:Garbage Collection: done. 34 Objects accounted for.
+03:22:World data saved   (datas/saves/sphereworld.scp).
+03:22:Player data saved  (datas/saves/spherechars.scp).
+03:22:Multi data saved   (datas/saves/spheremultis.scp).
+03:22:Context data saved (datas/saves/spheredata.scp).
+03:22:World save completed, took 0.9501 seconds.
+03:27:Garbage Collection: started.
+03:27:Garbage Collection: done. 34 Objects accounted for.
+03:27:World data saved   (datas/saves/sphereworld.scp).
+03:27:Player data saved  (datas/saves/spherechars.scp).
+03:27:Multi data saved   (datas/saves/spheremultis.scp).
+03:27:Context data saved (datas/saves/spheredata.scp).
+03:27:World save completed, took 0.8702 seconds.
+03:32:Garbage Collection: started.
+03:32:Garbage Collection: done. 34 Objects accounted for.
+03:32:World data saved   (datas/saves/sphereworld.scp).
+03:32:Player data saved  (datas/saves/spherechars.scp).
+03:32:Multi data saved   (datas/saves/spheremultis.scp).
+03:32:Context data saved (datas/saves/spheredata.scp).
+03:32:World save completed, took 0.0314 seconds.
+03:37:Garbage Collection: started.
+03:37:Garbage Collection: done. 34 Objects accounted for.
+03:37:World data saved   (datas/saves/sphereworld.scp).
+03:37:Player data saved  (datas/saves/spherechars.scp).
+03:37:Multi data saved   (datas/saves/spheremultis.scp).
+03:37:Context data saved (datas/saves/spheredata.scp).
+03:37:World save completed, took 0.8875 seconds.
+03:40:FATAL:Server terminated: Console window closed (code 5)
+03:41:SphereServer-eXperimental Version 0.56d-Nightly [WIN64] by www.spherecommunity.net.
+03:41:Compiled at Jan  1 2019 (19:30:12) [build 2997 / GIT hash 6bff15a855c0205d28c0fac6b0a1484f386170ed]
+
+03:41:WARNING:
+-----------------------------------------------------------------
+This is a nightly build of SphereServer. This build is to be used for testing and/or bug reporting ONLY.
+DO NOT run this build on a live shard unless you know what you are doing!
+Nightly builds are automatically made at every commit to the source code repository and might
+contain errors, might be unstable or even destroy your shard as they are mostly untested!
+-----------------------------------------------------------------
+
+03:41:
+Indexing the client files...
+03:41:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:41:Caching tiledata.mul...
+03:41:WARNING:(spheretables.scp,37)'datas/scripts/sphere_events_human.scp' not found...
+
+03:41:Initializing the world...
+03:41:Allocated map sectors: map0=7168 map1=7168 map2=900 map3=1280 map4=484 map5=1280
+
+03:41:Indexing 202 script files...
+03:41:Loading datas/scripts/sphere_admin.scp
+03:41:Loading datas/scripts/sphere_backward_compatibility.scp
+03:41:Loading datas/scripts/sphere_book.scp
+03:41:Loading datas/scripts/sphere_defs.scp
+03:41:Loading datas/scripts/sphere_dialog.scp
+03:41:Loading datas/scripts/sphere_events_npcs.scp
+03:41:Loading datas/scripts/sphere_menu.scp
+03:41:Loading datas/scripts/sphere_name.scp
+03:41:Loading datas/scripts/sphere_serv_triggers.scp
+03:41:Loading datas/scripts/sphere_skills.scp
+03:41:Loading datas/scripts/sphere_skillmenu.scp
+03:41:Loading datas/scripts/sphere_newb.scp
+03:41:Loading datas/scripts/sphere_speech.scp
+03:41:Loading datas/scripts/sphere_types.scp
+03:41:Loading datas/scripts/items/sphere_item_animations.scp
+03:41:Loading datas/scripts/items/sphere_item_artifacts.scp
+03:41:Loading datas/scripts/items/sphere_item_artifacts_minor.scp
+03:41:Loading datas/scripts/items/sphere_item_artifacts_tokuno.scp
+03:41:Loading datas/scripts/items/sphere_item_boulders_rocks.scp
+03:41:Loading datas/scripts/items/sphere_item_buildings.scp
+03:41:Loading datas/scripts/items/sphere_item_building_doors.scp
+03:41:Loading datas/scripts/items/sphere_item_building_floors.scp
+03:41:Loading datas/scripts/items/sphere_item_building_other.scp
+03:41:Loading datas/scripts/items/sphere_item_building_roofs.scp
+03:41:Loading datas/scripts/items/sphere_item_building_stairs.scp
+03:41:Loading datas/scripts/items/sphere_item_building_walls.scp
+03:41:Loading datas/scripts/items/sphere_item_char_icons.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_carpet_rugs.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_carvings_statues.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_dungeons_traps_dead.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_fireplace_chimney_oven.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_furniture.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_lightsources.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_miniatures.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_signs.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_themed_collections.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_virtues.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_wall_hangings.scp
+03:41:Loading datas/scripts/items/sphere_item_ground_tiles.scp
+03:41:Loading datas/scripts/items/sphere_item_holiday_anniversary.scp
+03:41:Loading datas/scripts/items/sphere_item_holiday_christmas.scp
+03:41:Loading datas/scripts/items/sphere_item_holiday_easter.scp
+03:41:Loading datas/scripts/items/sphere_item_holiday_halloween.scp
+03:41:Loading datas/scripts/items/sphere_item_holiday_other.scp
+03:41:Loading datas/scripts/items/sphere_item_holiday_valentines.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_armor.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_chivalry.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_leather.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_magery.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_mysticism.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_necromancer_aos.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_ninjitsu_bushido.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_skillmasteries.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_spellweaving.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_wands.scp
+03:41:Loading datas/scripts/items/sphere_item_memories.scp
+03:41:Loading datas/scripts/items/sphere_item_misc.scp
+03:41:Loading datas/scripts/items/sphere_item_offset.scp
+03:41:Loading datas/scripts/items/sphere_item_profession.scp
+03:41:Loading datas/scripts/items/sphere_item_profession_alchemist.scp
+03:41:Loading datas/scripts/items/sphere_item_profession_barber.scp
+03:41:Loading datas/scripts/items/sphere_item_profession_cartographer.scp
+03:41:Loading datas/scripts/items/sphere_item_profession_cook_barkeep_baker.scp
+03:41:Loading datas/scripts/items/sphere_item_profession_tailor_tanner.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_armor.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_armor_color.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_clothing.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_deed.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_jewelry.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_logs.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_misc.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_ore.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_potions.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_shields.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_weapons.scp
+03:41:Loading datas/scripts/items/sphere_item_quests.scp
+03:41:Loading datas/scripts/items/sphere_item_resources.scp
+03:41:Loading datas/scripts/items/sphere_item_ship_parts.scp
+03:41:Loading datas/scripts/items/sphere_item_ship_parts_britannian.scp
+03:41:Loading datas/scripts/items/sphere_item_ship_parts_gargish.scp
+03:41:Loading datas/scripts/items/sphere_item_ship_parts_orcish.scp
+03:41:Loading datas/scripts/items/sphere_item_ship_parts_tokuno.scp
+03:41:Loading datas/scripts/items/sphere_item_siege.scp
+03:41:Loading datas/scripts/items/sphere_item_theme_pack_crystal.scp
+03:41:Loading datas/scripts/items/sphere_item_theme_pack_gothic.scp
+03:41:Loading datas/scripts/items/sphere_item_theme_pack_kings_collection.scp
+03:41:Loading datas/scripts/items/sphere_item_theme_pack_rustic.scp
+03:41:Loading datas/scripts/items/sphere_item_theme_pack_shadow.scp
+03:41:Loading datas/scripts/items/sphere_item_typedefs.scp
+03:41:Loading datas/scripts/items/sphere_item_typedef_equipitem.scp
+03:41:Loading datas/scripts/items/sphere_item_unsorted.scp
+03:41:Loading datas/scripts/items/sphere_item_vegetation.scp
+03:41:Loading datas/scripts/items/sphere_item_veteran_rewards.scp
+03:41:Loading datas/scripts/items/sphere_item_vice_virtue.scp
+03:41:Loading datas/scripts/items/sphere_item_wedding.scp
+03:41:Loading datas/scripts/items/multis/multis_foundations.scp
+03:41:Loading datas/scripts/items/multis/multis_houses.scp
+03:41:Loading datas/scripts/items/multis/multis_magincia_bazaar.scp
+03:41:Loading datas/scripts/items/multis/multis_misc.scp
+03:41:Loading datas/scripts/items/multis/multis_ships.scp
+03:41:Loading datas/scripts/items/multis/multis_stairs.scp
+03:41:Loading datas/scripts/items/multis/multis_wandering_camps.scp
+03:41:Loading datas/scripts/templates/sphere_template.scp
+03:41:Loading datas/scripts/templates/sphere_template_armor.scp
+03:41:Loading datas/scripts/templates/sphere_template_loot.scp
+03:41:Loading datas/scripts/templates/sphere_template_magic.scp
+03:41:Loading datas/scripts/templates/sphere_template_misc.scp
+03:41:Loading datas/scripts/templates/sphere_template_vend.scp
+03:41:Loading datas/scripts/templates/sphere_template_weapons.scp
+03:41:Loading datas/scripts/stones/sphere_genericstone_config.scp
+03:41:Loading datas/scripts/stones/sphere_genericstone_functions.scp
+03:41:Loading datas/scripts/stones/sphere_genericstone_items.scp
+03:41:Loading datas/scripts/stones/sphere_genericstone_types.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_config.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_align.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_charlist.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_charter.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_guildlist.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_main.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_master.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_warfareadmin.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_warfaredeclare.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_warfarestatus.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_events.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_functions.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_functions_player.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_items.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_promptconsole.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_speech.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_types.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_config.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_align.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_charlist.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_charter.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_main.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_master.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_townlist.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_warfareadmin.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_warfaredeclare.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_warfarestatus.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_events.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_functions.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_functions_player.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_items.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_promptconsole.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_speech.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_types.scp
+03:41:Loading datas/scripts/npcs/spherechar_grave.scp
+03:41:Loading datas/scripts/npcs/spherechar_evil.scp
+03:41:Loading datas/scripts/npcs/spherechar_human.scp
+03:41:Loading datas/scripts/npcs/sphere_citizens.scp
+03:41:Loading datas/scripts/npcs/sphere_guildmasters.scp
+03:41:Loading datas/scripts/npcs/sphere_monsters.scp
+03:41:Loading datas/scripts/npcs/sphere_monsters_custom.scp
+03:41:Loading datas/scripts/npcs/sphere_vendors.scp
+03:41:Loading datas/scripts/speech/speakhuman.scp
+03:41:Loading datas/scripts/speech/speakshopkeep.scp
+03:41:Loading datas/scripts/speech/spk_house_cmds.scp
+03:41:Loading datas/scripts/speech/spk_ship_cmds.scp
+03:41:Loading datas/scripts/systems/sphere_system_achievements.scp
+03:41:Loading datas/scripts/systems/sphere_system_aquarium.scp
+03:41:Loading datas/scripts/systems/sphere_system_dialogs.scp
+03:41:Loading datas/scripts/systems/sphere_system_secret_chest.scp
+03:41:Loading datas/scripts/systems/sphere_system_spawn.scp
+03:41:Loading datas/scripts/systems/sphere_system_treasure_maps.scp
+03:41:Loading datas/scripts/systems/sphere_system_upgrade.scp
+03:41:Loading datas/scripts/systems/sphere_system_weapon_bonus.scp
+03:41:Loading datas/scripts/sphere_spawns.scp
+03:41:Loading datas/scripts/sphere_spells.scp
+03:41:Loading datas/scripts/functions/sphere_function_dialog.scp
+03:41:Loading datas/scripts/functions/sphere_function_misc.scp
+03:41:Loading datas/scripts/sphere_region.scp
+03:41:Loading datas/scripts/maps/sphere_map0.scp
+03:41:Loading datas/scripts/maps/sphere_map0_ml.scp
+03:41:Loading datas/scripts/maps/sphere_map0_sa.scp
+03:41:Loading datas/scripts/maps/sphere_map0_hs.scp
+03:41:Loading datas/scripts/maps/sphere_map1.scp
+03:41:Loading datas/scripts/maps/sphere_map2.scp
+03:41:Loading datas/scripts/maps/sphere_map2_ml.scp
+03:41:Loading datas/scripts/maps/sphere_map3.scp
+03:41:Loading datas/scripts/maps/sphere_map3_se.scp
+03:41:Loading datas/scripts/maps/sphere_map3_ml.scp
+03:41:Loading datas/scripts/maps/sphere_map4.scp
+03:41:Loading datas/scripts/maps/sphere_map5.scp
+03:41:Loading datas/scripts/maps/sphere_map5_tol.scp
+03:41:Loading datas/scripts/maps/sphere_map_points0.scp
+03:41:Loading datas/scripts/maps/sphere_map_points0_ml.scp
+03:41:Loading datas/scripts/maps/sphere_map_points0_hs.scp
+03:41:Loading datas/scripts/maps/sphere_map_points0_tol.scp
+03:41:Loading datas/scripts/maps/sphere_map_points1.scp
+03:41:Loading datas/scripts/maps/sphere_map_points2.scp
+03:41:Loading datas/scripts/maps/sphere_map_points2_ml.scp
+03:41:Loading datas/scripts/maps/sphere_map_points3.scp
+03:41:Loading datas/scripts/maps/sphere_map_points3_se.scp
+03:41:Loading datas/scripts/maps/sphere_map_points3_ml.scp
+03:41:Loading datas/scripts/maps/sphere_map_points4.scp
+03:41:Loading datas/scripts/maps/sphere_map_points5.scp
+03:41:Loading datas/scripts/maps/sphere_map_points5_tol.scp
+03:41:Loading datas/scripts/bin.scp
+03:41:Loading datas/scripts/sphere_add_sqlite.scp
+03:41:Loading datas/scripts/sphere_combat.scp
+03:41:Loading datas/scripts/sphere_msgs.scp
+03:41:Done loading scripts (52 of 206 triggers used).
+03:41:
+03:41:Loaded 247 client encryption keys.
+03:41:Server started on hostname 'DESKTOP-GIBNJ24'
+03:41:Monitoring IP 192.168.0.3:2593
+03:41:Loading datas/saves/spheredata.scp...
+03:41:Loading datas/saves/spherestatics.scp...
+03:41:Loading datas/saves/sphereworld.scp...
+03:41:Loading datas/saves/spherechars.scp...
+03:41:Loading datas/saves/spheremultis.scp...
+03:41:Garbage Collection: started.
+03:41:Garbage Collection: done. 33 Objects accounted for.
+03:41:Option flags: NoDClickTarget + ScaleDamageByDurability + CommandSysmessages + OSIMultiSight + FileCommands + NoHouseMuteSpeech + FloodProtection + Buffs + NoPrefix + DyeType + DrinkIsFood
+03:41:Experimental flags: ItemStacking + TelnetPacketFilter + ScriptProfiler + DamageTools
+03:41:Admin=hamitdevecioglu@gmail.com, URL=www.uo-developer.com, Lang=Turkish, TZ=0
+03:41:Startup complete. items=32, chars=1
+03:41:Press '?' for console commands.
+03:41:FATAL:Server terminated: Console window closed (code 5)
+03:41:SphereServer-eXperimental Version 0.56d-Nightly [WIN64] by www.spherecommunity.net.
+03:41:Compiled at Jan  1 2019 (19:30:12) [build 2997 / GIT hash 6bff15a855c0205d28c0fac6b0a1484f386170ed]
+
+03:41:WARNING:
+-----------------------------------------------------------------
+This is a nightly build of SphereServer. This build is to be used for testing and/or bug reporting ONLY.
+DO NOT run this build on a live shard unless you know what you are doing!
+Nightly builds are automatically made at every commit to the source code repository and might
+contain errors, might be unstable or even destroy your shard as they are mostly untested!
+-----------------------------------------------------------------
+
+03:41:
+Indexing the client files...
+03:41:Expansion maps supported: Felucca (0), Trammel (1), Ilshenar (2), Malas (3), Tokuno Islands (4), Ter Mur (5)
+03:41:Caching tiledata.mul...
+
+03:41:Initializing the world...
+03:41:Allocated map sectors: map0=7168 map1=7168 map2=900 map3=1280 map4=484 map5=1280
+
+03:41:Indexing 202 script files...
+03:41:Loading datas/scripts/sphere_admin.scp
+03:41:Loading datas/scripts/sphere_backward_compatibility.scp
+03:41:Loading datas/scripts/sphere_book.scp
+03:41:Loading datas/scripts/sphere_defs.scp
+03:41:Loading datas/scripts/sphere_dialog.scp
+03:41:Loading datas/scripts/sphere_events_npcs.scp
+03:41:Loading datas/scripts/sphere_menu.scp
+03:41:Loading datas/scripts/sphere_name.scp
+03:41:Loading datas/scripts/sphere_serv_triggers.scp
+03:41:Loading datas/scripts/sphere_skills.scp
+03:41:Loading datas/scripts/sphere_skillmenu.scp
+03:41:Loading datas/scripts/sphere_newb.scp
+03:41:Loading datas/scripts/sphere_speech.scp
+03:41:Loading datas/scripts/sphere_types.scp
+03:41:Loading datas/scripts/items/sphere_item_animations.scp
+03:41:Loading datas/scripts/items/sphere_item_artifacts.scp
+03:41:Loading datas/scripts/items/sphere_item_artifacts_minor.scp
+03:41:Loading datas/scripts/items/sphere_item_artifacts_tokuno.scp
+03:41:Loading datas/scripts/items/sphere_item_boulders_rocks.scp
+03:41:Loading datas/scripts/items/sphere_item_buildings.scp
+03:41:Loading datas/scripts/items/sphere_item_building_doors.scp
+03:41:Loading datas/scripts/items/sphere_item_building_floors.scp
+03:41:Loading datas/scripts/items/sphere_item_building_other.scp
+03:41:Loading datas/scripts/items/sphere_item_building_roofs.scp
+03:41:Loading datas/scripts/items/sphere_item_building_stairs.scp
+03:41:Loading datas/scripts/items/sphere_item_building_walls.scp
+03:41:Loading datas/scripts/items/sphere_item_char_icons.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_carpet_rugs.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_carvings_statues.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_dungeons_traps_dead.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_fireplace_chimney_oven.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_furniture.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_lightsources.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_miniatures.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_signs.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_themed_collections.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_virtues.scp
+03:41:Loading datas/scripts/items/sphere_item_deco_wall_hangings.scp
+03:41:Loading datas/scripts/items/sphere_item_ground_tiles.scp
+03:41:Loading datas/scripts/items/sphere_item_holiday_anniversary.scp
+03:41:Loading datas/scripts/items/sphere_item_holiday_christmas.scp
+03:41:Loading datas/scripts/items/sphere_item_holiday_easter.scp
+03:41:Loading datas/scripts/items/sphere_item_holiday_halloween.scp
+03:41:Loading datas/scripts/items/sphere_item_holiday_other.scp
+03:41:Loading datas/scripts/items/sphere_item_holiday_valentines.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_armor.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_chivalry.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_leather.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_magery.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_mysticism.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_necromancer_aos.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_ninjitsu_bushido.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_skillmasteries.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_spellweaving.scp
+03:41:Loading datas/scripts/items/sphere_item_magic_wands.scp
+03:41:Loading datas/scripts/items/sphere_item_memories.scp
+03:41:Loading datas/scripts/items/sphere_item_misc.scp
+03:41:Loading datas/scripts/items/sphere_item_offset.scp
+03:41:Loading datas/scripts/items/sphere_item_profession.scp
+03:41:Loading datas/scripts/items/sphere_item_profession_alchemist.scp
+03:41:Loading datas/scripts/items/sphere_item_profession_barber.scp
+03:41:Loading datas/scripts/items/sphere_item_profession_cartographer.scp
+03:41:Loading datas/scripts/items/sphere_item_profession_cook_barkeep_baker.scp
+03:41:Loading datas/scripts/items/sphere_item_profession_tailor_tanner.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_armor.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_armor_color.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_clothing.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_deed.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_jewelry.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_logs.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_misc.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_ore.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_potions.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_shields.scp
+03:41:Loading datas/scripts/items/sphere_item_provisions_weapons.scp
+03:41:Loading datas/scripts/items/sphere_item_quests.scp
+03:41:Loading datas/scripts/items/sphere_item_resources.scp
+03:41:Loading datas/scripts/items/sphere_item_ship_parts.scp
+03:41:Loading datas/scripts/items/sphere_item_ship_parts_britannian.scp
+03:41:Loading datas/scripts/items/sphere_item_ship_parts_gargish.scp
+03:41:Loading datas/scripts/items/sphere_item_ship_parts_orcish.scp
+03:41:Loading datas/scripts/items/sphere_item_ship_parts_tokuno.scp
+03:41:Loading datas/scripts/items/sphere_item_siege.scp
+03:41:Loading datas/scripts/items/sphere_item_theme_pack_crystal.scp
+03:41:Loading datas/scripts/items/sphere_item_theme_pack_gothic.scp
+03:41:Loading datas/scripts/items/sphere_item_theme_pack_kings_collection.scp
+03:41:Loading datas/scripts/items/sphere_item_theme_pack_rustic.scp
+03:41:Loading datas/scripts/items/sphere_item_theme_pack_shadow.scp
+03:41:Loading datas/scripts/items/sphere_item_typedefs.scp
+03:41:Loading datas/scripts/items/sphere_item_typedef_equipitem.scp
+03:41:Loading datas/scripts/items/sphere_item_unsorted.scp
+03:41:Loading datas/scripts/items/sphere_item_vegetation.scp
+03:41:Loading datas/scripts/items/sphere_item_veteran_rewards.scp
+03:41:Loading datas/scripts/items/sphere_item_vice_virtue.scp
+03:41:Loading datas/scripts/items/sphere_item_wedding.scp
+03:41:Loading datas/scripts/items/multis/multis_foundations.scp
+03:41:Loading datas/scripts/items/multis/multis_houses.scp
+03:41:Loading datas/scripts/items/multis/multis_magincia_bazaar.scp
+03:41:Loading datas/scripts/items/multis/multis_misc.scp
+03:41:Loading datas/scripts/items/multis/multis_ships.scp
+03:41:Loading datas/scripts/items/multis/multis_stairs.scp
+03:41:Loading datas/scripts/items/multis/multis_wandering_camps.scp
+03:41:Loading datas/scripts/templates/sphere_template.scp
+03:41:Loading datas/scripts/templates/sphere_template_armor.scp
+03:41:Loading datas/scripts/templates/sphere_template_loot.scp
+03:41:Loading datas/scripts/templates/sphere_template_magic.scp
+03:41:Loading datas/scripts/templates/sphere_template_misc.scp
+03:41:Loading datas/scripts/templates/sphere_template_vend.scp
+03:41:Loading datas/scripts/templates/sphere_template_weapons.scp
+03:41:Loading datas/scripts/stones/sphere_genericstone_config.scp
+03:41:Loading datas/scripts/stones/sphere_genericstone_functions.scp
+03:41:Loading datas/scripts/stones/sphere_genericstone_items.scp
+03:41:Loading datas/scripts/stones/sphere_genericstone_types.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_config.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_align.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_charlist.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_charter.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_guildlist.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_main.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_master.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_warfareadmin.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_warfaredeclare.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_dlg_warfarestatus.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_events.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_functions.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_functions_player.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_items.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_promptconsole.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_speech.scp
+03:41:Loading datas/scripts/stones/guilds/sphere_guild_types.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_config.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_align.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_charlist.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_charter.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_main.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_master.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_townlist.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_warfareadmin.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_warfaredeclare.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_dlg_warfarestatus.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_events.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_functions.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_functions_player.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_items.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_promptconsole.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_speech.scp
+03:41:Loading datas/scripts/stones/towns/sphere_town_types.scp
+03:41:Loading datas/scripts/npcs/spherechar_grave.scp
+03:41:Loading datas/scripts/npcs/spherechar_evil.scp
+03:41:Loading datas/scripts/npcs/spherechar_human.scp
+03:41:Loading datas/scripts/npcs/sphere_citizens.scp
+03:41:Loading datas/scripts/npcs/sphere_guildmasters.scp
+03:41:Loading datas/scripts/npcs/sphere_monsters.scp
+03:41:Loading datas/scripts/npcs/sphere_monsters_custom.scp
+03:41:Loading datas/scripts/npcs/sphere_vendors.scp
+03:41:Loading datas/scripts/speech/speakhuman.scp
+03:41:Loading datas/scripts/speech/speakshopkeep.scp
+03:41:Loading datas/scripts/speech/spk_house_cmds.scp
+03:41:Loading datas/scripts/speech/spk_ship_cmds.scp
+03:41:Loading datas/scripts/systems/sphere_system_achievements.scp
+03:41:Loading datas/scripts/systems/sphere_system_aquarium.scp
+03:41:Loading datas/scripts/systems/sphere_system_dialogs.scp
+03:41:Loading datas/scripts/systems/sphere_system_secret_chest.scp
+03:41:Loading datas/scripts/systems/sphere_system_spawn.scp
+03:41:Loading datas/scripts/systems/sphere_system_treasure_maps.scp
+03:41:Loading datas/scripts/systems/sphere_system_upgrade.scp
+03:41:Loading datas/scripts/systems/sphere_system_weapon_bonus.scp
+03:41:Loading datas/scripts/sphere_spawns.scp
+03:41:Loading datas/scripts/sphere_spells.scp
+03:41:Loading datas/scripts/functions/sphere_function_dialog.scp
+03:41:Loading datas/scripts/functions/sphere_function_misc.scp
+03:41:Loading datas/scripts/sphere_region.scp
+03:41:Loading datas/scripts/maps/sphere_map0.scp
+03:41:Loading datas/scripts/maps/sphere_map0_ml.scp
+03:41:Loading datas/scripts/maps/sphere_map0_sa.scp
+03:41:Loading datas/scripts/maps/sphere_map0_hs.scp
+03:41:Loading datas/scripts/maps/sphere_map1.scp
+03:41:Loading datas/scripts/maps/sphere_map2.scp
+03:41:Loading datas/scripts/maps/sphere_map2_ml.scp
+03:41:Loading datas/scripts/maps/sphere_map3.scp
+03:41:Loading datas/scripts/maps/sphere_map3_se.scp
+03:41:Loading datas/scripts/maps/sphere_map3_ml.scp
+03:41:Loading datas/scripts/maps/sphere_map4.scp
+03:41:Loading datas/scripts/maps/sphere_map5.scp
+03:41:Loading datas/scripts/maps/sphere_map5_tol.scp
+03:41:Loading datas/scripts/maps/sphere_map_points0.scp
+03:41:Loading datas/scripts/maps/sphere_map_points0_ml.scp
+03:41:Loading datas/scripts/maps/sphere_map_points0_hs.scp
+03:41:Loading datas/scripts/maps/sphere_map_points0_tol.scp
+03:41:Loading datas/scripts/maps/sphere_map_points1.scp
+03:41:Loading datas/scripts/maps/sphere_map_points2.scp
+03:41:Loading datas/scripts/maps/sphere_map_points2_ml.scp
+03:41:Loading datas/scripts/maps/sphere_map_points3.scp
+03:41:Loading datas/scripts/maps/sphere_map_points3_se.scp
+03:41:Loading datas/scripts/maps/sphere_map_points3_ml.scp
+03:41:Loading datas/scripts/maps/sphere_map_points4.scp
+03:41:Loading datas/scripts/maps/sphere_map_points5.scp
+03:41:Loading datas/scripts/maps/sphere_map_points5_tol.scp
+03:41:Loading datas/scripts/bin.scp
+03:41:Loading datas/scripts/sphere_add_sqlite.scp
+03:41:Loading datas/scripts/sphere_combat.scp
+03:41:Loading datas/scripts/sphere_msgs.scp
+03:41:Done loading scripts (52 of 206 triggers used).
+03:41:
+03:41:Loaded 247 client encryption keys.
+03:41:Server started on hostname 'DESKTOP-GIBNJ24'
+03:41:Monitoring IP 192.168.0.3:2593
+03:41:Loading datas/saves/spheredata.scp...
+03:41:Loading datas/saves/spherestatics.scp...
+03:41:Loading datas/saves/sphereworld.scp...
+03:41:Loading datas/saves/spherechars.scp...
+03:41:Loading datas/saves/spheremultis.scp...
+03:41:Garbage Collection: started.
+03:41:Garbage Collection: done. 33 Objects accounted for.
+03:41:Option flags: NoDClickTarget + ScaleDamageByDurability + CommandSysmessages + OSIMultiSight + FileCommands + NoHouseMuteSpeech + FloodProtection + Buffs + NoPrefix + DyeType + DrinkIsFood
+03:41:Experimental flags: ItemStacking + TelnetPacketFilter + ScriptProfiler + DamageTools
+03:41:Admin=hamitdevecioglu@gmail.com, URL=www.uo-developer.com, Lang=Turkish, TZ=0
+03:41:Startup complete. items=32, chars=1
+03:41:Press '?' for console commands.
+03:41:FATAL:Server terminated: Console window closed (code 5)

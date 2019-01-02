@@ -1,0 +1,501 @@
+[ITEMDEF i_stone_reward]
+ID=i_grave_stone
+TYPE=t_normal
+NAME=Stok Taşı
+
+On=@Click
+message @07a1 Stok Taşı
+RETURN 1
+
+On=@DClick
+IF (<DISTANCE> < 2)
+  sDIALOG d_rewardsys
+ELSE
+  SRC.SYSMESSAGE @07a1,,1 Taşa ulaşamıyorsunuz.
+ENDIF
+RETURN 1
+
+On=@GetHit
+SRC.HITS=<SRC.STR>
+RETURN 1
+
+On=@SpellEffect
+SRC.HITS=<SRC.STR>
+RETURN 1
+
+On=@TargOn_Char
+SRC.SYSMESSAGE @07a1,,1 Sadece eşyaları kullanabilirsiniz.
+RETURN 1
+
+On=@TargOn_Item
+IF (<ARGO.TOPOBJ> != <SRC>)
+  SRC.SYSMESSAGE @07a1,,1 Stoklayacağınız eşya çantanızda olmalı.
+ELIF (<DISTANCE <SRC>> > 3)
+  SRC.SYSMESSAGE @07a1,,1 Çok uzaktasınız.
+ELIF ((<dDEF.rb<ARGO.TYPE>> == -1) || (<dDEF.rb<ARGO.BASEID>> == -1))
+  SRC.SYSMESSAGE @07a1,,1 Bunu stoklayamazsınız!
+ELIF ((<dDef.rb<ARGO.TYPE>> >= 0) && (<dSRC.TAG0.REWARD> < <dDef.rb<ARGO.TYPE>>))
+  SRC.SYSMESSAGE @07a1,,1 Bunu sadece hesabınızda <dDEF.rb<ARGO.TYPE>> bilet varken stoklayabilirsiniz.
+ELIF ((<dDef.rb<ARGO.BASEID>> >= 0) && (<dSRC.TAG0.REWARD> < <dDef.rb<ARGO.BASEID>>))
+  SRC.SYSMESSAGE @07a1,,1 Bunu sadece hesabınızda <dDef.rb<ARGO.BASEID>> bilet varken stoklayabilirsiniz.
+ELSE
+  LOCAL.CUR=0
+  IF (<ARGO.BASEID> == i_reward_coin)
+    LOCAL.CUR=<ARGO.AMOUNT>
+  ELSE
+    LOCAL.CUR=<eVal (<ARGO.VALUE> / 4) * <ARGO.AMOUNT>>
+  ENDIF
+  
+  IF (<dLOCAL.CUR> <= 0)
+    LOCAL.CUR=0
+  ENDIF
+  
+  SRC.TAG0.REWARD += <dLOCAL.CUR>
+  SRC.SYSMESSAGE @07a1,,1 Hesabınıza <dLOCAL.CUR> bilet eklendi.
+  ARGO.REMOVE
+  TARGET @07a1,,1 Lütfen stoklamak istediğiniz eşyayı seçin.
+ENDIF
+RETURN 1
+
+[DEFNAME d_sys_reward]
+rbt_food=-1
+rbt_gold=-1
+rbt_container=-1
+rbt_sign_gump=-1
+rbt_shield=-1
+rbt_key=-1
+rbi_magic_reg90=-1
+rbi_magic_reg60=-1
+rbi_magic_reg30=-1
+rbi_shield_order=-1
+rbi_shield_chaos=-1
+rbi_cloth=-1
+rbi_cloth_bolt=-1
+rbi_bandage=-1
+rbi_kindling=-1
+rbi_robe=-1
+rbi_deed=-1
+
+rbs_rewards=Magical Armor|random_magical_armor|1|25000, Small House|random_house|1|75000, Deli Kıyafet Seti|i_bag_deli|1|100000, Rare Dye|i_rare_Dye|1|125000, Ranger Armor|d_ranger|1|200000, Phoenix Armor|d_phoenix|1|300000, Leather Dye|i_leather_dye|1|500000, Furniture Dye|i_furniture_dye|1|750000, Bless Deed|i_deed_bless|1|1000000, Glacial Staff|random_glacial_staff|1|1500000, 
+
+
+[ITEMDEF i_reward_coin]
+ID=i_gem_ruby
+TYPE=t_normal
+NAME=Bilet
+WEIGHT=0
+VALUE=0
+
+On=@Create
+COLOR=055
+
+On=@Click
+MESSAGE @07a1 <AMOUNT> <NAME>
+RETURN 1
+
+On=@DClick
+SRC.SYSMESSAGE @07a1,,1 <SERV.SERVNAME> Hediye Bileti
+SRC.SYSMESSAGE @07a1,,1 Kullanmak için biletçiyi bulunuz.
+RETURN 1
+
+[FUNCTION f_rsys_array]
+IF (<dARGV[0]> == 0)
+  RETURN <eVal <dARGV> - 1>
+ELSE
+  RETURN <ARGV[<dARGV[0]>]>
+ENDIF
+
+[DIALOG d_rewardsys]
+0,0
+RESIZEPIC 65 20 5170 350 390
+DTEXT 120 45 1152 <SERV.SERVNAME> Stok Vendor Menüsü
+FOR 1 <f_rsys_array 0,<DEF.rbs_rewards>>
+  LOCAL.ITEM=<explode '|',<f_rsys_array <dLOCAL._for>,<DEF.rbs_rewards>>>
+  LOCAL.TEXT=<f_rsys_array 1,<LOCAL.ITEM>>
+  LOCAL.PRICE=<f_rsys_array 4,<LOCAL.ITEM>>
+  IF (<dSRC.TAG0.REWARD> >= <dLOCAL.PRICE>)
+    BUTTON 100 <eVal 48 + (<dLOCAL._for> * 25)> 2224 2117 1 0 <dLOCAL._for>
+  ENDIF
+  DTEXT 120 <eVal 45 + (<dLOCAL._for> * 25)> 990 <LOCAL.TEXT>
+  DHTMLGUMP 275 <eVal 45 + (<dLOCAL._for> * 25)> 75 20 0 0 <dLOCAL.PRICE>
+ENDFOR
+BUTTON 100 344 2224 2117 1 0 100 //Stok
+DTEXT 120 340 1152 Çöpe At
+BUTTON 100 364 2224 2117 1 0 101 //Bilet
+DTEXT 120 360 1152 Bilet Al
+DHTMLGUMP 225 360 125 20 0 0 Bilet: <dSRC.TAG0.REWARD>
+DTEXT 100 320 1345 ---------------------------------------
+
+[DIALOG d_rewardsys BUTTON]
+On=1 99
+LOCAL.ITEM=<explode '|',<f_rsys_array <DARGN>, <DEF.rbs_rewards>>>
+LOCAL.NAME=<f_rsys_array 1,<LOCAL.ITEM>>
+LOCAL.TYPE=<f_rsys_array 2,<LOCAL.ITEM>>
+LOCAL.AMOUNT=<f_rsys_array 3,<LOCAL.ITEM>>
+LOCAL.PRICE=<f_rsys_array 4,<LOCAL.ITEM>>
+
+IF (<dSRC.TAG0.REWARD> >= <dLOCAL.PRICE>)
+  SRC.TAG0.REWARD -= <dLOCAL.PRICE>
+  IF (STRMATCH('d_*', '<LOCAL.TYPE>'))
+    SRC.DIALOG <LOCAL.TYPE>
+  ELSE
+    SERV.NEWITEM <LOCAL.TYPE>,<LOCAL.AMOUNT>,<SRC>
+    SOUND=0F7
+  ENDIF
+ELSE
+  SRC.SYSMESSAGE @,,1 Yeterli stoğunuz yok.
+ENDIF
+RETURN 1
+
+On=100
+TARGET @07a1,,1 Lütfen stoklamak istediğiniz eşyayı seçin.
+RETURN 1
+
+On=101
+IF (<dSRC.TAG0.REWARD> < 25000)
+  SRC.SYSMESSAGE @07a1,,1 Bilet çıkartabilmek için hesabınızda en az 25000 bilet olması gereklidir.
+  SRC.DIALOG d_rewardsys
+ELSE
+  SERV.NEWITEM i_reward_coin,25000,<SRC>
+  SRC.TAG0.REWARD -= 25000
+  SRC.DIALOG d_rewardsys
+ENDIF
+RETURN 1
+
+[TEMPLATE random_magical_armor]
+CATEGORY=Item Templates
+SUBSECTION=Reward Templates
+DESCRIPTION=Random Magical Armor
+ITEM={ random_platemail_defense 1 random_platemail_guarding 1 random_platemail_hardening 1 random_platemail_fortification 1 random_chainmail_defense 1 random_chainmail_guarding 1 random_chainmail_hardening 1 random_chainmail_fortification 1 }
+
+[TEMPLATE random_house]
+CATEGORY=Item Templates
+SUBSECTION=Reward Templates
+DESCRIPTION=Random House
+ITEM={ 04200 1 04202 1 04204 1 04206 1 04208 1 04210 1 }
+
+[TEMPLATE random_house]
+CATEGORY=Item Templates
+SUBSECTION=Reward Templates
+DESCRIPTION=Random Glacial Staff
+ITEM={ i_staff_glacial_b 1 i_staff_glacial_d 1 i_staff_glacial_p 1 }
+
+[TEMPLATE i_bag_deli]
+CATEGORY=Item Templates
+SUBSECTION=Loot Templates
+DESCRIPTION=Poor Pouch
+CONTAINER=i_bag
+ITEM=i_hat_jester
+COLOR=0480
+ITEM=i_tunic
+COLOR=07a1
+ITEM=i_pants_short
+COLOR=07a1
+ITEM=i_shoes_plain
+COLOR=07a1
+ITEM=i_leather_gloves
+COLOR=0480
+ITEM=i_cape
+COLOR=0480
+
+[DIALOG d_ranger]
+150,200
+nomove
+page 0 
+resizepic 90 0 5170 185 190
+text 120 25 1152 0
+button 130 51 2103 2104 1 0 1
+text 145 45 990 1
+button 130 66 2103 2104 1 0 2
+text 145 60 990 2
+button 130 81 2103 2104 1 0 3
+text 145 75 990 3
+button 130 96 2103 2104 1 0 4
+text 145 90 990 4
+button 130 111 2103 2104 1 0 5
+text 145 105 990 5
+
+[DIALOG d_ranger TEXT]   
+Bir parca seciniz.
+Sleeves
+Gloves
+Tunic
+Leggings
+Gorget
+
+[DIALOG d_ranger BUTTON]  
+ONBUTTON=0
+IF ( <DISTANCE> < 4 )
+DIALOG d_rewardsys
+ELSE
+SRC.MESSAGE @07a1 Hediyeciye Ulasamiyorsunuz !
+RETURN 1
+ENDIF
+ONBUTTON=1
+SRC.tag0.reward -= 200000
+SRC.NEWITEM=i_x_ranger_sleeves
+SRC.ACT.BOUNCE
+SOUND 0F7
+ONBUTTON=2
+SRC.tag0.reward -= 200000
+SRC.NEWITEM=i_x_ranger_gloves
+SRC.ACT.BOUNCE
+SOUND 0F7
+ONBUTTON=3
+SRC.tag0.reward -= 200000
+SRC.NEWITEM=i_x_ranger_tunic
+SRC.ACT.BOUNCE
+SOUND 0F7
+ONBUTTON=4
+SRC.tag0.reward -= 200000
+SRC.NEWITEM=i_x_ranger_leggings
+SRC.ACT.BOUNCE
+SOUND 0F7
+ONBUTTON=5
+SRC.tag0.reward -= 200000
+SRC.NEWITEM=i_x_ranger_gorget
+SRC.ACT.BOUNCE
+SOUND 0F7
+
+[DIALOG d_phoenix]
+150,200
+nomove
+page 0 
+resizepic 90 0 5170 185 170
+text 120 25 1152 0
+button 130 51 2103 2104 1 0 1
+text 145 45 990 1
+button 130 66 2103 2104 1 0 2
+text 145 60 990 2
+button 130 81 2103 2104 1 0 3
+text 145 75 990 3
+button 130 96 2103 2104 1 0 4
+text 145 90 990 4
+button 130 111 2103 2104 1 0 5
+text 145 105 990 5
+button 130 126 2103 2104 1 0 6
+text 145 120 990 6
+
+[DIALOG d_phoenix TEXT]   
+Bir parca seciniz.
+sleeves
+gloves
+helm
+tunic
+leggings
+gorget
+
+[DIALOG d_phoenix BUTTON]  
+ONBUTTON=0
+IF ( <DISTANCE> < 4 )
+DIALOG d_rewardsys
+ELSE
+SRC.MESSAGE @07a1 Hediyeciye Ulasamiyorsunuz !
+RETURN 1
+ENDIF
+ONBUTTON=1
+SRC.tag0.reward -= 300000
+SRC.NEWITEM=i_x_phoenix_sleeves
+SRC.ACT.BOUNCE
+SOUND 0F7
+ONBUTTON=2
+SRC.tag0.reward -= 300000
+SRC.NEWITEM=i_x_phoenix_gloves
+SRC.ACT.BOUNCE
+SOUND 0F7
+ONBUTTON=3
+SRC.tag0.reward -= 300000
+SRC.NEWITEM=i_x_phoenix_helm
+SRC.ACT.BOUNCE
+SOUND 0F7
+ONBUTTON=4
+SRC.tag0.reward -= 300000
+SRC.NEWITEM=i_x_phoenix_tunic
+SRC.ACT.BOUNCE
+SOUND 0F7
+ONBUTTON=5
+SRC.tag0.reward -= 300000
+SRC.NEWITEM=i_x_phoenix_leggings
+SRC.ACT.BOUNCE
+SOUND 0F7
+ONBUTTON=6
+SRC.tag0.reward -= 300000
+SRC.NEWITEM=i_x_phoenix_gorget
+SRC.ACT.BOUNCE
+SOUND 0F7
+
+// ----------------------------
+// Ranger Armor
+// ----------------------------
+
+[ITEMDEF i_x_ranger_sleeves]
+DEFNAME=i_x_ranger_sleeves
+ID=i_studded_sleeves
+NAME=ranger sleeves
+TYPE=t_clothing
+ARMOR=48
+
+ON=@CREATE
+COLOR=08a1
+HITPOINTS={20 60}
+
+ON=@EQUIP
+COLOR=08a1
+
+[ITEMDEF i_x_ranger_gloves]
+DEFNAME=i_x_ranger_gloves
+ID=i_leather_gloves
+NAME=ranger gloves
+TYPE=t_clothing
+ARMOR=48
+
+ON=@CREATE
+COLOR=08a1
+HITPOINTS={20 60}
+
+ON=@EQUIP
+COLOR=08a1
+
+[ITEMDEF i_x_ranger_gorget]
+DEFNAME=i_x_ranger_gorget
+ID=i_studded_gorget
+NAME=ranger gorget
+TYPE=t_clothing
+ARMOR=48
+
+ON=@CREATE
+COLOR=08a1
+HITPOINTS={20 60}
+
+ON=@EQUIP
+COLOR=08a1
+
+[ITEMDEF i_x_ranger_leggings]
+DEFNAME=i_x_ranger_leggings
+ID=i_leather_leggings
+NAME=ranger leggings
+TYPE=t_clothing
+ARMOR=48
+
+ON=@CREATE
+COLOR=08a1
+HITPOINTS={20 60}
+
+ON=@EQUIP
+COLOR=08a1
+
+[ITEMDEF i_x_ranger_tunic]
+DEFNAME=i_x_ranger_tunic
+ID=i_studded_tunic
+NAME=ranger tunic
+TYPE=t_clothing
+ARMOR=48
+
+ON=@CREATE
+COLOR=08a1
+HITPOINTS={20 60}
+
+ON=@EQUIP
+COLOR=08a1
+
+// ----------------------------
+// Phoenix Armor
+// ----------------------------
+
+[ITEMDEF i_x_phoenix_leggings]
+DEFNAME=i_x_phoenix_leggings
+ID=i_ringmail_leggings
+NAME=phoenix leggings
+TYPE=t_armor
+ARMOR=80
+
+ON=@CREATE
+COLOR=04b7
+HITPOINTS={20 60}
+
+ON=@EQUIP
+COLOR=04b7
+SRC.FINDID.i_rune_protection.REMOVE
+SRC.FINDID.i_rune_reactive_armor.REMOVE
+
+[ITEMDEF i_x_phoenix_gloves]
+DEFNAME=i_x_phoenix_gloves
+ID=i_ringmail_gloves
+NAME=phoenix gloves
+TYPE=t_armor
+ARMOR=80
+
+ON=@CREATE
+COLOR=04b7
+HITPOINTS={20 60}
+
+ON=@EQUIP
+COLOR=04b7
+SRC.FINDID.i_rune_protection.REMOVE
+SRC.FINDID.i_rune_reactive_armor.REMOVE
+
+[ITEMDEF i_x_phoenix_sleeves]
+DEFNAME=i_x_phoenix_sleeves
+ID=i_ringmail_sleeves
+NAME=phoenix sleeves
+TYPE=t_armor
+ARMOR=80
+
+ON=@CREATE
+COLOR=04b7
+HITPOINTS={20 60}
+
+ON=@EQUIP
+COLOR=04b7
+SRC.FINDID.i_rune_protection.REMOVE
+SRC.FINDID.i_rune_reactive_armor.REMOVE
+
+[ITEMDEF i_x_phoenix_tunic]
+DEFNAME=i_x_phoenix_tunic
+ID=i_ringmail_tunic
+NAME=phoenix tunic
+TYPE=t_armor
+ARMOR=78
+
+ON=@CREATE
+COLOR=04b7
+HITPOINTS={20 60}
+
+ON=@EQUIP
+COLOR=04b7
+SRC.FINDID.i_rune_protection.REMOVE
+SRC.FINDID.i_rune_reactive_armor.REMOVE
+
+[ITEMDEF i_x_phoenix_gorget]
+DEFNAME=i_x_phoenix_gorget
+ID=i_platemail_gorget
+NAME=phoenix gorget
+TYPE=t_armor
+ARMOR=80
+
+ON=@CREATE
+COLOR=04b7
+HITPOINTS={20 60}
+
+ON=@EQUIP
+COLOR=04b7
+SRC.FINDID.i_rune_protection.REMOVE
+SRC.FINDID.i_rune_reactive_armor.REMOVE
+
+[ITEMDEF i_x_phoenix_helm]
+DEFNAME=i_x_phoenix_helm
+ID=i_platemail_helm
+NAME=phoenix helm
+TYPE=t_armor
+ARMOR=80
+
+ON=@CREATE
+COLOR=04b7
+HITPOINTS={20 60}
+
+ON=@EQUIP
+COLOR=04b7
+SRC.FINDID.i_rune_protection.REMOVE
+SRC.FINDID.i_rune_reactive_armor.REMOVE
+
+[EOF]

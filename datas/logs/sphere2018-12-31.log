@@ -1,0 +1,65 @@
+Log date: 2018/12/31 00:02:20
+00:02:Garbage Collection: started.
+00:02:Garbage Collection: done. 23 Objects accounted for.
+00:02:World data saved   (datas/saves/sphereworld.scp).
+00:02:Player data saved  (datas/saves/spherechars.scp).
+00:02:Multi data saved   (datas/saves/spheremultis.scp).
+00:02:Context data saved (datas/saves/spheredata.scp).
+00:02:World save completed, took 0.9699 seconds.
+00:07:Garbage Collection: started.
+00:07:Garbage Collection: done. 23 Objects accounted for.
+00:07:World data saved   (datas/saves/sphereworld.scp).
+00:07:Player data saved  (datas/saves/spherechars.scp).
+00:07:Multi data saved   (datas/saves/spheremultis.scp).
+00:07:Context data saved (datas/saves/spheredata.scp).
+00:07:World save completed, took 0.0326 seconds.
+00:12:Garbage Collection: started.
+00:12:Garbage Collection: done. 23 Objects accounted for.
+00:12:World data saved   (datas/saves/sphereworld.scp).
+00:12:Player data saved  (datas/saves/spherechars.scp).
+00:12:Multi data saved   (datas/saves/spheremultis.scp).
+00:12:Context data saved (datas/saves/spheredata.scp).
+00:12:World save completed, took 0.2794 seconds.
+00:17:Garbage Collection: started.
+00:17:Garbage Collection: done. 23 Objects accounted for.
+00:17:World data saved   (datas/saves/sphereworld.scp).
+00:17:Player data saved  (datas/saves/spherechars.scp).
+00:17:Multi data saved   (datas/saves/spheremultis.scp).
+00:17:Context data saved (datas/saves/spheredata.scp).
+00:17:World save completed, took 0.9486 seconds.
+00:22:Garbage Collection: started.
+00:22:Garbage Collection: done. 23 Objects accounted for.
+00:22:World data saved   (datas/saves/sphereworld.scp).
+00:22:Player data saved  (datas/saves/spherechars.scp).
+00:22:Multi data saved   (datas/saves/spheremultis.scp).
+00:22:Context data saved (datas/saves/spheredata.scp).
+00:22:World save completed, took 0.8359 seconds.
+00:27:Garbage Collection: started.
+00:27:Garbage Collection: done. 23 Objects accounted for.
+00:27:World data saved   (datas/saves/sphereworld.scp).
+00:27:Player data saved  (datas/saves/spherechars.scp).
+00:27:Multi data saved   (datas/saves/spheremultis.scp).
+00:27:Context data saved (datas/saves/spheredata.scp).
+00:27:World save completed, took 0.3524 seconds.
+00:32:Garbage Collection: started.
+00:32:Garbage Collection: done. 23 Objects accounted for.
+00:32:World data saved   (datas/saves/sphereworld.scp).
+00:32:Player data saved  (datas/saves/spherechars.scp).
+00:32:Multi data saved   (datas/saves/spheremultis.scp).
+00:32:Context data saved (datas/saves/spheredata.scp).
+00:32:World save completed, took 0.7178 seconds.
+00:37:Garbage Collection: started.
+00:37:Garbage Collection: done. 23 Objects accounted for.
+00:37:World data saved   (datas/saves/sphereworld.scp).
+00:37:Player data saved  (datas/saves/spherechars.scp).
+00:37:Multi data saved   (datas/saves/spheremultis.scp).
+00:37:Context data saved (datas/saves/spheredata.scp).
+00:37:World save completed, took 0.0993 seconds.
+00:40:2:Client disconnected [Total:0]. Account: 'xwerswoodx'. Char: 'Hamit'. IP='127.0.0.1'.
+00:42:Garbage Collection: started.
+00:42:Garbage Collection: done. 23 Objects accounted for.
+00:42:World data saved   (datas/saves/sphereworld.scp).
+00:42:Player data saved  (datas/saves/spherechars.scp).
+00:42:Multi data saved   (datas/saves/spheremultis.scp).
+00:42:Context data saved (datas/saves/spheredata.scp).
+00:42:World save completed, took 0.9414 seconds.

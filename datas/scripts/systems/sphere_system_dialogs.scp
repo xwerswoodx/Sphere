@@ -1,0 +1,1008 @@
+VERSION=0.56d
+
+[ITEMDEF i_stone_dialog]
+ID=i_grave_stone
+TYPE=t_normal
+NAME=dialog stone
+
+On=@Create
+ATTR=attr_static|attr_move_never
+COLOR=07a1
+dcr_reBuild
+
+On=@DClick
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools
+RETURN 1
+
+[FUNCTION dcr_reBuild]
+TAG.line_0=1
+TAG.line_1=d_dialog RESIZEPIC 0 0 9200 500 500
+
+[DIALOG d_dialog_creator_tools]
+0,0
+LOCAL.page = 1
+IF (<dARGV[0]>)
+  LOCAL.page = <dARGV[0]>
+ENDIF
+
+LOCAL.cur = 1
+IF (<dARGV[1]>)
+  LOCAL.cur = <dARGV[1]>
+ENDIF
+
+ARGS = <explode ' ',<STREAT <TAG.line_1>>>
+DORIGIN <eVal <dARGV[1]> + <dARGV[4]> + 10> <dARGV[2]>
+// List
+RESIZEPIC +0 +0 9200 200 500
+RESIZEPIC +10 +10 3000 180 480
+
+LOCAL.start = <eVal ((<dLOCAL.page> - 1) * 22) + 1>
+LOCAL.end = <eVal <dLOCAL.start> + 21>
+If (<dLOCAL.end> > <dTAG.line_0>)
+  LOCAL.end = <dTAG.line_0>
+ENDIF
+
+FOR <dLOCAL.start> <dLOCAL.end>
+  BUTTON +20 +<eVal 20 * (<dLOCAL._for> - <dLOCAL.start> - 1)> 2117 2118 1 0 <eVal 15000 + <dLOCAL._for>>
+  IF (<dLOCAL._for> > 2)
+    BUTTON +120 +<eVal 20 * (<dLOCAL._for> - <dLOCAL.start> - 1)> 015E0 015E4 1 0 <eVal 20000 + <dLOCAL._for>>
+  ENDIF
+  IF (<dLOCAL._for> < <dTAG.line_0>) && (<dLOCAL._for> > 1)
+    BUTTON +140 +<eVal 20 * (<dLOCAL._for> - <dLOCAL.start> - 1)> 015E2 015E6 1 0 <eVal 25000 + <dLOCAL._for>>
+  ENDIF
+  dHtmlgump +38 +<eVal (20 * (<dLOCAL._for> - <dLOCAL.start> - 1)) - 2> 100 20 0 0 <STRARG <TAG.line_<dLOCAL._for>>>
+ENDFOR
+IF (<dLOCAL.page> > 1)
+  BUTTON +20 +465 08AF 08AF 1 0 <eVal 10000 + <dLOCAL.page> - 1>
+ENDIF
+IF (<dLOCAL.page> < <getCurPage <dTAG.line_0>, 22>)
+  BUTTON +160 +465 08B0 08B0 1 0 <eVal 10000 + <dLOCAL.page> + 1>
+ENDIF
+
+// Menü
+DORIGIN <eVal <dARGV[1]> + <dARGV[4]> + 220> <dARGV[2]>
+RESIZEPIC +0 +0 9200 200 500
+RESIZEPIC +10 +10 3000 180 480
+
+IF (<dLOCAL.cur>)
+  ARGS=<explode ' ',<TAG.line_<dLOCAL.cur>>>
+  LOCAL.name = <ARGV[0]>
+  LOCAL.type = <ARGV[1]>
+  LOCAL.x = <dARGV[2]>
+  LOCAL.y = <dARGV[3]>
+  
+  RESIZEPIC +20 +15 3000 160 20
+  DTEXTENTRYLIMITED +25 +15 150 20 0 24999 35 <fixTextSpace <LOCAL.name>>
+  
+  IF (STRMATCH('<LOCAL.type>', 'RESIZEPIC'))
+    //X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+    
+    // Width
+    DHTMLGUMP +20 +65 20 20 0 0 W:
+    RESIZEPIC +40 +65 3000 55 20
+    DTEXTENTRYLIMITED +45 +65 40 20 0 24002 5 <dARGV[5]>
+
+    // Height
+    DHTMLGUMP +105 +65 20 20 0 0 H:
+    RESIZEPIC +125 +65 3000 55 20
+    DTEXTENTRYLIMITED +130 +65 40 20 0 24003 5 <dARGV[6]>
+
+    // BACKGROUND
+    DHTMLGUMP +20 +90 70 20 0 0 Background:
+    RESIZEPIC +90 +90 3000 90 20
+    DTEXTENTRYLIMITED +95 +90 80 20 0 24004 8 <dARGV[4]>
+    
+    // Is Checkertrans?
+    BUTTON +20 +115 0938 0939 1 0 <eVal 3000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +112 100 20 0 0 Is Checkertrans
+      
+    IF (<dLOCAL.cur> != 1)
+      BUTTON +20 +135 2117 2118 1 0 <eVal 40000 + <dLOCAL.cur>>
+      DHTMLGUMP +38 +133 100 20 0 0 Save
+      BUTTON +20 +155 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+      DHTMLGUMP +38 +153 100 20 0 0 Duplicate
+      BUTTON +20 +175 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+      DHTMLGUMP +38 +173 100 20 0 0 Remove
+    ELSE
+      CHECKBOX +20 +135 0938 0939 <dTAG.noClose> 24005
+      DHTMLGUMP +38 +132 100 20 0 0 NoClose
+
+      CHECKBOX +20 +155 0938 0939 <dTAG.noDispose> 24006
+      DHTMLGUMP +38 +152 100 20 0 0 NoDispose
+
+      CHECKBOX +20 +175 0938 0939 <dTAG.noMove> 24007
+      DHTMLGUMP +38 +172 100 20 0 0 NoMove
+
+      BUTTON +20 +195 2117 2118 1 0 <eVal 40000 + <dLOCAL.cur>>
+      DHTMLGUMP +38 +193 100 20 0 0 Save
+    ENDIF
+  ELIF (STRMATCH('<LOCAL.type>', 'CHECKERTRANS'))
+    //X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+    
+    // Width
+    DHTMLGUMP +20 +65 20 20 0 0 W:
+    RESIZEPIC +40 +65 3000 55 20
+    DTEXTENTRYLIMITED +45 +65 40 20 0 24002 5 <dARGV[4]>
+
+    // Height
+    DHTMLGUMP +105 +65 20 20 0 0 H:
+    RESIZEPIC +125 +65 3000 55 20
+    DTEXTENTRYLIMITED +130 +65 40 20 0 24003 5 <dARGV[5]>
+    
+    // Is Checkertrans?
+    BUTTON +20 +90 0939 0938 1 0 <eVal 4000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +87 100 20 0 0 Is Checkertrans
+      
+    IF (<dLOCAL.cur> != 1)
+      BUTTON +20 +110 2117 2118 1 0 <eVal 64000 + <dLOCAL.cur>>
+      DHTMLGUMP +38 +107 100 20 0 0 Save
+      BUTTON +20 +130 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+      DHTMLGUMP +38 +127 100 20 0 0 Duplicate
+      BUTTON +20 +150 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+      DHTMLGUMP +38 +147 100 20 0 0 Remove
+    ELSE
+      CHECKBOX +20 +110 0938 0939 <dTAG.noClose> 24005
+      DHTMLGUMP +38 +107 100 20 0 0 NoClose
+
+      CHECKBOX +20 +130 0938 0939 <dTAG.noDispose> 24006
+      DHTMLGUMP +38 +127 100 20 0 0 NoDispose
+
+      CHECKBOX +20 +150 0938 0939 <dTAG.noMove> 24007
+      DHTMLGUMP +38 +147 100 20 0 0 NoMove
+
+      BUTTON +20 +170 2117 2118 1 0 <eVal 64000 + <dLOCAL.cur>>
+      DHTMLGUMP +38 +167 100 20 0 0 Save
+      BUTTON +20 +190 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+      DHTMLGUMP +38 +187 100 20 0 0 Duplicate
+    ENDIF
+  ELIF (STRMATCH('<LOCAL.type>', 'BUTTON'))
+    //X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+    
+    // BUTTON
+    DHTMLGUMP +20 +65 50 20 0 0 GumpID:
+    RESIZEPIC +65 +65 3000 55 20
+    DTEXTENTRYLIMITED +70 +65 40 20 0 24002 6 <hVal <dARGV[4]>>
+    RESIZEPIC +125 +65 3000 55 20
+    DTEXTENTRYLIMITED +130 +65 40 20 0 24003 6 <hVal <dARGV[5]>>
+    
+    // ID
+    DHTMLGUMP +20 +90 40 20 0 0 ID:
+    RESIZEPIC +40 +90 3000 140 20
+    DTEXTENTRYLIMITED +45 +90 130 20 0 24004 5 <dARGV[8]>
+
+    BUTTON +20 +115 2117 2118 1 0 <eVal 42000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +113 100 20 0 0 Save
+    BUTTON +20 +135 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +133 100 20 0 0 Duplicate
+    BUTTON +20 +155 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +153 100 20 0 0 Remove
+  ELIF (STRMATCH('<LOCAL.type>', 'DHTMLGUMP'))
+    //X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+    
+    // Width
+    DHTMLGUMP +20 +65 20 20 0 0 W:
+    RESIZEPIC +40 +65 3000 55 20
+    DTEXTENTRYLIMITED +45 +65 40 20 0 24002 5 <dARGV[4]>
+
+    // Height
+    DHTMLGUMP +105 +65 20 20 0 0 H:
+    RESIZEPIC +125 +65 3000 55 20
+    DTEXTENTRYLIMITED +130 +65 40 20 0 24003 5 <dARGV[5]>
+    
+    // Text
+    DHTMLGUMP +20 +90 60 20 0 0 Label:
+    RESIZEPIC +60 +90 3000 120 20
+    DTEXTENTRY +65 +90 110 20 0 24004 <f_compile 8,<ARGS>>
+
+    // Background
+    CHECKBOX +20 +115 0938 0939 <dARGV[6]> 24005
+    DHTMLGUMP +38 +112 100 20 0 0 Has Background    
+    
+    // Scroll
+    CHECKBOX +20 +135 0938 0939 <dARGV[7]> 24006
+    DHTMLGUMP +38 +132 100 20 0 0 Has Scrollbar
+    
+    // Is Cropped?
+    BUTTON +20 +155 0938 0939 1 0 <eVal 7000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +152 100 20 0 0 Is Cropped
+    
+    BUTTON +20 +175 2117 2118 1 0 <eVal 43000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +173 100 20 0 0 Save
+    BUTTON +20 +195 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +193 100 20 0 0 Duplicate
+    BUTTON +20 +215 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +213 100 20 0 0 Remove
+  ELIF (STRMATCH('<LOCAL.type>', 'DCROPPEDTEXT'))
+    //X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+    
+    // Width
+    DHTMLGUMP +20 +65 20 20 0 0 W:
+    RESIZEPIC +40 +65 3000 55 20
+    DTEXTENTRYLIMITED +45 +65 40 20 0 24002 5 <dARGV[4]>
+
+    // Height
+    DHTMLGUMP +105 +65 20 20 0 0 H:
+    RESIZEPIC +125 +65 3000 55 20
+    DTEXTENTRYLIMITED +130 +65 40 20 0 24003 5 <dARGV[5]>
+    
+    // Text
+    DHTMLGUMP +20 +90 60 20 0 0 Label:
+    RESIZEPIC +60 +90 3000 120 20
+    DTEXTENTRY +65 +90 110 20 0 24004 <f_compile 7,<ARGS>>
+    
+    // Color
+    DHTMLGUMP +20 +115 50 20 0 0 Color:
+    RESIZEPIC +60 +115 3000 120 20
+    DTEXTENTRYLIMITED +65 +115 110 20 0 24005 7 <hVal <dARGV[6]>>
+    
+    // Is Cropped?
+    BUTTON +20 +140 0938 0939 1 0 <eVal 8000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +137 100 20 0 0 Not Cropped
+    
+    BUTTON +20 +160 2117 2118 1 0 <eVal 52000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +158 100 20 0 0 Save
+    BUTTON +20 +180 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +178 100 20 0 0 Duplicate
+    BUTTON +20 +200 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +198 100 20 0 0 Remove
+  ELIF (STRMATCH('<LOCAL.type>', 'DTEXT'))
+    //X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+    
+    // Color
+    DHTMLGUMP +20 +65 50 20 0 0 Color:
+    RESIZEPIC +60 +65 3000 120 20
+    DTEXTENTRYLIMITED +65 +65 110 20 0 24002 7 <hVal <dARGV[4]>>
+    
+    // Text
+    DHTMLGUMP +20 +90 60 20 0 0 Label:
+    RESIZEPIC +60 +90 3000 120 20
+    DTEXTENTRYLIMITED +65 +90 110 20 0 24003 255 <f_compile 5, <ARGS>>
+
+    BUTTON +20 +115 2117 2118 1 0 <eVal 44000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +113 100 20 0 0 Save
+    BUTTON +20 +135 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +133 100 20 0 0 Duplicate
+    BUTTON +20 +155 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +153 100 20 0 0 Remove
+  ELIF (STRMATCH('<LOCAL.type>', 'DTEXTENTRY'))
+    //X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+    
+    // Width
+    DHTMLGUMP +20 +65 20 20 0 0 W:
+    RESIZEPIC +40 +65 3000 55 20
+    DTEXTENTRYLIMITED +45 +65 40 20 0 24002 5 <dARGV[4]>
+
+    // Height
+    DHTMLGUMP +105 +65 20 20 0 0 H:
+    RESIZEPIC +125 +65 3000 55 20
+    DTEXTENTRYLIMITED +130 +65 40 20 0 24003 5 <dARGV[5]>
+    
+    // Text
+    DHTMLGUMP +20 +90 60 20 0 0 Label:
+    RESIZEPIC +60 +90 3000 120 20
+    DTEXTENTRYLIMITED +65 +90 110 20 0 24004 255 <ARGV[8]>
+    
+    // Color
+    DHTMLGUMP +20 +115 60 20 0 0 Color:
+    RESIZEPIC +60 +115 3000 120 20
+    DTEXTENTRYLIMITED +65 +115 110 20 0 24005 7 <hVal <ARGV[6]>>
+    
+    // ID
+    DHTMLGUMP +20 +140 40 20 0 0 ID:
+    RESIZEPIC +40 +140 3000 140 20
+    DTEXTENTRYLIMITED +45 +140 130 20 0 24006 7 <ARGV[7]>    
+
+    // Limited?
+    BUTTON +20 +165 0938 0939 1 0 <eVal 1000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +162 100 20 0 0 Is Limited
+    
+    BUTTON +20 +185 2117 2118 1 0 <eVal 45000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +183 100 20 0 0 Save
+    BUTTON +20 +205 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +203 100 20 0 0 Duplicate
+    BUTTON +20 +225 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +223 100 20 0 0 Remove
+  ELIF (STRMATCH('<LOCAL.type>', 'DTEXTENTRYLIMITED'))
+    //X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+    
+    // Width
+    DHTMLGUMP +20 +65 20 20 0 0 W:
+    RESIZEPIC +40 +65 3000 55 20
+    DTEXTENTRYLIMITED +45 +65 40 20 0 24002 5 <dARGV[4]>
+
+    // Height
+    DHTMLGUMP +105 +65 20 20 0 0 H:
+    RESIZEPIC +125 +65 3000 55 20
+    DTEXTENTRYLIMITED +130 +65 40 20 0 24003 5 <dARGV[5]>
+    
+    // Text
+    DHTMLGUMP +20 +90 60 20 0 0 Label:
+    RESIZEPIC +60 +90 3000 120 20
+    DTEXTENTRYLIMITED +65 +90 110 20 0 24004 255 <ARGV[9]>
+    
+    // Color
+    DHTMLGUMP +20 +115 60 20 0 0 Color:
+    RESIZEPIC +60 +115 3000 120 20
+    DTEXTENTRYLIMITED +65 +115 110 20 0 24005 7 <hVal <ARGV[6]>>
+        
+    // Limit
+    DHTMLGUMP +20 +140 50 20 0 0 Limit:
+    RESIZEPIC +60 +140 3000 120 20
+    DTEXTENTRYLIMITED +65 +140 110 20 0 24007 7 <ARGV[8]>    
+
+    // ID
+    DHTMLGUMP +20 +165 40 20 0 0 ID:
+    RESIZEPIC +40 +165 3000 140 20
+    DTEXTENTRYLIMITED +45 +165 130 20 0 24006 7 <ARGV[7]>    
+    
+    // Limitless?
+    BUTTON +20 +190 0939 0938 1 0 <eVal 2000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +187 100 20 0 0 Is Limited
+    
+    BUTTON +20 +210 2117 2118 1 0 <eVal 46000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +207 100 20 0 0 Save
+    BUTTON +20 +230 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +227 100 20 0 0 Duplicate
+    BUTTON +20 +250 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +247 100 20 0 0 Remove
+  ELIF (STRMATCH('<LOCAL.type>', 'CHECKBOX'))
+    //X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+    
+    // GUMP
+    DHTMLGUMP +20 +65 50 20 0 0 GumpID:
+    RESIZEPIC +65 +65 3000 55 20
+    DTEXTENTRYLIMITED +70 +65 40 20 0 24002 6 <hVal <dARGV[4]>>
+    RESIZEPIC +125 +65 3000 55 20
+    DTEXTENTRYLIMITED +130 +65 40 20 0 24003 6 <hVal <dARGV[5]>>
+    
+    // ID
+    DHTMLGUMP +20 +90 40 20 0 0 ID:
+    RESIZEPIC +40 +90 3000 140 20
+    DTEXTENTRYLIMITED +45 +90 130 20 0 24004 5 <dARGV[7]>
+    
+    // IsChecked?
+    CHECKBOX +20 +115 0938 0939 <dARGV[6]> 24005
+    DHTMLGUMP +38 +112 100 20 0 0 Is Checked
+
+    BUTTON +20 +135 2117 2118 1 0 <eVal 47000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +133 100 20 0 0 Save
+    BUTTON +20 +155 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +153 100 20 0 0 Duplicate
+    BUTTON +20 +175 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +173 100 20 0 0 Remove
+  ELIF (STRMATCH('<LOCAL.type>', 'RADIO'))
+    //X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+    
+    // GUMP
+    DHTMLGUMP +20 +65 50 20 0 0 GumpID:
+    RESIZEPIC +65 +65 3000 55 20
+    DTEXTENTRYLIMITED +70 +65 40 20 0 24002 6 <hVal <dARGV[4]>>
+    RESIZEPIC +125 +65 3000 55 20
+    DTEXTENTRYLIMITED +130 +65 40 20 0 24003 6 <hVal <dARGV[5]>>
+    
+    // ID
+    DHTMLGUMP +20 +90 40 20 0 0 ID:
+    RESIZEPIC +40 +90 3000 140 20
+    DTEXTENTRYLIMITED +45 +90 130 20 0 24004 5 <dARGV[7]>
+
+    // IsChecked?
+    CHECKBOX +20 +115 0938 0939 <dARGV[6]> 24005
+    DHTMLGUMP +38 +112 100 20 0 0 Is Selected
+    
+    BUTTON +20 +135 2117 2118 1 0 <eVal 51000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +133 100 20 0 0 Save
+    BUTTON +20 +155 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +153 100 20 0 0 Duplicate
+    BUTTON +20 +175 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +173 100 20 0 0 Remove
+  ELIF (STRMATCH('<LOCAL.type>', 'GUMPPIC'))
+    //X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+    
+    // GUMP
+    DHTMLGUMP +20 +65 50 20 0 0 GumpID:
+    RESIZEPIC +70 +65 3000 110 20
+    DTEXTENTRYLIMITED +75 +65 100 20 0 24002 7 <hVal <dARGV[4]>>
+    
+    // Hue
+    DHTMLGUMP +20 +90 40 20 0 0 Hue:
+    RESIZEPIC +45 +90 3000 135 20
+    DTEXTENTRYLIMITED +50 +90 125 20 0 24003 5 <hVal <dARGV[5]>>
+    
+    // Tiled?
+    BUTTON +20 +115 0938 0939 1 0 <eVal 5000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +112 100 20 0 0 Is Tiled
+
+    BUTTON +20 +135 2117 2118 1 0 <eVal 48000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +133 100 20 0 0 Save
+    BUTTON +20 +155 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +153 100 20 0 0 Duplicate
+    BUTTON +20 +175 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +173 100 20 0 0 Remove
+  ELIF (STRMATCH('<LOCAL.type>', 'GUMPPICTILED'))
+    // X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+
+    // Width
+    DHTMLGUMP +20 +65 20 20 0 0 W:
+    RESIZEPIC +40 +65 3000 55 20
+    DTEXTENTRYLIMITED +45 +65 40 20 0 24003 5 <dARGV[4]>
+
+    // Height
+    DHTMLGUMP +105 +65 20 20 0 0 H:
+    RESIZEPIC +125 +65 3000 55 20
+    DTEXTENTRYLIMITED +130 +65 40 20 0 24004 5 <dARGV[5]>
+    
+    // GUMP
+    DHTMLGUMP +20 +90 50 20 0 0 GumpID:
+    RESIZEPIC +70 +90 3000 110 20
+    DTEXTENTRYLIMITED +75 +90 100 20 0 24002 7 <hVal <dARGV[6]>>
+    
+    // Tiled?
+    BUTTON +20 +115 0939 0938 1 0 <eVal 6000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +112 100 20 0 0 Is Tiled
+
+    BUTTON +20 +135 2117 2118 1 0 <eVal 49000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +133 100 20 0 0 Save
+    BUTTON +20 +155 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +153 100 20 0 0 Duplicate
+    BUTTON +20 +175 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +173 100 20 0 0 Remove
+  ELIF (STRMATCH('<LOCAL.type>', 'TILEPIC')) || (STRMATCH('<LOCAL.type>', 'TILEPICHUE'))
+    //X
+    DHTMLGUMP +20 +40 20 20 0 0 X:
+    RESIZEPIC +40 +40 3000 55 20
+    DTEXTENTRYLIMITED +45 +40 40 20 0 24000 5 <dLOCAL.x>
+
+    // Y
+    DHTMLGUMP +105 +40 20 20 0 0 Y:
+    RESIZEPIC +125 +40 3000 55 20
+    DTEXTENTRYLIMITED +130 +40 40 20 0 24001 5 <dLOCAL.y>
+    
+    // Item
+    DHTMLGUMP +20 +65 50 20 0 0 Item:
+    RESIZEPIC +60 +65 3000 120 20
+    DTEXTENTRYLIMITED +65 +65 110 20 0 24002 255 <SERV.itemdef.<dARGV[4]>.BASEID>
+    
+    // Hue
+    DHTMLGUMP +20 +90 40 20 0 0 Hue:
+    RESIZEPIC +45 +90 3000 135 20
+    DTEXTENTRYLIMITED +50 +90 125 20 0 24003 5 <qVal <dARGV[5]>?<hVal <dARGV[5]>>:0>
+    
+    BUTTON +20 +115 2117 2118 1 0 <eVal 50000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +113 100 20 0 0 Save
+    BUTTON +20 +135 2117 2118 1 0 <eVal 39000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +133 100 20 0 0 Duplicate
+    BUTTON +20 +155 2117 2118 1 0 <eVal 41000 + <dLOCAL.cur>>
+    DHTMLGUMP +38 +153 100 20 0 0 Remove
+  ENDIF
+ENDIF
+
+BUTTON +20 +275 2117 2118 1 0 100
+DHTMLGUMP +38 +273 120 20 0 0 Clear
+
+BUTTON +20 +305 2117 2118 1 0 1
+DHTMLGUMP +38 +303 120 20 0 0 Add Button
+BUTTON +20 +325 2117 2118 1 0 2
+DHTMLGUMP +38 +323 120 20 0 0 Add Resizepic
+BUTTON +20 +345 2117 2118 1 0 3
+DHTMLGUMP +38 +343 120 20 0 0 Add Htmlgump
+BUTTON +20 +365 2117 2118 1 0 4
+DHTMLGUMP +38 +363 120 20 0 0 Add Text
+BUTTON +20 +385 2117 2118 1 0 5
+DHTMLGUMP +38 +383 120 20 0 0 Add Textentry
+BUTTON +20 +405 2117 2118 1 0 6
+DHTMLGUMP +38 +403 120 20 0 0 Add Checkbox
+BUTTON +20 +425 2117 2118 1 0 7
+DHTMLGUMP +38 +423 120 20 0 0 Add Radio
+BUTTON +20 +445 2117 2118 1 0 8
+DHTMLGUMP +38 +443 120 20 0 0 Add Gumppic
+BUTTON +20 +465 2117 2118 1 0 9
+DHTMLGUMP +38 +463 120 20 0 0 Add Tilepic
+BUTTON +160 +465 08B0 08B0 1 0 10
+
+
+[DIALOG d_dialog_creator_tools BUTTON]
+On=0
+dialogCloseAll
+
+On=1 //Add Button
+TAG.line_0 += 1
+TAG0.id += 1
+TAG.line_<dTAG.line_0> = button_<dTAG0.id> BUTTON 0 0 2117 2118 1 0 <dTAG0.id>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dTAG.line_0>, 22>,<dTAG.line_0>
+
+On=2 //Add Resizepic
+TAG.line_0 += 1
+TAG0.id += 1
+TAG.line_<dTAG.line_0> = resizepic_<dTAG0.id> RESIZEPIC 0 0 9200 10 10
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dTAG.line_0>, 22>,<dTAG.line_0>
+
+On=3 //Add Htmlgump
+TAG.line_0 += 1
+TAG0.id += 1
+TAG.line_<dTAG.line_0> = htmlgump_<dTAG0.id> DHTMLGUMP 0 0 30 20 0 0 Htmlgump
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dTAG.line_0>, 22>,<dTAG.line_0>
+
+On=4 //Add Text
+TAG.line_0 += 1
+TAG0.id += 1
+TAG.line_<dTAG.line_0> = text_<dTAG0.id> DTEXT 0 0 0 Text
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dTAG.line_0>, 22>,<dTAG.line_0>
+
+On=5 //Add Textentry
+TAG.line_0 += 1
+TAG0.id += 1
+TAG.line_<dTAG.line_0> = textentry_<dTAG0.id> DTEXTENTRY 0 0 30 20 0 <dTAG.id> textentry
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dTAG.line_0>, 22>,<dTAG.line_0>
+
+On=6 //Add Checkbox
+TAG.line_0 += 1
+TAG0.id += 1
+TAG.line_<dTAG.line_0> = text_<dTAG0.id> CHECKBOX 0 0 0938 0939 0 <dTAG0.id>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dTAG.line_0>, 22>,<dTAG.line_0>
+
+On=7 //Add Radio
+TAG.line_0 += 1
+TAG0.id += 1
+TAG.line_<dTAG.line_0> = radio_<dTAG0.id> RADIO 0 0 0938 0939 0 <dTAG0.id>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dTAG.line_0>, 22>,<dTAG.line_0>
+
+On=8 //Add Gumppic
+TAG.line_0 += 1
+TAG0.id += 1
+TAG.line_<dTAG.line_0> = gumppic_<dTAG0.id> GUMPPIC 0 0 0 0
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dTAG.line_0>, 22>,<dTAG.line_0>
+
+On=9 //Add Tilepic
+TAG.line_0 += 1
+TAG0.id += 1
+TAG.line_<dTAG.line_0> = tilepic_<dTAG0.id> TILEPIC 0 0 01
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dTAG.line_0>, 22>,<dTAG.line_0>
+
+On=10
+LOCAL.slash = "/"
+LOCAL.dslash = <LOCAL.slash><LOCAL.slash>
+f_removeFile output.txt
+f_writeToFile output.txt VERSION=0.56d
+f_writeToFile output.txt " "
+f_writeToFile output.txt [DIALOG d_output]
+FOR 1 <dTAG.line_0>
+  f_writeToFile output.txt <strEat <TAG.line_<dLOCAL._for>>> <LOCAL.dslash> <strArg <TAG.line_<dLOCAL._for>>>
+ENDFOR
+f_writeToFile output.txt " "
+f_writeToFile output.txt [DIALOG d_output BUTTON]
+FOR 1 <dTAG.line_0>
+  LOCAL.line = <TAG.line_<dLOCAL._for>>
+  IF (STRMATCH('<strArg <strEat <LOCAL.line>>>', 'BUTTON'))
+    ARGS = <explode ' ', <LOCAL.line>>
+    f_writeToFile output.txt On=<dARGV[8]> <LOCAL.dslash> <strArg <LOCAL.line>>
+  ENDIF
+ENDFOR
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,1,1
+
+On=100
+dcr_clean
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,1,1
+
+On=1000 1999 //Textentry -> Textentrylimited
+LOCAL.id = <eVal <dARGN> - 1000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> DTEXTENTRYLIMITED <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]> <dARGTXT[24005]> <dARGTXT[24006]> 9 <ARGTXT[24004]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=2000 2999 //Textentrylimited -> Textentry
+LOCAL.id = <eVal <dARGN> - 2000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> DTEXTENTRY <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]> <dARGTXT[24005]> <dARGTXT[24006]> <ARGTXT[24004]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=3000 3999 //Resizepic -> Checkertrans
+LOCAL.id = <eVal <dARGN> - 3000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> CHECKERTRANS <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=4000 4999 //Checkertrans -> Resizepic
+LOCAL.id = <eVal <dARGN> - 4000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> RESIZEPIC <dARGTXT[24000]> <dARGTXT[24001]> 9200 <dARGTXT[24002]> <dARGTXT[24003]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=5000 5999 //Gumppic -> Gumppictiled
+LOCAL.id = <eVal <dARGN> - 5000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> GUMPPICTILED <dARGTXT[24000]> <dARGTXT[24001]> 20 20 <dARGTXT[24002]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=6000 6999 //Gumppictiled -> Gumppic
+LOCAL.id = <eVal <dARGN> - 6000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> GUMPPIC <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> 0
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=7000 7999 //Htmlgump -> Croppedtext
+LOCAL.id = <eVal <dARGN> - 7000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> DCROPPEDTEXT <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]> 0 <ARGTXT[24004]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=8000 8999 //Croppedtext -> Htmlgump
+LOCAL.id = <eVal <dARGN> - 8000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> DHTMLGUMP <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]> 0 0 <ARGTXT[24005]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=10000 14999
+LOCAL.id = <eVal <dARGN> - 10000>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<dLOCAL.id>,<eVal ((<dLOCAL.id> - 1) * 22) + 1>
+
+On=15000 19999
+LOCAL.id = <eVal <dARGN> - 15000>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=20000 24999
+LOCAL.id = <eVal <dARGN> - 20000>
+LOCAL.prev = <eVal <dLOCAL.id> - 1>
+LOCAL.temp = <TAG.line_<dLOCAL.prev>>
+TAG.line_<dLOCAL.prev> = <TAG.line_<dLOCAL.id>>
+TAG.line_<dLOCAL.id> = <LOCAL.temp>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.prev>, 22>,<dLOCAL.prev>
+
+On=25000 29999
+LOCAL.id = <eVal <dARGN> - 25000>
+LOCAL.next = <eVal <dLOCAL.id> + 1>
+LOCAL.temp = <TAG.line_<dLOCAL.next>>
+TAG.line_<dLOCAL.next> = <TAG.line_<dLOCAL.id>>
+TAG.line_<dLOCAL.id> = <LOCAL.temp>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.next>, 22>,<dLOCAL.next>
+
+On=39000 39999 // Global Duplicate
+LOCAL.id = <eVal <dARGN> - 39000>
+LOCAL.line = <TAG.line_<dLOCAL.id>>
+TAG.line_0 += 1
+TAG0.id += 1
+LOCAL.name = <strArg <LOCAL.line>>_copy
+TAG.line_<dTAG.line_0> = <LOCAL.name> <strEat <LOCAL.line>>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools, 1, <getCurPage <dTAG.line_0>, 22>, <dTAG.line_0>
+
+On=40000 40999 //Save Resizepic
+LOCAL.id = <eVal <dARGN> - 40000>
+TAG.line_<dLOCAL.id> =  <fixText <ARGTXT[24999]>> RESIZEPIC <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24004]> <dARGTXT[24002]> <dARGTXT[24003]>
+IF (<dLOCAL.id> == 1)
+  TAG.noClose = <dARGCHK[24005]>
+  TAG.noDispose = <dARGCHK[24006]>
+  TAG.noMove = <dARGCHK[24007]>
+ENDIF
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=41000 41999 //Global Remove
+LOCAL.id = <eVal <dARGN> - 41000>
+dcr_removeLine <dLOCAL.id>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <eVal <dLOCAL.id> - 1>, 22>,<eVal <dLOCAL.id> - 1>
+
+On=42000 42999 //Save Button
+LOCAL.id = <eVal <dARGN> - 42000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> BUTTON <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]> 1 0 <dARGTXT[24004]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=43000 43999 //Save Htmlgump
+LOCAL.id = <eVal <dARGN> - 43000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> DHTMLGUMP <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]> <dARGCHK[24005]> <dARGCHK[24006]> <ARGTXT[24004]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=44000 44999 //Save Text
+LOCAL.id = <eVal <dARGN> - 44000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> DTEXT <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <ARGTXT[24003]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=45000 45999 //Save Textentry
+LOCAL.id = <eVal <dARGN> - 45000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> DTEXTENTRY <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]> <dARGTXT[24005]> <dARGTXT[24006]> <ARGTXT[24004]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=46000 46999 //Save Textentrylimited
+LOCAL.id = <eVal <dARGN> - 46000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> DTEXTENTRYLIMITED <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]> <dARGTXT[24005]> <dARGTXT[24006]> <dARGTXT[24007]> <ARGTXT[24004]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=47000 47999 //Save Checkbox
+LOCAL.id = <eVal <dARGN> - 47000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> CHECKBOX <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]> <dARGTXT[24005]> <dARGTXT[24004]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=48000 48999 //Save Gumppic
+LOCAL.id = <eVal <dARGN> - 48000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> GUMPPIC <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=49000 49999 //Save Gumppictiled
+LOCAL.id = <eVal <dARGN> - 49000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> GUMPPICTILED <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24003]> <dARGTXT[24004]> <dARGTXT[24002]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=50000 50999 //Save Tilepic/Tilepichue
+LOCAL.id = <eVal <dARGN> - 50000>
+LOCAL.type = TILEPIC
+LOCAL.hue = 0
+IF (<dARGTXT[24003]> > 0)
+  LOCAL.type = TILEPICHUE
+  LOCAL.hue = <dARGTXT[24003]>
+ENDIF
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> <LOCAL.type> <dARGTXT[24000]> <dARGTXT[24001]> <SERV.itemdef.<ARGTXT[24002]>.ID> <qVal <dLOCAL.hue>?<dLOCAL.hue>:>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=51000 51999 //Save Radio
+LOCAL.id = <eVal <dARGN> - 51000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> RADIO <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]> <dARGCHK[24005]> <dARGTXT[24004]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=52000 52999 //Save Croppedtext
+LOCAL.id = <eVal <dARGN> - 52000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> DCROPPEDTEXT <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]> <dARGTXT[24005]> <dARGTXT[24004]>
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools,1,<getCurPage <dLOCAL.id>, 22>,<dLOCAL.id>
+
+On=64000 64999 //Save Checkertrans
+LOCAL.id = <eVal <dARGN> - 64000>
+TAG.line_<dLOCAL.id> = <fixText <ARGTXT[24999]>> CHECKERTRANS <dARGTXT[24000]> <dARGTXT[24001]> <dARGTXT[24002]> <dARGTXT[24003]>
+IF (<dLOCAL.id> == 1)
+  TAG.noClose = <dARGCHK[24005]>
+  TAG.noDispose = <dARGCHK[24006]>
+  TAG.noMove = <dARGCHK[24007]>
+ENDIF
+dialogCloseAll
+DIALOG d_dialog_creator
+DIALOG d_dialog_creator_tools
+
+[DIALOG d_dialog_creator]
+0,0
+NOMOVE
+FOR 1 <dTAG.line_0>
+  <STREAT <TAG.line_<dLOCAL._for>>>
+ENDFOR
+
+[DIALOG d_dialog_creator BUTTON]
+On=1 65000
+DIALOG d_dialog_creator
+
+[FUNCTION dcr_removeLine]
+IF (<dARGS> != 1)
+  TAG.line_<dARGS>=
+  FOR 1 <dTAG.line_0>
+    IF (<isEmpty <TAG.line_<dLOCAL._for>>>)
+      TAG.line_<dLOCAL._for>=<TAG.line_<eVal <dLOCAL._for> + 1>>
+      TAG.line_<eVal <dLOCAL._for> + 1>=
+    ENDIF
+  ENDFOR
+ENDIF
+TAG.line_0 -= 1
+
+[FUNCTION dcr_clean]
+FOR 1 <dTAG.line_0>
+  TAG.line_<dLOCAL._for>=
+ENDFOR
+clearTags
+dcr_reBuild
+
+[FUNCTION dcr_add]
+TAG.line_<eVal <dTAG.line_0> + 1>=<ARGS>
+
+[FUNCTION getCurPage]
+LOCAL.curPage=<dARGV[0]>
+LOCAL.divider=<dARGV[1]>
+LOCAL.pg = 1
+IF (<dLOCAL.curPage> > 22)
+  LOCAL.pg = <floatval <dLOCAL.curPage> / 22>
+  IF (STRMATCH('*.*', '<LOCAL.pg>'))
+    LOCAL.pg = <floatval <LOCAL.pg> + 1.0>
+  ENDIF
+ENDIF
+ARGS = <explode '.', <LOCAL.pg>>
+RETURN <dARGV[0]>
+
+[FUNCTION fixText]
+ARGS=<explode ' ', <ARGS>>
+LOCAL.return = <ARGV[0]>
+IF (<dARGV> > 1)
+  FOR 1 <eVal <dARGV> - 1>
+    LOCAL.return .= "_<ARGV[<dLOCAL._for>]>"
+  ENDFOR
+ENDIF
+RETURN <LOCAL.return>
+
+[FUNCTION fixTextSpace]
+ARGS=<explode "_", <ARGS>>
+LOCAL.return = <ARGV[0]>
+IF (<dARGV> > 1)
+  FOR 1 <eVal <dARGV> - 1>
+    LOCAL.return .= " <ARGV[<dLOCAL._for>]>"
+  ENDFOR
+ENDIF
+RETURN <LOCAL.return>
+
+[FUNCTION f_compile]
+LOCAL.return = <ARGV[<eVal <dARGV[0]> + 1>]>
+IF (<dARGV> > 2)
+  FOR <eVal <dARGV[0]> + 1> <eVal <dARGV> - 1>
+    LOCAl.return .= " <ARGV[<eVal <dLOCAL._for> + 1>]>"
+  ENDFOR
+ENDIF
+RETURN <LOCAL.return>
+
+[FUNCTION f_removeFile]
+IF !(<FILE.INUSE>)
+  FILE.DELETEFILE <ARGS>
+ENDIF
+
+[FUNCTION f_writeToFile]
+IF !(<FILE.INUSE>)
+  FILE.MODE.APPEND=1
+  IF (<FILE.OPEN <STRARG <ARGS>>>)
+    FILE.WRITELINE <STREAT <ARGS>>
+  ENDIF
+  FILE.CLOSE
+ENDIF
+
+[EOF]

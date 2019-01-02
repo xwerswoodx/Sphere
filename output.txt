@@ -1,0 +1,23 @@
+VERSION=0.56d
+ 
+[DIALOG d_output]
+RESIZEPIC 0 0 9200 685 545 // d_dialog
+RESIZEPIC 10 10 3000 665 525 // bg
+RESIZEPIC 25 25 3000 75 75 // resizepic_2
+GUMPPICTILED 30 30 65 65 0 // gumppic_3
+DHTMLGUMP 30 100 20 0 0 0 00 // htmlgump_4
+RESIZEPIC 105 25 3000 75 75 // resizepic_5
+GUMPPICTILED 110 30 65 65 1 // gumppic_6
+DHTMLGUMP 110 100 65 20 0 0 00 // htmlgump_7
+RESIZEPIC 185 25 3000 75 75 // resizepic_8
+RESIZEPIC 265 25 3000 75 75 // resizepic_8_copy
+RESIZEPIC 345 25 3000 75 75 // resizepic_8_copy_copy
+RESIZEPIC 425 25 3000 75 75 // resizepic_8_copy_copy_copy
+RESIZEPIC 505 25 3000 75 75 // resizepic_8_copy_copy_copy_copy
+RESIZEPIC 585 25 3000 75 75 // resizepic_8_copy_copy_copy_copy_cop
+RESIZEPIC 25 125 3000 75 75 // resizepic_2_copy
+RESIZEPIC 25 225 3000 75 75 // resizepic_2_copy_copy
+RESIZEPIC 25 325 3000 75 75 // resizepic_2_copy_copy_copy
+RESIZEPIC 25 425 3000 75 75 // resizepic_2_copy_copy_copy_copy
+ 
+[DIALOG d_output BUTTON]

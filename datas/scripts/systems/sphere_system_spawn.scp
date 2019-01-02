@@ -20,24 +20,36 @@ LOCAL.CUR = 1
 LOCAL.BUTTON = 1
 dButton 40 60 100 20 1 ABC
 
+[DEFNAME d_system_dialog]
+dsys_background=9200
+dsys_upground=3000
+dsys_topic_background=3000
+dsys_background_diff_x=10
+dsys_background_diff_y=10
+dsys_button=2117
+dsys_button_clicked=2118
+dsys_button_diff_x=18
+dsys_button_diff_y=-2
+
 // dResizepic X Y Genişlik Yükseklik [Text]
 [FUNCTION dResizepic]
 ARGS=<explode ' ', <ARGS>>
-RESIZEPIC <dARGV[0]> <dARGV[1]> 9200 <dARGV[2]> <dARGV[3]>
-RESIZEPIC <eVal <dARGV[0]> + 10> <eVal <dARGV[1]> + 10> 3000 <eVal <dARGV[2]> - 20> <eVal <dARGV[3]> - 20>
+RESIZEPIC <dARGV[0]> <dARGV[1]> <dDef.dsys_background> <dARGV[2]> <dARGV[3]>
+RESIZEPIC <eVal <dARGV[0]> + <dDef.dsys_background_diff_x>> <eVal <dARGV[1]> + <dDef.dsys_background_diff_y>> <dDef.dsys_upground> <eVal <dARGV[2]> - (<dDef.dsys_background_diff_x> * 2)> <eVal <dARGV[3]> - (<dDef.dsys_background_diff_y> * 2)>
 IF (!<isEmpty <ARGV[4]>>)
-  dHtmlgump <eVal <dARGV[0]> + 10> <eVal <dARGV[1]> + 15> <eVal <dARGV[2]> - 20> 20 0 0 <def.CENTER><def.BFONT_DBLUE><ARGV[4]>
+  RESIZEPIC <eVal <dARGV[0]> + <dDef.dsys_background_diff_x> + 10> <eVal <dARGV[1]> + <dDef.dsys_background_diff_y> + 10> <dDef.dsys_topic_background> <eVal <dARGV[2]> - ((<dDef.dsys_background_diff_x> + 10) * 2)> 25
+  dHtmlgump <eVal <dARGV[0]> + <dDef.dsys_background_diff_x>> <eVal <dARGV[1]> + <dDef.dsys_background_diff_y> + 15> <eVal <dARGV[2]> - ((<dDef.dsys_background_diff_x> + 10) * 2)> 20 0 0 <def.CENTER><def.BFONT_DBLUE><ARGV[4]>
 ENDIF
 
 // oResizepic X Y Genişlik Yükseklik
 [FUNCTION oResizepic]
 ARGS=<explode ' ', <ARGS>>
-RESIZEPIC <dARGV[0]> <dARGV[1]> 3000 <dARGV[2]> <dARGV[3]>
+RESIZEPIC <dARGV[0]> <dARGV[1]> <dDef.dsys_upground> <dARGV[2]> <dARGV[3]>
 IF (!<isEmpty <ARGV[4]>>)
-  dHtmlgump <eVal <dARGV[0]> + 10> <eVal <dARGV[1]> + 10> <eVal <dARGV[2]> - 20> 20 1 0 <ARGV[4]>
+  dHtmlgump <dARGV[0]> <eVal <dARGV[1]> + 5> <eVal <dARGV[2]> - 20> 20 1 0 <ARGV[4]>
 ENDIF
 
-// dHtmlgump X Y Uzunluk Yükseklik Text
+// dHtmltext X Y Uzunluk Yükseklik Text
 [FUNCTION dHtmltext]
 ARGS=<explode ' ', <ARGS>>
 dHtmlgump <dARGV[0]> <dARGV[1]> <dARGV[2]> <dARGV[3]> 0 0 <dARGV[4]>
@@ -45,6 +57,11 @@ dHtmlgump <dARGV[0]> <dARGV[1]> <dARGV[2]> <dARGV[3]> 0 0 <dARGV[4]>
 // dButton X Y Uzunluk Yükseklik No Text
 [FUNCTION dButton]
 ARGS=<explode ' ', <ARGS>>
-button <dARGV[0]> <dARGV[1]> 2117 2118 1 0 <dARGV[4]>
-dHtmlgump <eVal <dARGV[0]> + 18> <eVal <dARGV[1]> - 2> <dARGV[2]> <dARGV[3]> 0 0 <ARGV[5]>
+button <dARGV[0]> <dARGV[1]> <dDef.dsys_button> <dDef.dsys_button_clicked> 1 0 <dARGV[4]>
+dHtmlgump <eVal <dARGV[0]> + <dDef.dsys_button_diff_x>> <eVal <dARGV[1]> + <dDef.dsys_button_diff_y>> <dARGV[2]> <dARGV[3]> 0 0 <ARGV[5]>
 
+[FUNCTION f_seperator]
+IF (<dARGV[0]> == 0)
+  RETURN <dARGV>
+ENDIF
+RETURN <dARGV[<dARGV[0]>]>
